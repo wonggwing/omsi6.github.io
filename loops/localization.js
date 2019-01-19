@@ -4,6 +4,8 @@ window.Localization = {
   defaultLang : 'en-EN', //
   supportedLang : {
     'en-EN' : 'English',
+    'zh-TW' : '繁中',
+    'zh-CN' : '简中',
     //'fr-FR' : 'Français',
   },
   getKey : 'lg', // key used in the get parameter of the URL to set a specific language
