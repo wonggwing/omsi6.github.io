@@ -119,7 +119,7 @@
             <export_button>匯出</export_button>
             <export_comment><![CDATA[點擊 匯出 複製到你的剪貼簿 (ctrl-v 到其他地方)。<br>
               貼上你的存檔再點擊 匯入 重新載入存檔。]]></export_comment>
-            <import_button>Import</import_button>
+            <import_button>匯入</import_button>
             <import_comment><![CDATA[
               警告: 匯入有問題的存檔會導致遊戲崩潰。匯入空白存檔會把進度清零。<br>
               如果你真的需要修改存檔, ]]></import_comment>
@@ -394,7 +394,7 @@
         </magic>
         <practical_magic>
             <label>實用魔法</label>
-            <desc>魔法之手，魔法技倆，感應魔法，及各種有用的魔法技巧。</desc>
+            <desc>魔法之手，魔法技倆，感應魔法，及各種有用的小技巧。</desc>
             <desc2><![CDATA[Smash Pots and Gather Wild Mana have 1% reduced mana cost per level (rounded up).<br>
       Pick Locks get 1% more gold per level from 1-200 (rounded down).<br>
       Short Quests get 1% more gold per level from 101-300 (rounded down).<br>
@@ -402,22 +402,22 @@
         </practical_magic>
         <alchemy>
             <label>煉金術</label>
-            <desc>Brewing potions is hard work! It's a good thing you found a teacher.</desc>
-            <desc2>The Magic teacher in Beginnersville adores alchemists. +1% Magic exp gain from the Mage Lessons action (rounded down) per level.</desc2>
+            <desc>釀造藥水是很困難的!能找到人指導真好。</desc>
+            <desc2>魔法導師敬仰煉金術士。每級+1% 法師課程的魔法技巧經驗取得(無條件捨去)。</desc2>
         </alchemy>
         <dark_magic>
             <label>黑魔法</label>
-            <desc>Use various dark arts to help you harvest mana.</desc>
+            <desc>用各種黑暗技藝幫助你獲得魔力。</desc>
             <desc2><![CDATA[Multiply the mana gain from Smash Pots and Wild Mana by (level / 60) ^ 0.25 (rounded down).<br> Currently granting <div id='skillBonusDark'></div>x mana gains.]]></desc2>
         </dark_magic>
         <chronomancy>
             <label>時光魔法</label>
-            <desc>Harness the magic of time to, well, speed up time.</desc>
+            <desc>利用時光魔法幫助你, 嗯, 加速時間。</desc>
             <desc2><![CDATA[Actions in all zones are (level / 60) ^ 0.25 times faster.<br> Currently granting <div id='skillBonusChronomancy'></div>x speed.]]></desc2>
         </chronomancy>
         <pyromancy>
             <label>控火魔法</label>
-            <desc>Fireball, Firebolt, Fire Shield, Burning Rays, just a veritable assortment of flaming fun!</desc>
+            <desc>火球術，火閃電，火盾，燃燒射線，名副其實又火又紅的樂趣!</desc>
             <desc2><![CDATA[Increases self combat with 5x the efficiency of the combat skill.]]></desc2>
         </pyromancy>
         <tooltip>
@@ -535,21 +535,21 @@
             <label>和其他人見面</label>
             <label_done>已找到</label_done>
             <tooltip><![CDATA[
-            They won't let you get away with a simple chat.<br>Unlocked at 22% Explored.
+            他們不會簡單聊幾句就停下來的。<br>探索進度 22% 時解鎖。
         ]]></tooltip>
         </meet_people>
         <investigate>
             <label>調查</label>
             <label_done>已調查</label_done>
             <tooltip><![CDATA[
-            You've been hearing some rumors...<br>Unlocked at 25% People Met.
+            你最近聽到不少流言...<br>和其他人見面 25% 時解鎖。
         ]]></tooltip>
         </investigate>
         <explore_forest>
             <label>探索森林</label>
             <label_done>已探索</label_done>
             <tooltip><![CDATA[
-            What a pleasant area.<br>2x progress with glasses.
+            真是一個令人愉快宜人的地方。<br>戴上眼鏡可獲得 2x 效率。
         ]]></tooltip>
         </explore_forest>
         <old_shortcut>
@@ -610,7 +610,7 @@
         <buy_mana>
             <label>買魔力</label>
             <tooltip><![CDATA[
-            1 gold = 50 mana. Buys all the mana you can.<br>Unlocked at 20% Explored.
+            1 黃金 = 50 魔力。能買多少就買多少。<br>探索進度 20% 時解鎖。
         ]]></tooltip>
         </buy_mana>
         <train_str>
@@ -628,7 +628,7 @@
         <warrior_lesson>
             <label>戰士課程</label>
             <tooltip><![CDATA[
-            Learning to fight is probably important; you have a long journey ahead of you.<br>Requires 2 reputation.<br>Unlocked at 20% Investigated.
+            學習戰鬥應該是很重要的; 你還有很長一段路要走。<br>需要至少 2 點聲望。<br>調查進度 20% 時解鎖。
         ]]></tooltip>
         </warrior_lesson>
         <mage_lesson>
@@ -786,23 +786,23 @@
             <info_text2>有魔力的陶罐總數</info_text2>
             <info_text3>未查看的陶罐</info_text3>
             <tooltip><![CDATA[
-            They're just sitting there, unbroken, full of potential.<br>Pots with mana in them have 
+            它們就放在那裡，未被破壞的，充滿潛力。<br>有魔力的陶罐藏有 
         ]]></tooltip>
             <tooltip2><![CDATA[
-            mana.<br>Every 10 pots have mana.
+            魔力。<br>每 10 個陶罐就有一個藏有魔力。
         ]]></tooltip2>
         </smash_pots>
         <locks>
-            <label>挑鎖</label>
-            <label_done>已解鎖</label_done>
+            <label>開鎖</label>
+            <label_done>已開鎖</label_done>
             <info_text1>藏有黃金的房屋剩餘</info_text1>
             <info_text2>藏有黃金的房屋總數</info_text2>
             <info_text3>未查看的房屋</info_text3>
             <tooltip><![CDATA[
-            Don't worry; they won't remember.<br>Houses with valuables in them have 
+            不用擔心 - 他們不會記得的。<br>藏有黃金的房屋有 
         ]]></tooltip>
             <tooltip2><![CDATA[
-            gold.<br>Every 10 houses have gold.<br>Unlocked at 20% Explored.
+            黃金。<br>每 10 間房屋就有一間藏有黃金。<br>探索進度 20% 時解鎖。
         ]]></tooltip2>
         </locks>
         <short_quest>
@@ -812,10 +812,10 @@
             <info_text2>有戰利品的任務總數</info_text2>
             <info_text3>未曾完成的任務</info_text3>
             <tooltip><![CDATA[
-            Be a hero! ...If the reward is good and it doesn't take too long.<br>Short Quests with loot give 
+            成為英雄! ...如果可以獲得回報而且不需要很久的話。<br>有戰利品的短任務會給 
         ]]></tooltip>
             <tooltip2><![CDATA[
-            gold as a reward.<br>Every 5 Short Quests have loot.<br>Unlocked at 5% People Met.
+            黃金作為回報。<br>每 5 個短任務就有一個有回報。<br>和其他人見面 5% 時解鎖。
         ]]></tooltip2>
         </short_quest>
         <long_quest>
@@ -825,10 +825,10 @@
             <info_text2>有戰利品的任務總數</info_text2>
             <info_text3>未曾完成的任務</info_text3>
             <tooltip><![CDATA[
-            Be a more impressive hero! ...As long as someone is watching.<br>Long Quests with loot give 
+            成為一個給人留下深刻印象的英雄! ...只要有誰看到的話。<br>有戰利品的長任務會給 
         ]]></tooltip>
             <tooltip2><![CDATA[
-            gold and 1 reputation as a reward.<br>Every 5 Long Quests have loot.<br>Unlocked at 10% Investigated.
+            黃金和 1 點聲望作為回報。<br>每 5 個長任務就有一個有回報。<br>調查進度 10% 時解鎖。
         ]]></tooltip2>
         </long_quest>
         <wild_mana>
