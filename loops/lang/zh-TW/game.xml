@@ -224,9 +224,9 @@
             <desc>Regailed for it's regenerative properties.</desc>
         </resource>
         <resource initially_hidden="true">
-            <title>Artifacts:</title>
+            <title>古物:</title>
             <id>artifacts</id>
-            <desc>Various old rings, bracelets, amulets, and pendants. You might be able to fetch a pretty penny for them.</desc>
+            <desc>各種古老的指環，手鐲，護身符和垂飾。這些應該能賣不少錢的。</desc>
         </resource>
         <resource initially_hidden="true" no_count="true">
             <title><![CDATA[<img src="img/buyGlasses.svg" class="smallIcon">]]></title>
@@ -305,7 +305,7 @@
         </dex>
         <str>
             <blurb>訓練你的身體。</blurb>
-            <long_form>加量</long_form>
+            <long_form>力量</long_form>
             <short_form>力</short_form>
         </str>
         <con>
@@ -377,58 +377,58 @@
     <skills>
         <title>技能</title>
         <scombat>
-            <label>個人格鬥</label>
-            <desc>個人格鬥 = (Combat skill + Pyromancy skill * 5) * (1 + armor * Crafting Guild Rank / 5)</desc>
+            <label>個人戰鬥</label>
+            <desc>個人戰鬥 = (Combat skill + Pyromancy skill * 5) * (1 + armor * Crafting Guild Rank / 5)</desc>
         </scombat>
         <tcombat>
-            <label>Team Combat</label>
-            <desc>Team Combat = Self Combat + Combat Skill * Team Members * Adventure Guild Rank / 2</desc>
+            <label>團隊戰鬥</label>
+            <desc>團隊戰鬥 = Self Combat + Combat Skill * Team Members * Adventure Guild Rank / 2</desc>
         </tcombat>
         <combat>
-            <label>Combat</label>
-            <desc>Fight for your lives.</desc>
+            <label>戰鬥</label>
+            <desc>為你的生命而戰。</desc>
         </combat>
         <magic>
-            <label>Magic</label>
-            <desc>Control the aether to cast and conjure.</desc>
+            <label>魔法</label>
+            <desc>控制以太來施法和召喚。</desc>
         </magic>
         <practical_magic>
-            <label>Practical Magic</label>
-            <desc>Mage Hand, Prestidigitation, Detect Magic, and other useful tricks to help out.</desc>
+            <label>實用魔法</label>
+            <desc>魔法之手，魔法技倆，感應魔法，及各種有用的魔法技巧。</desc>
             <desc2><![CDATA[Smash Pots and Gather Wild Mana have 1% reduced mana cost per level (rounded up).<br>
       Pick Locks get 1% more gold per level from 1-200 (rounded down).<br>
       Short Quests get 1% more gold per level from 101-300 (rounded down).<br>
       Long Quests get 1% more gold per level from 201-400 (rounded down).]]></desc2>
         </practical_magic>
         <alchemy>
-            <label>Alchemy</label>
+            <label>煉金術</label>
             <desc>Brewing potions is hard work! It's a good thing you found a teacher.</desc>
             <desc2>The Magic teacher in Beginnersville adores alchemists. +1% Magic exp gain from the Mage Lessons action (rounded down) per level.</desc2>
         </alchemy>
         <dark_magic>
-            <label>Dark Magic</label>
+            <label>黑魔法</label>
             <desc>Use various dark arts to help you harvest mana.</desc>
             <desc2><![CDATA[Multiply the mana gain from Smash Pots and Wild Mana by (level / 60) ^ 0.25 (rounded down).<br> Currently granting <div id='skillBonusDark'></div>x mana gains.]]></desc2>
         </dark_magic>
         <chronomancy>
-            <label>Chronomancy</label>
+            <label>時光魔法</label>
             <desc>Harness the magic of time to, well, speed up time.</desc>
             <desc2><![CDATA[Actions in all zones are (level / 60) ^ 0.25 times faster.<br> Currently granting <div id='skillBonusChronomancy'></div>x speed.]]></desc2>
         </chronomancy>
         <pyromancy>
-            <label>Pyromancy</label>
+            <label>控火魔法</label>
             <desc>Fireball, Firebolt, Fire Shield, Burning Rays, just a veritable assortment of flaming fun!</desc>
             <desc2><![CDATA[Increases self combat with 5x the efficiency of the combat skill.]]></desc2>
         </pyromancy>
         <tooltip>
-            <level>Level</level>
-            <no_reset_on_restart>Skills last through resets.</no_reset_on_restart>
+            <level>等級</level>
+            <no_reset_on_restart>迴圈重啟不會抹消學習到的技能。</no_reset_on_restart>
         </tooltip>
     </skills>
     <buffs>
-        <title>Buffs</title>
+        <title>增益</title>
         <dark_ritual>
-            <label>Dark Ritual</label>
+            <label>黑暗祭禮</label>
             <desc>The witch appreciates your dedication to the dark arts. +1% to Dark Magic exp gain from the Dark Magic action (rounded down) per ritual.</desc>
             <desc2><![CDATA[<br>Actions are 10% faster in Beginnersville per ritual from 1-20.<br>
             Actions are 5% faster in the Forest Path per ritual from 21-40.<br>
@@ -436,19 +436,19 @@
             </desc2>
         </dark_ritual>
         <imbue_mind>
-            <label>Imbue Mind</label>
+            <label>激發心靈</label>
             <desc><![CDATA[Using power from soulstones, you can increase your training limits.<br>
             Increases the max amount of times you can do each training action by 1 per level.]]>
             </desc>
         </imbue_mind>
         <tooltip>
-            <level>Level</level>
-            <no_reset_on_restart>Buffs last through resets.</no_reset_on_restart>
+            <level>等級</level>
+            <no_reset_on_restart>迴圈重啟不會抹消增益效果。</no_reset_on_restart>
         </tooltip>
     </buffs>
     <towns>
         <town0>
-            <name>Beginnersville</name>
+            <name>新手村</name>
             <desc>Rats in basements, aggressive solo boars, bouncing slimes, and strangers that love exposition are some
                 of the the common things you'll see around Beginnersville. Some people are missing helmets or shoes, and
                 the fanciest sword around is still made out of iron. You got lucky with decent towns to start looping at.
@@ -456,61 +456,61 @@
             </desc>
         </town0>
         <town1>
-            <name>Forest Path</name>
+            <name>森林小徑</name>
             <desc>A forever green forest. You feel mana flowing around, but hiding in the dark, you sense an evil presence...</desc>
         </town1>
         <town2>
-            <name>Merchanton</name>
+            <name>商人城</name>
             <desc>Merchanton! A modest town bustling with activity. You can find many attractions here, such as the library, the adventuring guild, the crafting guild, and the bazaar. Oh, and did I mention there's loads of suckers to swindle?</desc>
         </town2>
         <town3>
-            <name>Mt. Olympus</name>
+            <name>奧林匹斯山</name>
             <desc>You could have taken that path to the other town, but no! You just <i>had</i> to go to Mt. Olympus, didn't you. But anyways, while you're here, thanks to being neither a canine nor old, you can learn a few new tricks. And kill some innocent trolls while you're at it.</desc>
         </town3>
         <town4>
-            <name>Valhalla</name>
+            <name>英靈殿</name>
             <desc>A sprawling and jolly city filled with all manner of nice things. Vikings, beer, angels, beer, blah blah blah, and beer! You can spend your time in the great hall, or in the outskirts of the city. Either way, you'll surely have a great time.</desc>
         </town4>
         <town5>
-            <name>Adeptsville</name>
+            <name>老手村</name>
             <desc>A once familiar place, now crawling with shadows and ominous feelings of wasted sick days. There stands a large pillar of gloomy purple light in the center of it all, eminating from a spire surrounded by black clouds. It's emitting 10 weak beams of purple light to various points around the town, and appears to be casting all the shadows. Maybe you should check those spots out.</desc>
         </town5>
     </towns>
     <actions>
-        <title>Action Options</title>
-        <title_list>Action List</title_list>
-        <title_loadout>Loadouts</title_loadout>
+        <title>行動選項</title>
+        <title_list>行動列表</title_list>
+        <title_loadout>組合</title_loadout>
         <tooltip>
             <desc><![CDATA[
           Mana cost is based on ratio of stat %s.<br>
           Gained exp is proportional too.<br>
           Exp is gained every tick.<br>
           Actions will target unchecked objects before known lootable objects.]]></desc>
-            <mana_cost>Mana Cost</mana_cost>
-            <exp_multiplier>Exp Multiplier</exp_multiplier>
-            <mana_used>Mana Used</mana_used>
+            <mana_cost>魔力需求</mana_cost>
+            <exp_multiplier>經驗倍率</exp_multiplier>
+            <mana_used>魔力用量</mana_used>
             <mana_used_explanation><![CDATA[
           Shows stat gain affecting speed.<br>
           Updates every completed action.<br>
           Accurate at end of run.]]></mana_used_explanation>
-            <amount>Amount</amount>
-            <current_list_active>Keep current list active</current_list_active>
-            <repeat_last_action>Repeat last action on list</repeat_last_action>
-            <add_action_top>Add action to top of list</add_action_top>
-            <save_loadout>Save List</save_loadout>
-            <load_loadout>Load Selected List</load_loadout>
-            <clear_list>Clear List</clear_list>
-            <higher_done_percent_benefic>You can find more stuff with higher %.</higher_done_percent_benefic>
-            <progress_label>Progress</progress_label>
-            <total_found>Total Found</total_found>
+            <amount>數量</amount>
+            <current_list_active>保持使用當前列表</current_list_active>
+            <repeat_last_action>重複列表內最後一個行動</repeat_last_action>
+            <add_action_top>新行動新增到最頂</add_action_top>
+            <save_loadout>儲存組合</save_loadout>
+            <load_loadout>載入選擇的組合</load_loadout>
+            <clear_list>清空列表</clear_list>
+            <higher_done_percent_benefic>達到更高的完成度以發現其他選項。</higher_done_percent_benefic>
+            <progress_label>進度</progress_label>
+            <total_found>找到總數</total_found>
             <icons>
-                <circle_thin>Cap to current max</circle_thin>
-                <plus>Add one loop</plus>
-                <minus>Subtract one loop</minus>
-                <arrows_h>Split action</arrows_h>
-                <sort_up>Move action up</sort_up>
-                <sort_down>Move action down</sort_down>
-                <times>Remove action</times>
+                <circle_thin>增加到最大可用的次數</circle_thin>
+                <plus>多做一次</plus>
+                <minus>少做一次</minus>
+                <arrows_h>平分這個行動</arrows_h>
+                <sort_up>上移</sort_up>
+                <sort_down>下移</sort_down>
+                <times>移除這個行動</times>
             </icons>
             <list_explanation><![CDATA[
       Drag and drop the actions to re-arrange them.<br>
@@ -520,35 +520,35 @@
       Restarts automatically upon no actions left.]]></list_explanation>
         </tooltip>
         <current_action>
-            <mana_original>Mana Original</mana_original>
-            <mana_used>Mana Used</mana_used>
-            <mana_remaining>Mana Remaining</mana_remaining>
-            <gold_remaining>Gold Remaining</gold_remaining>
-            <failed_attempts>Failed Attempts</failed_attempts>
-            <error>Error</error>
+            <mana_original>原始魔力量</mana_original>
+            <mana_used>魔力用量</mana_used>
+            <mana_remaining>魔力餘量</mana_remaining>
+            <gold_remaining>黃金餘量</gold_remaining>
+            <failed_attempts>失敗次數</failed_attempts>
+            <error>錯誤</error>
         </current_action>
         <wander>
-            <label>Wander</label>
-            <label_done>Explored</label_done>
-            <tooltip>Explore the town, look for hidden areas and treasures.</tooltip>
+            <label>探索</label>
+            <label_done>已探索</label_done>
+            <tooltip>探索這個城鎮，尋找隱藏的地區和寶物。</tooltip>
         </wander>
         <meet_people>
-            <label>Meet People</label>
-            <label_done>People Met</label_done>
+            <label>和其他人見面</label>
+            <label_done>已找到</label_done>
             <tooltip><![CDATA[
             They won't let you get away with a simple chat.<br>Unlocked at 22% Explored.
         ]]></tooltip>
         </meet_people>
         <investigate>
-            <label>Investigate</label>
-            <label_done>Investigated</label_done>
+            <label>調查</label>
+            <label_done>已調查</label_done>
             <tooltip><![CDATA[
             You've been hearing some rumors...<br>Unlocked at 25% People Met.
         ]]></tooltip>
         </investigate>
         <explore_forest>
-            <label>Explore Forest</label>
-            <label_done>Forest Explored</label_done>
+            <label>探索森林</label>
+            <label_done>已探索</label_done>
             <tooltip><![CDATA[
             What a pleasant area.<br>2x progress with glasses.
         ]]></tooltip>
