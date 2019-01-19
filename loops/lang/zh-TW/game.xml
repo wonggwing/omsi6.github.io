@@ -395,30 +395,30 @@
         <practical_magic>
             <label>實用魔法</label>
             <desc>魔法之手，魔法技倆，感應魔法，及各種有用的小技巧。</desc>
-            <desc2><![CDATA[Smash Pots and Gather Wild Mana have 1% reduced mana cost per level (rounded up).<br>
-      Pick Locks get 1% more gold per level from 1-200 (rounded down).<br>
-      Short Quests get 1% more gold per level from 101-300 (rounded down).<br>
-      Long Quests get 1% more gold per level from 201-400 (rounded down).]]></desc2>
+            <desc2><![CDATA[每級可減少打碎陶罐和野外魔力的魔力消耗 (向上捨入)。<br>
+      等級1-200，開鎖可每級額外獲得 1% 黃金 (向下捨入)。<br>
+      等級101-300，短任務可每級額外獲得 1% 黃金 (向下捨入)。<br>
+      等級201-400，長任務可每級額外獲得 1% 黃金 (向下捨入)。]]></desc2>
         </practical_magic>
         <alchemy>
             <label>煉金術</label>
             <desc>釀造藥水是很困難的!能找到人指導真好。</desc>
-            <desc2>魔法導師敬仰煉金術士。每級+1% 法師課程的魔法技巧經驗取得(無條件捨去)。</desc2>
+            <desc2>魔法導師敬仰煉金術士。每級+1% 法師課程的魔法技巧經驗取得 (向下捨入)。</desc2>
         </alchemy>
         <dark_magic>
             <label>黑魔法</label>
             <desc>用各種黑暗技藝幫助你獲得魔力。</desc>
-            <desc2><![CDATA[Multiply the mana gain from Smash Pots and Wild Mana by (level / 60) ^ 0.25 (rounded down).<br> Currently granting <div id='skillBonusDark'></div>x mana gains.]]></desc2>
+            <desc2><![CDATA[打碎陶罐和野外魔力會獲得額外 (等級 / 60) ^ 0.25 的倍數加成 (向下捨入)。<br> 目前獲得 <div id='skillBonusDark'></div>x 額外倍率。]]></desc2>
         </dark_magic>
         <chronomancy>
             <label>時光魔法</label>
             <desc>利用時光魔法幫助你, 嗯, 加速時間。</desc>
-            <desc2><![CDATA[Actions in all zones are (level / 60) ^ 0.25 times faster.<br> Currently granting <div id='skillBonusChronomancy'></div>x speed.]]></desc2>
+            <desc2><![CDATA[在所有地區的行動速度變快 (等級 / 60) ^ 0.25 倍。<br> 目前獲得 <div id='skillBonusChronomancy'></div>x 倍速度.]]></desc2>
         </chronomancy>
         <pyromancy>
             <label>控火魔法</label>
             <desc>火球術，火閃電，火盾，燃燒射線，名副其實又火又紅的樂趣!</desc>
-            <desc2><![CDATA[Increases self combat with 5x the efficiency of the combat skill.]]></desc2>
+            <desc2><![CDATA[計算個人戰鬥時，會以戰鬥技巧為基礎額外加上 5x 此技能的等級數。]]></desc2>
         </pyromancy>
         <tooltip>
             <level>等級</level>
@@ -429,16 +429,16 @@
         <title>增益</title>
         <dark_ritual>
             <label>黑暗祭禮</label>
-            <desc>The witch appreciates your dedication to the dark arts. +1% to Dark Magic exp gain from the Dark Magic action (rounded down) per ritual.</desc>
-            <desc2><![CDATA[<br>Actions are 10% faster in Beginnersville per ritual from 1-20.<br>
-            Actions are 5% faster in the Forest Path per ritual from 21-40.<br>
-            Actions are 2.5% faster in Merchanton per ritual from 41-60.<br>]]>
+            <desc>女巫欣賞你對黑暗技藝的貢獻。每次祭禮後學習黑魔法會獲得 +1% 經驗 (向下捨入)。</desc>
+            <desc2><![CDATA[<br>祭禮第1-20次，每完成 1 次祭禮在新手村的所有行動就變快 10 %。<br>
+            祭禮第21-40次，每完成 1 次祭禮在森林小徑的所有行動就變快 5 %。<br>
+            祭禮第41-60次，每完成 1 次祭禮在商人城的所有行動就變快 2.5 %。<br>]]>
             </desc2>
         </dark_ritual>
         <imbue_mind>
             <label>激發心靈</label>
-            <desc><![CDATA[Using power from soulstones, you can increase your training limits.<br>
-            Increases the max amount of times you can do each training action by 1 per level.]]>
+            <desc><![CDATA[運用靈魂石的力量，可以增加訓練上限。<br>
+            每級增加 1 次每個迴圈能做的訓練次數。]]>
             </desc>
         </imbue_mind>
         <tooltip>
@@ -556,21 +556,21 @@
             <label>老舊的捷徑</label>
             <label_done>捷徑已探索</label_done>
             <tooltip><![CDATA[
-            No one has come down this way in quite some time.<br>Gives some additional herbs.<br>Old men are a pain unless you know something they care about. Get 1% reward for Talk to Hermit result per 1% Shortcut Explored.<br>Unlocked at 20% Forest Explored.
+            已經很久沒有人來過這裡了。<br>可找到更多的藥草。<br>和隱士對話是很煩厭的，除非你知道一些他有興趣的軼事。每 1% 捷徑探索度，和隱士對話時會獲得額外 1% 回報。<br>探索森林進度 20% 時解鎖。
         ]]></tooltip>
         </old_shortcut>
         <hermit>
             <label>和隱士對話</label>
             <label_done>隱士知識已學習</label_done>
             <tooltip><![CDATA[
-            This old man is happy to have a listening ear, surely he has some useful knowledge. You hope. He's initially confrontational, but opens up once you start talking about the road.<br>Reduces mana cost of Gather Herbs, Practical Magic, and Learn Alchemy by 0.5% per 1% of Hermit Knowledge.<br>Unlocked with both 20% Shortcut Explored and 40 Magic.
+            這個老人對於有人肯聽他說話感到很高興，老者的智慧當然是有用的。你希望如此。對話一開始是有點生硬的，直到你談及這條小徑他就停不下來了。<br>每 1% 隱士知識減少 0.5% 收穫藥草，實用魔法和學習煉金術的魔力需求。<br>捷徑探索進度 20% 及魔法技巧達到 40 級時解鎖。
         ]]></tooltip>
         </hermit>
         <explore_city>
             <label>探索城市</label>
             <label_done>城市已探索</label_done>
             <tooltip><![CDATA[
-            Everyone is so busy, and there's so much to do.<br>2x progress with glasses.
+            所有人都很忙，這裡有很多很多事可以做。<br>戴上眼鏡可獲得 2x 效率。
         ]]></tooltip>
         </explore_city>
         <get_drunk>
