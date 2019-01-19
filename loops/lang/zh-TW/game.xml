@@ -110,7 +110,7 @@
             <meta>
                 <title>存檔</title>
             </meta>
-            <manual_save>手動存檔</manual_save>
+            <manual_save>手動儲存</manual_save>
             <export_list>匯出行動列表</export_list>
             <import_list>匯入行動列表</import_list>
             <list_label>匯出/匯入 行動列表</list_label>
@@ -129,42 +129,36 @@
         </save>
         <faq>
             <meta>
-                <title>FAQ</title>
-                <q_prefix>Q</q_prefix>
-                <a_prefix>A</a_prefix>
+                <title>常見問答</title>
+                <q_prefix>問</q_prefix>
+                <a_prefix>答</a_prefix>
             </meta>
             <q_a>
-                <q>What do stats do?</q>
-                <a>Hover over "Stats" for how they work. What stats are important depend on what actions you need that
-                    uses them.
-                </a>
+                <q>能力有甚麼用?</q>
+                <a>鼠標懸停 "能力" 可看到詳細說明. 一項能力是否有用取決於你選擇的行動。</a>
             </q_a>
             <q_a>
-                <q>Short runs seem better.</q>
-                <a>Short runs are better, for the early game and current balance. As your runs get longer and you accrue
-                    talent and soulstones they become more useful.
-                </a>
+                <q>短迴圈好像比較有效率。</q>
+                <a>遊戲早段使用較短的迴圈是比較有效率的。後期隨能力成長及收集到靈魂石﹐長迴圈會逐漸優於短迴圈。</a>
             </q_a>
             <q_a>
-                <q>What should my first goal be?</q>
-                <a>Start with wandering until you have ways of getting mana back. Then try to find how to get some
-                    combat training which gives you a permanent boost, and then try fighting monsters!
-                </a>
+                <q>我的第一個目標應該是甚麼?</q>
+                <a>先四處探索直至找到更多方法可以得到魔力。進行戰鬥訓練並取得永久加成﹐然後去打怪吧!</a>
             </q_a>
         </faq>
         <options>
             <meta>
-                <title>Options</title>
+                <title>設定</title>
             </meta>
-            <localization_title>Language</localization_title>
+            <localization_title>語言</localization_title>
             <discord>
                 <link>https://discord.gg/EmRuWPp</link>
-                <title>Discord Link</title>
+                <title>Discord 連結</title>
             </discord>
-            <adblock_warning>WARNING: for some reason Adblock Plus can cause massive lag. I won't ever have ads so if
-                your game is freezing frequently please disable for this page.
+            <adblock_warning>警告: Adblock Plus有機會導致遊戲延遲及停頓. 我不會在此頁面放廣告所以
+                如果你的遊戲經常停滯請不要在這頁執行Adblock Plus。
             </adblock_warning>
-            <pause_audio_cue>Ping on pause</pause_audio_cue>
+            <pause_audio_cue>暫停時發出聲音</pause_audio_cue>
         </options>
     </menu>
     <tutorial><![CDATA[
@@ -303,7 +297,7 @@
         </bonus_seconds>
     </time_controls>
     <stats>
-        <title>Stats</title>
+        <title>能力</title>
         <dex>
             <blurb>Know your body.</blurb>
             <long_form>Dexterity</long_form>
