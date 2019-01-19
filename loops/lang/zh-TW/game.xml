@@ -176,7 +176,7 @@
         <resource no_reset_on_restart="true">
             <title>魔力:</title>
             <id>timer</id>
-            <desc>你的主要資源。魔力越多，你每個迴圈能做的事就越多。</desc>
+            <desc>你的主要資源。魔力越多，每個迴圈能做的事就越多。</desc>
         </resource>
         <resource>
             <title>黃金:</title>
@@ -196,7 +196,7 @@
         <resource initially_hidden="true">
             <title>藥草:</title>
             <id>herbs</id>
-            <desc>你在路上找到對你有幫助的植物。</desc>
+            <desc>在路上找到對你有幫助的植物。</desc>
         </resource>
         <resource initially_hidden="true">
             <title>獸皮:</title>
@@ -226,7 +226,7 @@
         <resource initially_hidden="true">
             <title>古物:</title>
             <id>artifacts</id>
-            <desc>各種古老的指環，手鐲，護身符和垂飾。這些應該能賣不少錢的。</desc>
+            <desc>各種古老的指環，手鐲，護身符和垂飾。應該能賣不少錢。</desc>
         </resource>
         <resource initially_hidden="true" no_count="true">
             <title><![CDATA[<img src="img/buyGlasses.svg" class="smallIcon">]]></title>
@@ -236,7 +236,7 @@
         <resource initially_hidden="true" no_count="true">
             <title><![CDATA[<img src="img/buyPickaxe.svg" class="smallIcon">]]></title>
             <id>pickaxe</id>
-            <desc>行重，但你能有效運用它。</desc>
+            <desc>很重，但你知道要怎樣運用它。</desc>
         </resource>
         <resource initially_hidden="true" no_count="true">
             <title><![CDATA[<img src="img/loopingPotion.svg" class="smallIcon">]]></title>
@@ -482,17 +482,16 @@
         <title_loadout>組合</title_loadout>
         <tooltip>
             <desc><![CDATA[
-          Mana cost is based on ratio of stat %s.<br>
-          Gained exp is proportional too.<br>
-          Exp is gained every tick.<br>
-          Actions will target unchecked objects before known lootable objects.]]></desc>
+          魔力消耗取決於能力需求以及其比重。<br>
+          獲得經驗也是成正比例的。<br>
+          每tick(時間單位)都會取得經驗。<br>
+          行動會先處理未探索的物件再處理已知的物件。]]></desc>
             <mana_cost>魔力需求</mana_cost>
             <exp_multiplier>經驗倍率</exp_multiplier>
             <mana_used>魔力用量</mana_used>
             <mana_used_explanation><![CDATA[
-          Shows stat gain affecting speed.<br>
-          Updates every completed action.<br>
-          Accurate at end of run.]]></mana_used_explanation>
+          顯示能力。能力提升影響完成的速度。<br>
+          每次完成行動後更新。]]></mana_used_explanation>
             <amount>數量</amount>
             <current_list_active>保持使用當前列表</current_list_active>
             <repeat_last_action>重複列表內最後一個行動</repeat_last_action>
@@ -513,11 +512,11 @@
                 <times>移除這個行動</times>
             </icons>
             <list_explanation><![CDATA[
-      Drag and drop the actions to re-arrange them.<br>
-      The next list becomes the current list every restart.<br>
-      One second = 50 mana.<br>
-      Minimum 1 tick per action.<br>
-      Restarts automatically upon no actions left.]]></list_explanation>
+      拖放行動以排序。<br>
+      迴圈結束時會使用新的行動列表開始下一圈。<br>
+      1秒 = 50魔力。<br>
+      每個行動最少需要 1 tick。<br>
+      沒有行動可做時自動重新開始下一個迴圈。]]></list_explanation>
         </tooltip>
         <current_action>
             <mana_original>原始魔力量</mana_original>
