@@ -139,11 +139,11 @@
             </q_a>
             <q_a>
                 <q>短迴圈好像比較有效率。</q>
-                <a>遊戲早段使用較短的迴圈是比較有效率的。後期隨能力成長及收集到靈魂石﹐長迴圈會逐漸優於短迴圈。</a>
+                <a>遊戲早段使用較短的迴圈是比較有效率的。後期隨能力成長及收集到靈魂石，長迴圈會逐漸優於短迴圈。</a>
             </q_a>
             <q_a>
                 <q>我的第一個目標應該是甚麼?</q>
-                <a>先四處探索直至找到更多方法可以得到魔力。進行戰鬥訓練並取得永久加成﹐然後去打怪吧!</a>
+                <a>先四處探索直至找到更多方法可以得到魔力。進行戰鬥訓練並取得永久加成，然後去打怪吧!</a>
             </q_a>
         </faq>
         <options>
@@ -162,64 +162,64 @@
         </options>
     </menu>
     <tutorial><![CDATA[
-      TUTORIAL:<br>
-      Click the Wander action and click Play to start.<br>
-      Wander for a bit, then smash pots.<br>
-      Watch the numbers change, read all the tooltips.<br>
-      Complete the town, go to the next one.<br><br>
-      Hey there, it looks like you're starting the game on omsi6.github.io.<br>
-      Before you start, you should know that this is a fanmade modification<br>
-      for the original game, located <a href="http://stopsign.github.io/idleLoops/">here.</a> Thanks for playing, and have fun!<br><br>
+      教學:<br>
+      點擊 探索 然後點擊 開始 執行你的行動列表。<br>
+      探索一下，然後打碎陶罐。<br>
+      看數字變化，讀完所有提示。<br>
+      探索完這個城鎮，向下一個城鎮前進。<br><br>
+      你好，看來你是在 omsi6.github.io 進行你的遊戲的.<br>
+      在你開始之前，你應該知道這是一個粉絲創作的修改版本<br>
+      原版遊戲在<a href="http://stopsign.github.io/idleLoops/">這裡</a>。感謝你的遊玩，祝你玩得開心!<br><br>
       ]]></tutorial>
     <tracked_resources>
-        <reset_on_restart_txt>Resets when the loop restarts.</reset_on_restart_txt>
+        <reset_on_restart_txt>迴圈結束時重設。</reset_on_restart_txt>
         <resource no_reset_on_restart="true">
-            <title>Mana:</title>
+            <title>魔力:</title>
             <id>timer</id>
-            <desc>Your main resource. The higher your mana, the more you can do before reset.</desc>
+            <desc>你的主要資源。魔力越多，你每個迴圈能做的事就越多。</desc>
         </resource>
         <resource>
-            <title>Gold:</title>
+            <title>黃金:</title>
             <id>gold</id>
-            <desc>Sell for mana, or use for actions.</desc>
+            <desc>可以賣出換取魔力，或用來做其他行動。</desc>
         </resource>
         <resource initially_hidden="true">
-            <title>Reputation:</title>
+            <title>聲望:</title>
             <id>reputation</id>
-            <desc>The influence you have over the people in town.</desc>
+            <desc>你對鎮民的影響力。</desc>
         </resource>
         <resource initially_hidden="true" no_count="true">
-            <title>Supplies</title>
+            <title>補給物資</title>
             <id>supplies</id>
-            <desc>Needed to go to the next town.</desc>
+            <desc>到達下個城市的必需品。</desc>
         </resource>
         <resource initially_hidden="true">
-            <title>Herbs:</title>
+            <title>藥草:</title>
             <id>herbs</id>
-            <desc>The beneficial plants you've found.</desc>
+            <desc>你在路上找到對你有幫助的植物。</desc>
         </resource>
         <resource initially_hidden="true">
-            <title>Hide:</title>
+            <title>毛皮:</title>
             <id>hide</id>
-            <desc>Results of successful hunting.</desc>
+            <desc>狩獵的成果。</desc>
         </resource>
         <resource initially_hidden="true">
-            <title>Potions:</title>
+            <title>藥水:</title>
             <id>potions</id>
-            <desc>Rare, but not complex. Worth some money.</desc>
+            <desc>罕有，但不複雜。賣掉也算值錢的。</desc>
         </resource>
         <resource initially_hidden="true">
-            <title>Team Members:</title>
+            <title>隊友:</title>
             <id>teamNum</id>
-            <desc>You know their personalities and fighting style. They don't know your name.</desc>
+            <desc>你了解他們的性格和戰鬥風格。他們還未知道你的名字。</desc>
         </resource>
         <resource initially_hidden="true">
-            <title>Armor:</title>
+            <title>盔甲:</title>
             <id>armor</id>
-            <desc>Crafted by your own hand, it protects you from dangers.</desc>
+            <desc>由你親手鍛造的盔甲，保護你遠離危險。</desc>
         </resource>
         <resource initially_hidden="true">
-            <title>Blood:</title>
+            <title>血:</title>
             <id>blood</id>
             <desc>Regailed for it's regenerative properties.</desc>
         </resource>
@@ -231,28 +231,28 @@
         <resource initially_hidden="true" no_count="true">
             <title><![CDATA[<img src="img/buyGlasses.svg" class="smallIcon">]]></title>
             <id>glasses</id>
-            <desc>Woah, trees have so many leaves on them.</desc>
+            <desc>嘩，樹林的樹葉真多。</desc>
         </resource>
         <resource initially_hidden="true" no_count="true">
             <title><![CDATA[<img src="img/buyPickaxe.svg" class="smallIcon">]]></title>
             <id>pickaxe</id>
-            <desc>It's heavy, but you can make use of it.</desc>
+            <desc>行重，但你能有效運用它。</desc>
         </resource>
         <resource initially_hidden="true" no_count="true">
             <title><![CDATA[<img src="img/loopingPotion.svg" class="smallIcon">]]></title>
             <id>loopingPotion</id>
-            <desc>It's a potion made with the very same formula that got you into this mess. Why exactly did you make this?</desc>
+            <desc>這支藥水和令你跌入這個迴圈的藥水成份完全相同。你為什麼要做這個?</desc>
         </resource>
     </tracked_resources>
     <time_controls>
-        <play_button>Play</play_button>
-        <pause_button>Pause</pause_button>
-        <pause_before_restart>Pause before restart</pause_before_restart>
-        <pause_on_failed_loop>Pause on failed loop</pause_on_failed_loop>
-        <restart_button>Restart</restart_button>
-        <restart_text>Resets the loop. Not a hard reset.</restart_text>
-        <talents_button>Talents</talents_button>
-        <story_title>Story</story_title>
+        <play_button>開始</play_button>
+        <pause_button>暫停</pause_button>
+        <pause_before_restart>重啟前暫停</pause_before_restart>
+        <pause_on_failed_loop>迴圈不完整結束時暫停</pause_on_failed_loop>
+        <restart_button>重新開始</restart_button>
+        <restart_text>重新開始這個迴圈，不會清空你的存檔。</restart_text>
+        <talents_button>天賦</talents_button>
+        <story_title>故事</story_title>
         <stories>
             <story num="0">
                 You're a simple courier, on a long trip to deliver a high priority package. Just as you entered town,
@@ -283,76 +283,76 @@
             </story>
         </stories>
         <bonus_seconds>
-            <title>Bonus Seconds</title>
+            <title>額外秒數</title>
             <main_text><![CDATA[
-          When bonus is on, you get 3 extra seconds per second (4x faster).<br>
-          Accrue .8 bonus seconds per second when paused or offline.<br>
-          Bonus is
+          當額外秒數啟用時，迴圈每執行1秒會獲得額外3秒的進度(4倍速度)。<br>
+          當你暫停或離線時，每秒經過會累積 .8 秒的額外時間。<br>
+          額外秒數 狀態
         ]]></main_text>
             <state>
-                <on>ON</on>
-                <off>OFF</off>
+                <on>開啟</on>
+                <off>關閉</off>
             </state>
-            <counter_text>Total Bonus Seconds</counter_text>
+            <counter_text>總額外秒數</counter_text>
         </bonus_seconds>
     </time_controls>
     <stats>
         <title>能力</title>
         <dex>
-            <blurb>Know your body.</blurb>
-            <long_form>Dexterity</long_form>
-            <short_form>Dex</short_form>
+            <blurb>了解你的身體。</blurb>
+            <long_form>靈巧</long_form>
+            <short_form>靈</short_form>
         </dex>
         <str>
-            <blurb>Train your body.</blurb>
-            <long_form>Strength</long_form>
-            <short_form>Str</short_form>
+            <blurb>訓練你的身體。</blurb>
+            <long_form>加量</long_form>
+            <short_form>力</short_form>
         </str>
         <con>
-            <blurb>Just a little longer. Just a little more.</blurb>
-            <long_form>Constitution</long_form>
-            <short_form>Con</short_form>
+            <blurb>長一點點。多一點點。</blurb>
+            <long_form>體質</long_form>
+            <short_form>體</short_form>
         </con>
         <spd>
-            <blurb>Gotta go fast.</blurb>
-            <long_form>Speed</long_form>
-            <short_form>Spd</short_form>
+            <blurb>要再快一點。</blurb>
+            <long_form>速度</long_form>
+            <short_form>速</short_form>
         </spd>
         <per>
-            <blurb>Look a little closer...</blurb>
-            <long_form>Perception</long_form>
-            <short_form>Per</short_form>
+            <blurb>望清楚一點...</blurb>
+            <long_form>感知</long_form>
+            <short_form>感</short_form>
         </per>
         <cha>
-            <blurb>Conversation is a battle.</blurb>
-            <long_form>Charisma</long_form>
-            <short_form>Cha</short_form>
+            <blurb>對話是一場戰爭。</blurb>
+            <long_form>魅力</long_form>
+            <short_form>魅</short_form>
         </cha>
         <int>
-            <blurb>Learning to learn.</blurb>
-            <long_form>Intelligence</long_form>
-            <short_form>Int</short_form>
+            <blurb>學會怎樣去學習。</blurb>
+            <long_form>智慧</long_form>
+            <short_form>智</short_form>
         </int>
         <luck>
-            <blurb>Opportunity favors the fortunate.</blurb>
-            <long_form>Luck</long_form>
-            <short_form>Luck</short_form>
+            <blurb>機會向幸運的人傾斜。</blurb>
+            <long_form>幸運</long_form>
+            <short_form>運</short_form>
         </luck>
         <soul>
-            <blurb>You are the captain.</blurb>
-            <long_form>Soul</long_form>
-            <short_form>Soul</short_form>
+            <blurb>你就是指揮。</blurb>
+            <long_form>靈魂</long_form>
+            <short_form>魂</short_form>
         </soul>
         <tooltip>
-            <level>Level:</level>
-            <level_exp>Level Exp:</level_exp>
-            <talent>Talent:</talent>
-            <talent_exp>Talent Exp:</talent_exp>
-            <talent_multiplier>Talent Mult:</talent_multiplier>
-            <soulstone>Soulstones:</soulstone>
-            <soulstone_multiplier>Soulstone Mult:</soulstone_multiplier>
-            <total_multiplier>Total Mult:</total_multiplier>
-            <bonus_xp>Bonus XP:</bonus_xp>
+            <level>等級:</level>
+            <level_exp>等級經驗:</level_exp>
+            <talent>天賦:</talent>
+            <talent_exp>天賦經驗:</talent_exp>
+            <talent_multiplier>天賦倍率:</talent_multiplier>
+            <soulstone>靈魂石:</soulstone>
+            <soulstone_multiplier>靈魂石倍率:</soulstone_multiplier>
+            <total_multiplier>總倍率:</total_multiplier>
+            <bonus_xp>額外經驗:</bonus_xp>
             <explanation><![CDATA[
           Each stat level reduces the relevant part of an action's mana cost by 1%.<br>
           Talent gets 1% of all level progress, and persists through loops.<br>
@@ -370,15 +370,15 @@
           Hover Stats for more info.]]></graph_legend>
         </tooltip>
         <view>
-            <regular>Regular View</regular>
-            <radar>Radar Chart</radar>
+            <regular>基本視圖</regular>
+            <radar>雷達圖表</radar>
         </view>
     </stats>
     <skills>
-        <title>Skills</title>
+        <title>技能</title>
         <scombat>
-            <label>Self Combat</label>
-            <desc>Self Combat = (Combat skill + Pyromancy skill * 5) * (1 + armor * Crafting Guild Rank / 5)</desc>
+            <label>個人格鬥</label>
+            <desc>個人格鬥 = (Combat skill + Pyromancy skill * 5) * (1 + armor * Crafting Guild Rank / 5)</desc>
         </scombat>
         <tcombat>
             <label>Team Combat</label>
