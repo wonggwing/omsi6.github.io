@@ -199,7 +199,7 @@
             <desc>你在路上找到對你有幫助的植物。</desc>
         </resource>
         <resource initially_hidden="true">
-            <title>毛皮:</title>
+            <title>獸皮:</title>
             <id>hide</id>
             <desc>狩獵的成果。</desc>
         </resource>
@@ -339,7 +339,7 @@
             <short_form>運</short_form>
         </luck>
         <soul>
-            <blurb>你就是指揮。</blurb>
+            <blurb>你就是隊長。</blurb>
             <long_form>靈魂</long_form>
             <short_form>魂</short_form>
         </soul>
@@ -378,18 +378,18 @@
         <title>技能</title>
         <scombat>
             <label>個人戰鬥</label>
-            <desc>個人戰鬥 = (Combat skill + Pyromancy skill * 5) * (1 + armor * Crafting Guild Rank / 5)</desc>
+            <desc>個人戰鬥 = (戰鬥技巧 + 控火魔法 * 5) * (1 + 盔甲 * 匠人公會排名 / 5)</desc>
         </scombat>
         <tcombat>
             <label>團隊戰鬥</label>
-            <desc>團隊戰鬥 = Self Combat + Combat Skill * Team Members * Adventure Guild Rank / 2</desc>
+            <desc>團隊戰鬥 = 個人戰鬥 + 戰鬥技巧 * 隊員數量 * 冒險者公會排名 / 2</desc>
         </tcombat>
         <combat>
-            <label>戰鬥</label>
+            <label>戰鬥技巧</label>
             <desc>為你的生命而戰。</desc>
         </combat>
         <magic>
-            <label>魔法</label>
+            <label>魔法技巧</label>
             <desc>控制以太來施法和召喚。</desc>
         </magic>
         <practical_magic>
@@ -496,7 +496,7 @@
             <amount>數量</amount>
             <current_list_active>保持使用當前列表</current_list_active>
             <repeat_last_action>重複列表內最後一個行動</repeat_last_action>
-            <add_action_top>新行動新增到最頂</add_action_top>
+            <add_action_top>新行動置頂</add_action_top>
             <save_loadout>儲存組合</save_loadout>
             <load_loadout>載入選擇的組合</load_loadout>
             <clear_list>清空列表</clear_list>
@@ -554,238 +554,238 @@
         ]]></tooltip>
         </explore_forest>
         <old_shortcut>
-            <label>Old Shortcut</label>
-            <label_done>Shortcut Explored</label_done>
+            <label>老舊的捷徑</label>
+            <label_done>捷徑已探索</label_done>
             <tooltip><![CDATA[
             No one has come down this way in quite some time.<br>Gives some additional herbs.<br>Old men are a pain unless you know something they care about. Get 1% reward for Talk to Hermit result per 1% Shortcut Explored.<br>Unlocked at 20% Forest Explored.
         ]]></tooltip>
         </old_shortcut>
         <hermit>
-            <label>Talk To Hermit</label>
-            <label_done>Hermit Knowledge Learned</label_done>
+            <label>和隱士對話</label>
+            <label_done>隱士知識已學習</label_done>
             <tooltip><![CDATA[
             This old man is happy to have a listening ear, surely he has some useful knowledge. You hope. He's initially confrontational, but opens up once you start talking about the road.<br>Reduces mana cost of Gather Herbs, Practical Magic, and Learn Alchemy by 0.5% per 1% of Hermit Knowledge.<br>Unlocked with both 20% Shortcut Explored and 40 Magic.
         ]]></tooltip>
         </hermit>
         <explore_city>
-            <label>Explore City</label>
-            <label_done>City Explored</label_done>
+            <label>探索城市</label>
+            <label_done>城市已探索</label_done>
             <tooltip><![CDATA[
             Everyone is so busy, and there's so much to do.<br>2x progress with glasses.
         ]]></tooltip>
         </explore_city>
         <get_drunk>
-            <label>Get Drunk</label>
-            <label_done>Rumors Heard</label_done>
+            <label>乾杯!</label>
+            <label_done>聽到流言</label_done>
             <tooltip><![CDATA[
             Sometimes you just need a drink.<br>Requires reputation of at least -3.<br>Has 3x exp/talent gain<br>Costs 1 reputation.<br>Unlocked at 20% City Explored.
         ]]></tooltip>
         </get_drunk>
         <apprentice>
-            <label>Apprentice</label>
-            <label_done>Apprenticeship</label_done>
+            <label>學徒</label>
+            <label_done>學徒期</label_done>
             <tooltip><![CDATA[
             You decided that knowing more about construction would help. You use your Crafting Guild license to hit the books.<br>Goes faster with a higher rank bonus.<br>Gives 10-20 exp to Crafting for 0-100%<br>Requires Crafting Guild.<br>Unlocked at 40% Rumors heard.
         ]]></tooltip>
         </apprentice>
         <mason>
-            <label>Mason</label>
-            <label_done>Buildings Built</label_done>
+            <label>石匠</label>
+            <label_done>已興建的建築物</label_done>
             <tooltip><![CDATA[
             You've completed your apprenticeship and have the theoretical knowledge - now you need to get hands on.<br>Goes faster with a higher rank bonus.<br>Requires Crafting Guild.<br>Gives 20-40 exp to Crafting for 0-100%<br>Unlocked at 60% Rumors heard and 100% Apprenticeship.
         ]]></tooltip>
         </mason>
         <architect>
-            <label>Architect</label>
-            <label_done>Projects Planned</label_done>
+            <label>建築師</label>
+            <label_done>已參與的建築計劃</label_done>
             <tooltip><![CDATA[
             Now that you know how things work, it's better to learn how to design them.<br>Goes faster with a higher rank bonus.<br>Requires Crafting Guild.<br>Gives 40-80 exp to Crafting for 0-100%<br>Unlocked at 80% Rumors heard and 100% Buildings Built.
         ]]></tooltip>
         </architect>
         <buy_glasses>
-            <label>Buy Glasses</label>
+            <label>買眼鏡</label>
             <tooltip><![CDATA[
             That's not fair. There was time now. There was all the time I needed.<br>Now you have to get new glasses again for 10 gold!<br>Causes Wander to be 4x as effective for the rest of the loop.<br>Affects any action with the glasses icon<br>Can only have 1 Buy Glasses action.<br>Unlocked at 20% explored.
         ]]></tooltip>
         </buy_glasses>
         <buy_mana>
-            <label>Buy Mana</label>
+            <label>買魔力</label>
             <tooltip><![CDATA[
             1 gold = 50 mana. Buys all the mana you can.<br>Unlocked at 20% Explored.
         ]]></tooltip>
         </buy_mana>
         <train_str>
-            <label>Train Strength</label>
+            <label>力量訓練</label>
             <tooltip><![CDATA[
             Build up those muscles. Again.<br>Has 4x exp/talent gain, and can only be done <div id='trainingLimitStr'></div> times per reset.<br>Unlocked at 5% People Met.
         ]]></tooltip>
         </train_str>
         <throw_party>
-            <label>Throw Party</label>
+            <label>開派對</label>
             <tooltip><![CDATA[
             Take a break and socialize.<br>8x people met % over Meet People for equivalent mana cost.<br>Costs 2 reputation.<br>Unlocked at 30% Investigated.
         ]]></tooltip>
         </throw_party>
         <warrior_lesson>
-            <label>Warrior Lessons</label>
+            <label>戰士課程</label>
             <tooltip><![CDATA[
             Learning to fight is probably important; you have a long journey ahead of you.<br>Requires 2 reputation.<br>Unlocked at 20% Investigated.
         ]]></tooltip>
         </warrior_lesson>
         <mage_lesson>
-            <label>Mage Lessons</label>
+            <label>法師課程</label>
             <tooltip><![CDATA[
             The mystic got you into this mess, maybe it can help you get out of it.<br>Requires 2 reputation.<br>Unlocked at 20% Investigated.
         ]]></tooltip>
         </mage_lesson>
         <buy_supplies>
-            <label>Buy Supplies</label>
+            <label>買補給物資</label>
             <tooltip><![CDATA[
             Prepare to move on.<br>Costs <div id='suppliesCost'></div> gold.<br>You only need one set of supplies.<br>Unlocks at a combined skill of 35.
         ]]></tooltip>
         </buy_supplies>
         <haggle>
-            <label>Haggle</label>
+            <label>討價還價</label>
             <tooltip><![CDATA[
             They won't like you as much, but hey - you're leaving.<br>Costs 1 reputation to reduce the price of supplies by 20. <br>Unlocks at a combined skill of 35.
         ]]></tooltip>
         </haggle>
         <start_journey>
-            <label>Start Journey</label>
+            <label>開始你的旅程</label>
             <tooltip><![CDATA[
             Follow the trail to end up at the next town. You need to keep moving until you can learn how to shut these loops off.<br>Costs 1 supplies. Finish once to unlock Forest Path's actions, then finish this in order to use Forest Path's actions.<br>Unlocks at a combined skill of 35.
         ]]></tooltip>
         </start_journey>
         <open_rift>
-            <label>Open Rift</label>
+            <label>打開空間裂縫</label>
             <tooltip><![CDATA[
             Using your vast knowledge of the dark arts, you can open a rift into the shadow realm to send you straight to Adeptsville.<br>Unlocks at 500 Dark Magic.
         ]]></tooltip>
         </open_rift>
         <train_soul>
-            <label>Sit By Waterfall</label>
+            <label>在瀑布旁邊坐下</label>
             <tooltip><![CDATA[
             It's peaceful here. Loud, but peaceful.<br>Has 4x exp/talent gain, and can only be done <div id='trainingLimitSoul'></div> times per reset.<br>Unlocked at 70% Forest Explored.
         ]]></tooltip>
         </train_soul>
         <practical_magic>
-            <label>Practical Magic</label>
+            <label>練習實用魔法</label>
             <tooltip><![CDATA[
             Such simple uses to help out with everyday tasks. Genius, really. It's like pulling teeth getting this knowledge from the Hermit though.<br>Unlocked with both 20% Hermit Knowledge and 50 Magic.
         ]]></tooltip>
         </practical_magic>
         <learn_alchemy>
-            <label>Learn Alchemy</label>
+            <label>學習煉金術</label>
             <tooltip><![CDATA[
             You can listen to him yammer while making light healing and remedy potions.<br>You're starting to think the potion that caused you to loop time was a complex one.<br>You provide the ingredients; costs 10 herbs.<br>Gives alchemy and magic skill.<br>Unlocked with both 40% Hermit Knowledge and 60 Magic.
         ]]></tooltip>
         </learn_alchemy>
         <brew_potions>
-            <label>Brew Potions</label>
+            <label>釀造藥水</label>
             <tooltip><![CDATA[
             Bubbles and Flasks. Potions and Magic.<br>Requires 5 reputation or he won't let you near his stuff.<br>Creates a potion from 10 herbs to sell at the next town.<br>Gives alchemy and magic skill.<br>Unlocked with 10 Alchemy.
         ]]></tooltip>
         </brew_potions>
         <train_dex>
-            <label>Train Dex</label>
+            <label>靈巧訓練</label>
             <tooltip><![CDATA[
             There's a nice array of rocks to hop between. It's a lot of fun.<br>Has 4x exp/talent gain, and can only be done <div id='trainingLimitDex'></div> times per reset.<br>Unlocked at 60% Forest Explored.
         ]]></tooltip>
         </train_dex>
         <train_spd>
-            <label>Train Speed</label>
+            <label>速度訓練</label>
             <tooltip><![CDATA[
             A forest run is fantastic. You feel like you're learning a lot as you push your limits.<br>Has 4x exp/talent gain, and can only be done <div id='trainingLimitSpd'></div> times per reset.<br>Unlocked at 80% Forest Explored.
         ]]></tooltip>
         </train_spd>
         <follow_flowers>
-            <label>Follow Flowers</label>
-            <label_done>Flower Trail Followed</label_done>
+            <label>沿花徑前行</label>
+            <label_done>花徑已探索</label_done>
             <tooltip><![CDATA[
             You've located an oddly out of place trail of flowers, why not see where it leads. You can find more herbs along the path.<br>2x progress with glasses.<br>Unlocked at 50% Forest Explored.
         ]]></tooltip>
         </follow_flowers>
         <bird_watching>
-            <label>Bird Watching</label>
+            <label>觀鳥</label>
             <tooltip><![CDATA[
             Far along the flower trail, there seems to be a large variety of birds flying about. Perhaps you could take up a new hobby.<br>Requires glasses.<br>Has 4x exp/talent gain, and can only be done <div id='trainingLimitPer'></div> times per reset.<br>Unlocked at 80% Flower Trail Followed.
         ]]></tooltip>
         </bird_watching>
         <clear_thicket>
-            <label>Clear Thicket</label>
-            <label_done>Thicket Explored</label_done>
+            <label>清除灌木叢</label>
+            <label_done>灌木叢已探索</label_done>
             <tooltip><![CDATA[
             The path of flowers has lead you to a thicket, seemingly in the middle of nowhere. Perhaps it's some strange magic. You can clear out the thicket to find some more wild mana.<br>Unlocked at 20% Flower Trail Followed.
         ]]></tooltip>
         </clear_thicket>
         <witch>
-            <label>Talk To Witch</label>
-            <label_done>Witch Knowledge Learned</label_done>
+            <label>和女巫對話</label>
+            <label_done>女巫知識已學習</label_done>
             <tooltip><![CDATA[
             Talk to the witch to learn her secrets of the dark arts.<br>Unlocked with both 60% Thicket Explored and 80 Magic.<br>Reduces mana cost of Dark Magic and Dark Ritual by 0.5% per 1% of Witch Knowledge.
         ]]></tooltip>
         </witch>
         <dark_magic>
-            <label>Dark Magic</label>
+            <label>黑魔法</label>
             <tooltip><![CDATA[
             Embrace the dark arts to more efficiently harvest mana. But at what cost?<br>Adds 1 negative reputation.<br>Requires a reputation of 0 or lower.<br>Unlocked with both 20% Witch Knowledge and 100 Magic.
         ]]></tooltip>
         </dark_magic>
         <dark_ritual>
-            <label>Dark Ritual</label>
-            <label_done>Completed</label_done>
+            <label>黑暗祭禮</label>
+            <label_done>已完成</label_done>
             <tooltip><![CDATA[
             Sacrifice an increasing amount of soulstones to the dark gods, granting a permanent speed 10% boost to all actions in Beginnersville.<br>Gives (dark magic skill) * (1 + main stat / 100) * (original mana cost / actual mana cost) progress points per mana.<br>Requires a reputation of -5 or lower.<br>Can only have 1 Dark Ritual action.<br>Unlocked with both 90% Thicket Explored and 50 Dark Magic.<br>Sacrifices (50 * (rituals completed+1)) soulstones.
         ]]></tooltip>
             <segment_names>
-                <name>Clear the Area</name>
-                <name>Prepare the Altar</name>
-                <name>Summon the Dark Gods</name>
+                <name>清空附近的環境</name>
+                <name>準備祭壇</name>
+                <name>召喚黑暗之神</name>
             </segment_names>
         </dark_ritual>
         <continue_on>
-            <label>Continue On</label>
+            <label>繼續走</label>
             <tooltip><![CDATA[
             Keep walking to the next town, Merchanton.<br>Mana cost reduced by 60 per Old Shortcut %.
         ]]></tooltip>
         </continue_on>
         <purchase_mana>
-            <label>Purchase Mana</label>
+            <label>買魔力</label>
             <tooltip><![CDATA[
             1 gold = 50 mana. Buys all the mana you can.
         ]]></tooltip>
         </purchase_mana>
         <sell_potions>
-            <label>Sell Potions</label>
+            <label>賣藥水</label>
             <tooltip><![CDATA[
             Potions are worth 1 gold per alchemy skill, but it takes a bit to find a seller.
         ]]></tooltip>
         </sell_potions>
         <read_books>
-            <label>Read Books</label>
+            <label>看書</label>
             <tooltip><![CDATA[
             There's a library! You always loved reading.<br>Discover new worlds and perspectives, get ideas from fiction characters, and empathize with the desire to be stronger.<br>Requires glasses.<br>Has 4x exp/talent gain, and can only be done <div id='trainingLimitInt'></div> times per reset.<br>Unlocks at 50% city explored.
         ]]></tooltip>
         </read_books>
         <gather_team>
-            <label>Gather Team</label>
+            <label>組隊</label>
             <tooltip><![CDATA[
             You don't have to take them on by yourself.<br>Max 5 other team members.<br>Costs <div id='teamCost'></div>
             gold, and the cost goes up by 200 gold per member.<br>Each member adds (Rank Mult) * (Combat Skill / 2) to your Team Combat.<br>Requires Adventure Guild.<br>Has 3x exp/talent gain.<br>Unlocks at 20% city explored.
         ]]></tooltip>
         </gather_team>
         <craft_armor>
-            <label>Craft Armor</label>
+            <label>製作盔甲</label>
             <tooltip><![CDATA[
             Turn hide into armor through hard work.<br>Gives (20% * Crafting Rank Bonus) to Self Combat per armor.<br>Costs 2 hides.<br>Unlocks at 30% city explored.
         ]]></tooltip>
         </craft_armor>
         <smash_pots>
-            <label>Smash Pots</label>
-            <label_done>Pots Smashed</label_done>
-            <info_text1>Pots with mana left</info_text1>
-            <info_text2>Pots with mana total</info_text2>
-            <info_text3>Pots to check mana loot</info_text3>
+            <label>打碎陶罐</label>
+            <label_done>陶罐已粉碎</label_done>
+            <info_text1>有魔力的陶罐剩餘</info_text1>
+            <info_text2>有魔力的陶罐總數</info_text2>
+            <info_text3>未查看的陶罐</info_text3>
             <tooltip><![CDATA[
             They're just sitting there, unbroken, full of potential.<br>Pots with mana in them have 
         ]]></tooltip>
@@ -794,11 +794,11 @@
         ]]></tooltip2>
         </smash_pots>
         <locks>
-            <label>Pick Locks</label>
-            <label_done>Locks Picked</label_done>
-            <info_text1>Houses with valuables left</info_text1>
-            <info_text2>Houses with valuables total</info_text2>
-            <info_text3>Houses to check for valuables</info_text3>
+            <label>挑鎖</label>
+            <label_done>已解鎖</label_done>
+            <info_text1>藏有黃金的房屋剩餘</info_text1>
+            <info_text2>藏有黃金的房屋總數</info_text2>
+            <info_text3>未查看的房屋</info_text3>
             <tooltip><![CDATA[
             Don't worry; they won't remember.<br>Houses with valuables in them have 
         ]]></tooltip>
@@ -807,11 +807,11 @@
         ]]></tooltip2>
         </locks>
         <short_quest>
-            <label>Short Quest</label>
-            <label_done>Short Quests Accomplished</label_done>
-            <info_text1>Quests with loot left</info_text1>
-            <info_text2>Quests with loot total</info_text2>
-            <info_text3>Quests to finish</info_text3>
+            <label>短任務</label>
+            <label_done>短任務已完成</label_done>
+            <info_text1>有戰利品的任務剩餘</info_text1>
+            <info_text2>有戰利品的任務總數</info_text2>
+            <info_text3>未曾完成的任務</info_text3>
             <tooltip><![CDATA[
             Be a hero! ...If the reward is good and it doesn't take too long.<br>Short Quests with loot give 
         ]]></tooltip>
@@ -820,11 +820,11 @@
         ]]></tooltip2>
         </short_quest>
         <long_quest>
-            <label>Long Quest</label>
-            <label_done>Long Quests Accomplished</label_done>
-            <info_text1>Quests with loot left</info_text1>
-            <info_text2>Quests with loot total</info_text2>
-            <info_text3>Quests to finish</info_text3>
+            <label>長任務</label>
+            <label_done>長任務已完成</label_done>
+            <info_text1>有戰利品的任務剩餘</info_text1>
+            <info_text2>有戰利品的任務總數</info_text2>
+            <info_text3>未曾完成的任務</info_text3>
             <tooltip><![CDATA[
             Be a more impressive hero! ...As long as someone is watching.<br>Long Quests with loot give 
         ]]></tooltip>
@@ -833,11 +833,11 @@
         ]]></tooltip2>
         </long_quest>
         <wild_mana>
-            <label>Wild Mana</label>
-            <label_done>Mana Sources Tapped</label_done>
-            <info_text1>Sources with mana left</info_text1>
-            <info_text2>Sources with mana total</info_text2>
-            <info_text3>Sources to check for mana</info_text3>
+            <label>野外魔力</label>
+            <label_done>已抽取的野外魔力源</label_done>
+            <info_text1>富含魔力的野外魔力源剩餘</info_text1>
+            <info_text2>富含魔力的野外魔力源總數</info_text2>
+            <info_text3>未開發的野外魔力源</info_text3>
             <tooltip><![CDATA[
             They're out of sight of most travellers, but you have time to find and harvest them.<br>Every good mana spot has 
         ]]></tooltip>
@@ -846,69 +846,69 @@
         ]]></tooltip2>
         </wild_mana>
         <gather_herbs>
-            <label>Gather Herbs</label>
-            <label_done>Funny Plants Uprooted</label_done>
-            <info_text1>Plants with use left</info_text1>
-            <info_text2>Plants with use total</info_text2>
-            <info_text3>Plants to check for use</info_text3>
+            <label>收穫藥草</label>
+            <label_done>有趣的植物已採集</label_done>
+            <info_text1>有用的植物剩餘</info_text1>
+            <info_text2>有用的植物總數</info_text2>
+            <info_text3>未檢查用途的植物</info_text3>
             <tooltip><![CDATA[
             Might as well dig up anything useful you find.<br>Every 10 funny plants are herbs.<br>Unlocked at 10% Forest Explored.
         ]]></tooltip>
         </gather_herbs>
         <hunt>
-            <label>Hunt</label>
-            <label_done>Animals Skinned</label_done>
-            <info_text1>Animals with hides left</info_text1>
-            <info_text2>Animals with hides total</info_text2>
-            <info_text3>Animals to check for hides</info_text3>
+            <label>狩獵</label>
+            <label_done>已剝下獸皮的動物</label_done>
+            <info_text1>可獲取獸皮的動物剩餘</info_text1>
+            <info_text2>可獲取獸皮的動物總數</info_text2>
+            <info_text3>未嘗試獲取獸皮的動物總數</info_text3>
             <tooltip><![CDATA[
             The forest provides.<br>Every 10 animals have good hides.<br>Unlocked at 40% Forest Explored.
         ]]></tooltip>
         </hunt>
         <gamble>
-            <label>Gamble</label>
-            <label_done>Suckers Swindled</label_done>
-            <info_text1>Suckers left</info_text1>
-            <info_text2>Suckers total</info_text2>
-            <info_text3>People to check if they're suckers</info_text3>
+            <label>賭博</label>
+            <label_done>被騙的笨蛋</label_done>
+            <info_text1>笨蛋剩餘</info_text1>
+            <info_text2>笨蛋總數</info_text2>
+            <info_text3>未試探是否笨蛋的人</info_text3>
             <tooltip><![CDATA[
             The cards still somehow come out different every time.<br>Has 2x exp/talent gain<br>Costs 20 gold and 1 reputation.<br>Requires reputation of at least -5.<br>You win against every 10 suckers, and get 60 gold for winning.
         ]]></tooltip>
         </gamble>
         <heal_sick>
-            <label>Heal The Sick</label>
-            <label_done>Healed</label_done>
-            <label_part>Patient</label_part>
+            <label>為有需要的人治病</label>
+            <label_done>已治好</label_done>
+            <label_part>病人</label_part>
             <tooltip><![CDATA[
             You won't be able to heal them all, but they'll be thankful for doing what you can.<br>Healing is always 3 parts, each with a main stat - Diagnose (Per), Treat (Int), Inform (Cha).<br>Gives (magic skill) * (1 + main stat / 100) * sqrt(1 + times completed / 100) * (original mana cost / actual mana cost) progress points per mana.<br>Requires 12 Magic skill and 1 reputation.<br>Gives 3 reputation upon patient completion.<br>Gives 10 Magic exp upon action completion.
         ]]></tooltip>
             <segment_names>
-                <name>Diagnose</name>
-                <name>Treat</name>
-                <name>Inform</name>
+                <name>診斷</name>
+                <name>醫治</name>
+                <name>告知患者</name>
             </segment_names>
         </heal_sick>
         <fight_monsters>
-            <label>Fight Monsters</label>
-            <label_done>Killed</label_done>
+            <label>打怪</label>
+            <label_done>已擊殺</label_done>
             <tooltip><![CDATA[
             Slowly, you're figuring out their patterns.<br>Fighting rotates between 3 types of battles, each with a main stat - Quick (Spd), Defensive (Str), Aggressive (Con).<br>Gives (self combat) * (1 + main stat / 100) * sqrt(1 + times completed / 100) * (original mana cost / actual mana cost) progress points per mana.<br>Requires 10 Combat skill and 2 reputation.<br>Gives 20 gold per fight segment completion.<br>Gives 10 Combat exp upon action completion.
         ]]></tooltip>
             <segment_names>
-                <name>Deer</name>
-                <name>Giant Turtles</name>
-                <name>Goblins</name>
-                <name>Demon Rabbits</name>
-                <name>Giant Honeybadgers</name>
-                <name>Venomous Snakes</name>
-                <name>Angry Monkeys</name>
-                <name>Trolls</name>
-                <name>Ogres</name>
-                <name>Pixies</name>
-                <name>Treants</name>
-                <name>Gelatanous Cubes</name>
-                <name>Fairies</name>
-                <name>Orcs</name>
+                <name>鹿</name>
+                <name>巨龜</name>
+                <name>哥布林</name>
+                <name>惡魔兔</name>
+                <name>巨型蜜蜂</name>
+                <name>毒蛇</name>
+                <name>憤怒的猴子</name>
+                <name>巨魔</name>
+                <name>食人魔</name>
+                <name>小妖精</name>
+                <name>樹人</name>
+                <name>史萊姆</name>
+                <name>仙女</name>
+                <name>獸人</name>
                 <name>Beholders</name>
                 <name>Spectres</name>
                 <name>Mimics</name>
@@ -935,42 +935,42 @@
                 <name>Deer but they're jerks and absurdly larger than before</name>
             </segment_names>
             <segment_alt_names>
-                <name>Speedy Monsters</name>
-                <name>Tough Monsters</name>
-                <name>Scary Monsters</name>
+                <name>速度見長的怪物</name>
+                <name>強壯的怪物</name>
+                <name>可怕的怪物</name>
             </segment_alt_names>
-            <segment_modifier_1>A couple</segment_modifier_1>
-            <segment_modifier_2>A few</segment_modifier_2>
-            <segment_modifier_3>A bunch of</segment_modifier_3>
+            <segment_modifier_1>幾隻</segment_modifier_1>
+            <segment_modifier_2>一些</segment_modifier_2>
+            <segment_modifier_3>一堆</segment_modifier_3>
         </fight_monsters>
         <small_dungeon>
-            <label>Small Dungeon</label>
-            <label_done>Looted</label_done>
-            <label_complete>Completed</label_complete>
-            <label_part>Small Dungeon</label_part>
+            <label>小型地下城</label>
+            <label_done>戰利品獲得</label_done>
+            <label_complete>已完成</label_complete>
+            <label_part>小型地下城</label_part>
             <tooltip><![CDATA[
             There are small changes each time; it's harder to get used to. The soulstones at the end last through loops, but they're not always in the dungeon... Strange.<br>The dungeon requires different skills at different points.<br>One action can clear multiple floors if your stats are high enough.<br>Gives (magic + self combat) * (1 + main stat / 100) * sqrt(1 + times floor completed / 200) * (original mana cost / actual mana cost) progress points per mana.<br>Requires a combined skill of 35, and 2 reputation.<br>Gives 1 soulstone per completion - hover over Completed for info.<br>Gives 5 Combat and Magic exp upon action completion.
         ]]></tooltip>
             <completed_tooltip><![CDATA[
             Each soulstone improves a random stat's exp gain by (1+(soulstones)^.8/30).<br>Each floor has a soulstone that, when received, reduces the chance you'll get the next one by 2%.<br>Chance to receive a soulstone recovers per floor at .00001% per mana.<br>
         ]]></completed_tooltip>
-            <chance_label>Chance</chance_label>
-            <last_stat_label>Last Stat</last_stat_label>
+            <chance_label>機率</chance_label>
+            <last_stat_label>上次獲得能力</last_stat_label>
             <segment_names>
-                <name>Spike Traps</name>
-                <name>Long Hallways</name>
-                <name>Arrow Traps</name>
-                <name>Riddle Guardian</name>
-                <name>Swinging Axes</name>
-                <name>Boss</name>
-                <name>Loot</name>
+                <name>尖刺陷阱</name>
+                <name>很長的走廊</name>
+                <name>弓箭陷阱</name>
+                <name>謎語守衛</name>
+                <name>擺盪的斧頭</name>
+                <name>怪物頭目</name>
+                <name>收集戰利品</name>
             </segment_names>
         </small_dungeon>
         <large_dungeon>
-            <label>Large Dungeon</label>
-            <label_done>Looted</label_done>
-            <label_complete>Completed</label_complete>
-            <label_part>Large Dungeon</label_part>
+            <label>大型地下城</label>
+            <label_done>戰利品獲得</label_done>
+            <label_complete>已完成</label_complete>
+            <label_part>大型地下城</label_part>
             <tooltip><![CDATA[
             With your party, you set out to accomplish great feats of dungeoneering that you couldn't have done while alone.<br>Gives (magic + team combat) * (1 + main stat / 100) * sqrt(1 + times floor completed / 200) * (original mana cost / actual mana cost) progress points per mana.<br>Requires at least one other party member.<br>Gives 10 soulstones per completion - hover over Completed for info.<br>Gives 15 Combat and Magic exp upon action completion.
         ]]></tooltip>
@@ -980,37 +980,37 @@
             <chance_label>Chance</chance_label>
             <last_stat_label>Last Stat</last_stat_label>
             <segment_names>
-                <name>Rally Party</name>
-                <name>Journey to the Entrance</name>
-                <name>Fight Door Guardians</name>
-                <name>Argue over Loot</name>
-                <name>Dodge Traps</name>
-                <name>Dodge Friendly Fire</name>
-                <name>Fight Boss</name>
+                <name>組隊集合</name>
+                <name>啟程並前進到入口</name>
+                <name>擊敗門口的守衛</name>
+                <name>為戰利品分配爭論一番</name>
+                <name>避開弓箭</name>
+                <name>避開友軍攻擊</name>
+                <name>打倒怪物頭目</name>
             </segment_names>
         </large_dungeon>
         <adventure_guild>
-            <label>Adventure Guild</label>
-            <label_done>Impressed</label_done>
+            <label>冒險者公會</label>
+            <label_done>已打動</label_done>
             <tooltip><![CDATA[
             The one stop shop for all your adventuring needs.<br>Take their tests and get a rank!<br>You can only join 1 guild at a time, and only try once.<br>Gives 200 mana per rank.<br>Gives ((magic skill)/2 + (self combat)) * (1 + main stat / 100) * sqrt(1 + times completed / 1000) * (original mana cost / actual mana cost) progress points per mana.<br>Unlocks at 20% rumors heard.
         ]]></tooltip>
         </adventure_guild>
         <craft_guild>
-            <label>Crafting Guild</label>
-            <label_done>Cried From Beauty</label_done>
+            <label>匠人公會</label>
+            <label_done>已感動</label_done>
             <tooltip><![CDATA[
             Learn to use your hands to build big structures.<br>Take their tests and get a rank!<br>You can only join 1 guild at a time, and only try once.<br>Gives 50 Crafting exp and 10 gold per rank.<br>Gives ((magic skill)/2 + (crafting skill)) * (1 + main stat / 100) * sqrt(1 + times completed / 1000) * (original mana cost / actual mana cost) progress points per mana.<br>Unlocks at 30% rumors heard
         ]]></tooltip>
         </craft_guild>
         <buy_pickaxe>
-            <label>Buy Pickaxe</label>
+            <label>買挖掘鎬</label>
             <tooltip><![CDATA[
             Getting the pickaxe vendor to talk to you is a tricky task, but at least he'll offer it to you for 200 gold after some convincing.<br>Affects any action with the pickaxe icon.<br>Can only have 1 Buy Pickaxe action.<br>Unlocked at 90% City Explored.
         ]]></tooltip>
         </buy_pickaxe>
         <start_trek>
-            <label>Start Trek</label>
+            <label>登山</label>
             <tooltip><![CDATA[
             Begin your trek to the top of Mt. Olympus.<br>Unlocked at 60% City Explored.
         ]]></tooltip>
