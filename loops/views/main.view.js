@@ -736,7 +736,7 @@ function View() {
 
     this.createActionProgress = function(action) {
         const totalDivText =
-        "<div class='townStatContainer showthat' id='infoContainer"+action.varName+"'>"+
+        "<div class='townStatContainer showthat' style='line-height: 16px;' id='infoContainer"+action.varName+"'>"+
             "<div class='bold townLabel'>"+action.labelDone+" </div> <div id='prc"+action.varName+"'>5</div>%"+
             "<div class='thinProgressBarUpper'><div id='expBar"+action.varName+"' class='statBar townExpBar'></div></div>"+
             "<div class='thinProgressBarLower'><div id='bar"+action.varName+"' class='statBar townBar'></div></div>"+
@@ -869,7 +869,7 @@ function View() {
         }
         let completedTooltip = action.completedTooltip ? action.completedTooltip : "";
         const totalDivText =
-            "<div class='townStatContainer' style='text-align:center' id='infoContainer"+action.varName+"'>"+
+            "<div class='townStatContainer' style='text-align:center; line-height: 16px;' id='infoContainer"+action.varName+"'>"+
                 "<div class='bold townLabel' style='float:left' id='multiPartName"+action.varName+"'></div>"+
                 "<div class='completedInfo showthat' onmouseover='view.updateSoulstoneChance()'>" +
                     "<div class='bold'>"+action.labelDone+"</div> <div id='completed"+action.varName+"'></div>" +
