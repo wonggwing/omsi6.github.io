@@ -329,7 +329,7 @@
             <short_form>魅</short_form>
         </cha>
         <int>
-            <blurb>學會怎樣去學習。</blurb>
+            <blurb>學習怎樣去學習。</blurb>
             <long_form>智慧</long_form>
             <short_form>智</short_form>
         </int>
@@ -339,7 +339,7 @@
             <short_form>運</short_form>
         </luck>
         <soul>
-            <blurb>你就是隊長。</blurb>
+            <blurb>為你的生命領航。</blurb>
             <long_form>靈魂</long_form>
             <short_form>魂</short_form>
         </soul>
@@ -394,7 +394,7 @@
         </magic>
         <practical_magic>
             <label>實用魔法</label>
-            <desc>魔法之手，魔法技倆，感應魔法，及各種有用的小技巧。</desc>
+            <desc>理術之手，魔法技倆，探知魔法，及各種有用的小技巧。</desc>
             <desc2><![CDATA[每級可減少打碎陶罐和野外魔力的魔力消耗 (向上捨入)。<br>
       等級1-200，開鎖可每級額外獲得 1% 黃金 (向下捨入)。<br>
       等級101-300，短任務可每級額外獲得 1% 黃金 (向下捨入)。<br>
@@ -570,14 +570,14 @@
             <label>探索城市</label>
             <label_done>城市已探索</label_done>
             <tooltip><![CDATA[
-            所有人都很忙，這裡有很多很多事可以做。<br>戴上眼鏡可獲得 2x 效率。
+            每個人都很忙，這裡有很多很多事可以做。<br>戴上眼鏡可獲得 2x 效率。
         ]]></tooltip>
         </explore_city>
         <get_drunk>
             <label>乾杯!</label>
             <label_done>聽到流言</label_done>
             <tooltip><![CDATA[
-            Sometimes you just need a drink.<br>Requires reputation of at least -3.<br>Has 3x exp/talent gain<br>Costs 1 reputation.<br>Unlocked at 20% City Explored.
+            有時候你只是想喝杯酒。<br>需要最少 -3 點聲望。<br>這行動可獲得 3x 天賦經驗<br>扣除 1 點聲望。<br>城市探索進度 20% 時解鎖。
         ]]></tooltip>
         </get_drunk>
         <apprentice>
