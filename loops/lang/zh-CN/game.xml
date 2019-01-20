@@ -494,7 +494,7 @@
             <amount>数量</amount>
             <current_list_active>保持使用当前列表</current_list_active>
             <repeat_last_action>重复列表内最後一个行动</repeat_last_action>
-            <add_action_top>新行动置顶</add_action_top>
+            <add_action_top>新增行动时置顶</add_action_top>
             <save_loadout>储存组合</save_loadout>
             <load_loadout>载入选择的组合</load_loadout>
             <clear_list>清空列表</clear_list>
