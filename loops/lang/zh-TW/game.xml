@@ -221,7 +221,7 @@
         <resource initially_hidden="true">
             <title>血:</title>
             <id>blood</id>
-            <desc>Regailed for it's regenerative properties.</desc>
+            <desc>擁有再生能力的液體。</desc>
         </resource>
         <resource initially_hidden="true">
             <title>古物:</title>
@@ -408,12 +408,12 @@
         <dark_magic>
             <label>黑魔法</label>
             <desc>用各種黑暗技藝幫助你獲得魔力。</desc>
-            <desc2><![CDATA[打碎陶罐和野外魔力會獲得額外 (等級 / 60) ^ 0.25 的倍數加成 (向下捨入)。<br> 目前獲得 <div id='skillBonusDark'></div>x 額外倍率。]]></desc2>
+            <desc2><![CDATA[打碎陶罐和野外魔力會獲得額外 (黑魔法等級 / 60) ^ 0.25 的倍數加成 (向下捨入)。<br> 目前獲得 <div id='skillBonusDark'></div>x 額外倍率。]]></desc2>
         </dark_magic>
         <chronomancy>
             <label>時光魔法</label>
             <desc>利用時光魔法幫助你, 嗯, 加速時間。</desc>
-            <desc2><![CDATA[在所有區域的行動速度變快 (等級 / 60) ^ 0.25 倍。<br> 目前獲得 <div id='skillBonusChronomancy'></div>x 倍速度.]]></desc2>
+            <desc2><![CDATA[在所有區域的行動速度變快 (時光魔法等級 / 60) ^ 0.25 倍。<br> 目前獲得 <div id='skillBonusChronomancy'></div>x 倍速度.]]></desc2>
         </chronomancy>
         <pyromancy>
             <label>控火魔法</label>
@@ -472,7 +472,7 @@
         </town4>
         <town5>
             <name>老手村</name>
-            <desc>一個很熟識的地方，但現在佈滿暗影和宿醉的日子那種不祥的感覺。在村的正中心有一條發出陰沉紫色的光柱，從一座被黑雲包圍的尖塔散發出來。還有 10 條較弱的紫光散落在村內的不同地點，所有暗影好像都是從這裡來的。可能你會想去調查一下。</desc>
+            <desc>一個你很熟悉的地方，但現在佈滿暗影和在宿醉時那種噁心不祥的感覺。在村的正中心有一條發出陰沉紫色的光柱，從一座被黑雲包圍的尖塔散發出來。還有 10 條較弱的紫光散落在村內的不同地點，所有暗影好像都是從這裡來的。可能你會想去調查一下。</desc>
         </town5>
     </towns>
     <actions>
@@ -583,21 +583,21 @@
             <label>學徒</label>
             <label_done>學徒期</label_done>
             <tooltip><![CDATA[
-            你覺得知道更多有關建築的知識會有幫忙的。你用你得到的匠人公會牌照鑽研書籍。<br>隨公會排名提升會獲得越高的額外速度。<br>進度 0-100%，獲得 10-20 經驗<br>需要先加入匠人公會。<br>傳聞收集度 40% 時解鎖。
+            你覺得知道更多有關建築的知識會有幫助的。你的匠人公會牌照給予你閱覽建築相關典藏的權限。<br>隨公會排名提升會獲得越高的額外速度。<br>進度 0-100%，獲得 10-20 製作經驗<br>需要先加入匠人公會。<br>傳聞收集度 40% 時解鎖。
         ]]></tooltip>
         </apprentice>
         <mason>
             <label>石匠</label>
             <label_done>已興建的建築物</label_done>
             <tooltip><![CDATA[
-            你已經完成學徒期並獲得理論知識 - 是時候動手做了。<br>隨公會排名提升會獲得越高的額外速度。<br>進度 0-100%，獲得 20-40 經驗<br>需要先加入匠人公會。<br>傳聞收集度 60% 及學徒期滿 100% 時解鎖。
+            你已經完成學徒期並獲得理論知識 - 是時候動手做了。<br>隨公會排名提升會獲得越高的額外速度。<br>進度 0-100%，獲得 20-40 製作經驗<br>需要先加入匠人公會。<br>傳聞收集度 60% 及學徒期滿 100% 時解鎖。
         ]]></tooltip>
         </mason>
         <architect>
             <label>建築師</label>
             <label_done>已參與的建築計劃</label_done>
             <tooltip><![CDATA[
-            現在你知道建築是怎麼一回事了，你只是需要更好的設計。<br>隨公會排名提升會獲得越高的額外速度。<br>進度 0-100%，獲得 40-80 經驗<br>需要先加入匠人公會。<br>傳聞收集度 80% 及建築物興建數量滿 100% 時解鎖。
+            現在你知道建築是怎麼一回事了，你只是需要更好的設計。<br>隨公會排名提升會獲得越高的額外速度。<br>進度 0-100%，獲得 40-80 製作經驗<br>需要先加入匠人公會。<br>傳聞收集度 80% 及建築物興建數量滿 100% 時解鎖。
         ]]></tooltip>
         </architect>
         <buy_glasses>
@@ -947,7 +947,7 @@
             <label_complete>已完成</label_complete>
             <label_part>小型地下城</label_part>
             <tooltip><![CDATA[
-            每次都有一些微小的變化; 追個就比較難適應了。靈魂石即使在迴圈重啟後依然會保留下來，但它們不一定在地下城出現... 奇怪。<br>地下城每段需要運用不同的能力。<br>如果你的能力足夠高，一次行動可以打通多層地下城。<br>每 1 點魔力給予 (魔法技巧 + 個人戰鬥) * (1 + 主要能力 / 100) * sqrt(1 + 已完成總層數 / 200) * (原始魔力消耗 / 實際魔力消耗) 進度。<br>需要戰鬥和魔法技能總和至少達到 35 級和 2 點聲望。<br>每完成一層，獲得 1 顆靈魂石 - 鼠標懸停在 已完成 可以看到更多資訊。<br>每完成一次行動，給予 5 點戰鬥技巧經驗和魔法技巧經驗。
+            地下城每次都有一些微小的變化; 追個就比較難適應了。靈魂石即使在迴圈重啟後依然會保留下來，但它們不一定在地下城出現... 奇怪。<br>地下城每段需要運用不同的能力。<br>如果你的能力足夠高，一次行動可以打通多層地下城。<br>每 1 點魔力給予 (魔法技巧 + 個人戰鬥) * (1 + 主要能力 / 100) * sqrt(1 + 已完成總層數 / 200) * (原始魔力消耗 / 實際魔力消耗) 進度。<br>需要戰鬥和魔法技能總和至少達到 35 級和 2 點聲望。<br>每完成一層，獲得 1 顆靈魂石 - 鼠標懸停在 已完成 可以看到更多資訊。<br>每完成一次行動，給予 5 點戰鬥技巧經驗和魔法技巧經驗。
         ]]></tooltip>
             <completed_tooltip><![CDATA[
             每顆靈魂石可以提高任意能力的經驗獲得 (1+(靈魂石數量)^.8/30) 倍。<br>每層都會有 1 顆靈魂石，當成功取得時，會暫時減少下 1 顆靈魂石出現的機率 2%。<br>每 1 點魔力消耗會回復所有層數靈魂石的出現率 .00001%。<br>
@@ -991,20 +991,20 @@
             <label>冒險者公會</label>
             <label_done>已打動</label_done>
             <tooltip><![CDATA[
-            The one stop shop for all your adventuring needs.<br>Take their tests and get a rank!<br>You can only join 1 guild at a time, and only try once.<br>Gives 200 mana per rank.<br>Gives ((magic skill)/2 + (self combat)) * (1 + main stat / 100) * sqrt(1 + times completed / 1000) * (original mana cost / actual mana cost) progress points per mana.<br>Unlocks at 20% rumors heard.
+            為你的日常冒險需要提供一站式服務。<br>接受試煉然後獲得排名!<br>你只能同時加入一個公會，而且只能挑戰一次。<br>每級排名給予 200 點魔力。<br>每 1 點魔力給予 ((魔法技巧)/2 + (個人戰鬥)) * (1 + 主要能力 / 100) * sqrt(1 + 已打動次數 / 1000) * (原始魔力消耗 / 實際魔力消耗) 進度。<br>傳聞情報進度 20% 時解鎖。
         ]]></tooltip>
         </adventure_guild>
         <craft_guild>
             <label>匠人公會</label>
             <label_done>已感動</label_done>
             <tooltip><![CDATA[
-            Learn to use your hands to build big structures.<br>Take their tests and get a rank!<br>You can only join 1 guild at a time, and only try once.<br>Gives 50 Crafting exp and 10 gold per rank.<br>Gives ((magic skill)/2 + (crafting skill)) * (1 + main stat / 100) * sqrt(1 + times completed / 1000) * (original mana cost / actual mana cost) progress points per mana.<br>Unlocks at 30% rumors heard
+            學會動手做大型建設。<br>接受試煉然後獲得排名!<br>你只能同時加入一個公會，而且只能挑戰一次。<br>每級排名給予 50 製作經驗和 10 黃金。<br>每 1 點魔力給予 ((魔法技巧)/2 + (製作技巧)) * (1 + 主要能力 / 100) * sqrt(1 + 已感動次數 / 1000) * (原始魔力消耗 / 實際魔力消耗) 進度。<br>傳聞情報進度 30% 時解鎖。
         ]]></tooltip>
         </craft_guild>
         <buy_pickaxe>
             <label>買十字鎬</label>
             <tooltip><![CDATA[
-            你想方設法終於和賣十字鎬的商人聯繫上了，經過多番遊說總算能用 200 黃金的價格購買十字鎬。<br>影響任何附有 十字鎬 圖示的行動。<br>十字鎬每迴圈限買一次。<br>城市探索進度 90% 時解鎖。
+            你想方設法終於和賣十字鎬的商人聯繫上了，經過多番遊說總算能用 200 黃金購買十字鎬。<br>影響任何附有 十字鎬 圖示的行動。<br>十字鎬每迴圈限買一次。<br>城市探索進度 90% 時解鎖。
         ]]></tooltip>
         </buy_pickaxe>
         <start_trek>
