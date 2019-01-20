@@ -166,7 +166,7 @@
       點擊 探索 然後點擊 開始 執行你的行動列表。<br>
       探索一下，然後打碎陶罐。<br>
       看數字變化，讀完所有提示。<br>
-      探索完這個城鎮，向下一個城鎮前進。<br><br>
+      探索完這裡，向下一個地方前進。<br><br>
       你好，看來你是在 omsi6.github.io 進行你的遊戲的.<br>
       在你開始之前，你應該知道這是一個粉絲創作的修改版本<br>
       原版遊戲在<a href="http://stopsign.github.io/idleLoops/">這裡</a>。感謝你的遊玩，祝你玩得開心!<br><br>
@@ -529,7 +529,7 @@
         <wander>
             <label>探索</label>
             <label_done>已探索</label_done>
-            <tooltip>探索這個城鎮，尋找隱藏的地區和寶物。</tooltip>
+            <tooltip>探索這個市鎮，尋找隱藏的地區和寶物。</tooltip>
         </wander>
         <meet_people>
             <label>和村民聊天</label>
@@ -577,7 +577,7 @@
             <label>乾杯!</label>
             <label_done>聽到傳聞</label_done>
             <tooltip><![CDATA[
-            有時候你只是想喝杯酒。<br>需要最少 -3 點聲望。<br>這行動可獲得 3x 天賦經驗<br>扣除 1 點聲望。<br>城市探索進度 20% 時解鎖。
+            有時候你只是想喝杯酒。<br>需要最少 -3 點聲望。<br>這行動可獲得 3x 經驗及天賦成長<br>扣除 1 點聲望。<br>城市探索進度 20% 時解鎖。
         ]]></tooltip>
         </get_drunk>
         <apprentice>
@@ -616,7 +616,7 @@
         <train_str>
             <label>力量訓練</label>
             <tooltip><![CDATA[
-            鍛煉肌肉。鍛煉鍛煉又鍛煉。<br>這行動可獲得 4x 天賦經驗，每迴圈只能做 <div id='trainingLimitStr'></div> 次。<br>和村民聊天 5% 時解鎖。
+            鍛煉肌肉。鍛煉鍛煉又鍛煉。<br>這行動可獲得 4x 經驗及天賦成長，每迴圈只能做 <div id='trainingLimitStr'></div> 次。<br>和村民聊天 5% 時解鎖。
         ]]></tooltip>
         </train_str>
         <throw_party>
@@ -652,7 +652,7 @@
         <start_journey>
             <label>開始你的旅程</label>
             <tooltip><![CDATA[
-            沿著這條路你會到達下一個城鎮。你要繼續前進直至找到打斷這個無限迴圈的辦法。<br>消耗 1 份補給物資。完成一次以解鎖森林小徑的行動項目，再完成一次即可開始執行森林小徑的行動。<br>戰鬥和魔法技能總和至少達到 35 級時解鎖。
+            沿著這條路你會到達下一個城市。你要繼續前進直至找到打斷這個無限迴圈的辦法。<br>消耗 1 份補給物資。完成一次以解鎖森林小徑的行動項目，再完成一次即可開始執行森林小徑的行動。<br>戰鬥和魔法技能總和至少達到 35 級時解鎖。
         ]]></tooltip>
         </start_journey>
         <open_rift>
@@ -664,7 +664,7 @@
         <train_soul>
             <label>在瀑布旁邊坐下</label>
             <tooltip><![CDATA[
-            這是一個恬淡而自然的地方。嘈雜，但和平。<br>這行動可獲得 4x 天賦經驗，每迴圈只能做 <div id='trainingLimitSoul'></div> 次。<br>森林探索度 70% 時解鎖。
+            這是一個恬淡而自然的地方。嘈雜，但和平。<br>這行動可獲得 4x 經驗及天賦成長，每迴圈只能做 <div id='trainingLimitSoul'></div> 次。<br>森林探索度 70% 時解鎖。
         ]]></tooltip>
         </train_soul>
         <practical_magic>
@@ -682,19 +682,19 @@
         <brew_potions>
             <label>釀造藥水</label>
             <tooltip><![CDATA[
-            泡泡加燒瓶。藥水加魔法。<br>需要至少 5 點聲望，否則他不會讓你碰他的裝置。<br>消耗 10 份藥草製作一支可在下個城鎮出售的藥水。<br>獲得煉金術及魔法技巧的經驗。<br>煉金術達到 10 級時解鎖。
+            泡泡加燒瓶。藥水加魔法。<br>需要至少 5 點聲望，否則他不會讓你碰他的裝置。<br>消耗 10 份藥草製作一支可在下個城市出售的藥水。<br>獲得煉金術及魔法技巧的經驗。<br>煉金術達到 10 級時解鎖。
         ]]></tooltip>
         </brew_potions>
         <train_dex>
             <label>靈巧訓練</label>
             <tooltip><![CDATA[
-            這裡有一連串石頭讓你跳來跳去。超好玩的。<br>這行動可獲得 4x 天賦經驗，每迴圈只能做 <div id='trainingLimitDex'></div> 次。<br>森林探索度 60% 時解鎖。
+            這裡有一連串石頭讓你跳來跳去。超好玩的。<br>這行動可獲得 4x 經驗及天賦成長，每迴圈只能做 <div id='trainingLimitDex'></div> 次。<br>森林探索度 60% 時解鎖。
         ]]></tooltip>
         </train_dex>
         <train_spd>
             <label>速度訓練</label>
             <tooltip><![CDATA[
-            森林狂奔超棒。在挑戰極限的過程你學到很多東西。<br>這行動可獲得 4x 天賦經驗，每迴圈只能做 <div id='trainingLimitSpd'></div> 次。<br>森林探索度 80% 時解鎖。
+            森林狂奔超棒。在挑戰極限的過程你學到很多東西。<br>這行動可獲得 4x 經驗及天賦成長，每迴圈只能做 <div id='trainingLimitSpd'></div> 次。<br>森林探索度 80% 時解鎖。
         ]]></tooltip>
         </train_spd>
         <follow_flowers>
@@ -707,7 +707,7 @@
         <bird_watching>
             <label>觀鳥</label>
             <tooltip><![CDATA[
-            在花徑的盡頭，是一個由很多不同品種的鳥類組成的生境。你又可以多添一項興趣了。<br>需要眼鏡才看到。<br>這行動可獲得 4x 天賦經驗，每迴圈只能做 <div id='trainingLimitPer'></div> 次。<br>花徑探索度 80% 時解鎖。
+            在花徑的盡頭，是一個由很多不同品種的鳥類組成的生境。你又可以多添一項興趣了。<br>需要眼鏡才看到。<br>這行動可獲得 4x 經驗及天賦成長，每迴圈只能做 <div id='trainingLimitPer'></div> 次。<br>花徑探索度 80% 時解鎖。
         ]]></tooltip>
         </bird_watching>
         <clear_thicket>
@@ -745,7 +745,7 @@
         <continue_on>
             <label>繼續走</label>
             <tooltip><![CDATA[
-            再不斷前行會到達下一個城鎮，商人城。<br>每 1% 捷徑探索度減少魔力消耗 60 點。
+            再不斷前行會到達下一個城市，商人城。<br>每 1% 捷徑探索度減少魔力消耗 60 點。
         ]]></tooltip>
         </continue_on>
         <purchase_mana>
@@ -757,26 +757,26 @@
         <sell_potions>
             <label>賣藥水</label>
             <tooltip><![CDATA[
-            Potions are worth 1 gold per alchemy skill, but it takes a bit to find a seller.
+            藥水每瓶可換取和煉金術等級相等的黃金，但你要花時間尋找買家。
         ]]></tooltip>
         </sell_potions>
         <read_books>
             <label>看書</label>
             <tooltip><![CDATA[
-            There's a library! You always loved reading.<br>Discover new worlds and perspectives, get ideas from fiction characters, and empathize with the desire to be stronger.<br>Requires glasses.<br>Has 4x exp/talent gain, and can only be done <div id='trainingLimitInt'></div> times per reset.<br>Unlocks at 50% city explored.
+            這裡有個圖書館! 你一直很愛看書。<br>在書中發現新世界和各種體驗，從故事角色身上找到靈感，為他們的遭遇感到難過 - 感同身受的你想要變得更強。<br>需要眼鏡才看到。<br>這行動可獲得 4x 經驗及天賦成長，每迴圈只能做 <div id='trainingLimitInt'></div> 次。<br>城市探索進度 50% 時解鎖。
         ]]></tooltip>
         </read_books>
         <gather_team>
             <label>組隊</label>
             <tooltip><![CDATA[
-            You don't have to take them on by yourself.<br>Max 5 other team members.<br>Costs <div id='teamCost'></div>
-            gold, and the cost goes up by 200 gold per member.<br>Each member adds (Rank Mult) * (Combat Skill / 2) to your Team Combat.<br>Requires Adventure Guild.<br>Has 3x exp/talent gain.<br>Unlocks at 20% city explored.
+            你不用獨自面對它們。<br>最多可以和另外 5 人組成一支隊伍。<br>消耗 <div id='teamCost'></div> 
+            黃金，隊伍中每多一人，招募下一位隊員時需要消耗額外 200 黃金。<br>每位成員增加 (冒險者公會排名) * (戰鬥技巧 / 2) 到你的團隊戰鬥技能。<br>需要先加入冒險者公會。<br>這行動可獲得 3x 經驗及天賦成長<br>城市探索進度 20% 時解鎖。
         ]]></tooltip>
         </gather_team>
         <craft_armor>
             <label>製作盔甲</label>
             <tooltip><![CDATA[
-            Turn hide into armor through hard work.<br>Gives (20% * Crafting Rank Bonus) to Self Combat per armor.<br>Costs 2 hides.<br>Unlocks at 30% city explored.
+            努力把獸皮打造成盔甲。<br>每 1 點盔甲增加 (20% * 匠人公會排名) 到個人戰鬥技能。<br>消耗 2 張獸皮。<br>城市探索進度 30% 時解鎖。
         ]]></tooltip>
         </craft_armor>
         <smash_pots>
@@ -866,12 +866,12 @@
         </hunt>
         <gamble>
             <label>賭博</label>
-            <label_done>被騙的笨蛋</label_done>
-            <info_text1>笨蛋剩餘</info_text1>
-            <info_text2>笨蛋總數</info_text2>
-            <info_text3>未試探是否笨蛋的人</info_text3>
+            <label_done>上當的傻瓜</label_done>
+            <info_text1>容易上當的人剩餘</info_text1>
+            <info_text2>容易上當的人總數</info_text2>
+            <info_text3>未知的對手</info_text3>
             <tooltip><![CDATA[
-            The cards still somehow come out different every time.<br>Has 2x exp/talent gain<br>Costs 20 gold and 1 reputation.<br>Requires reputation of at least -5.<br>You win against every 10 suckers, and get 60 gold for winning.
+            你的手牌總算是每個迴圈都不一樣的。<br>這行動可獲得 2x 經驗及天賦成長。<br>消耗 20 黃金和 1 點聲望。<br>需要至少 -5 點聲望。<br>每 10 個賭徒就有 1 個是容易上當的，他們都很好騙。每次賭贏獲得 60 黃金。
         ]]></tooltip>
         </gamble>
         <heal_sick>
@@ -879,12 +879,12 @@
             <label_done>已治好</label_done>
             <label_part>病人</label_part>
             <tooltip><![CDATA[
-            You won't be able to heal them all, but they'll be thankful for doing what you can.<br>Healing is always 3 parts, each with a main stat - Diagnose (Per), Treat (Int), Inform (Cha).<br>Gives (magic skill) * (1 + main stat / 100) * sqrt(1 + times completed / 100) * (original mana cost / actual mana cost) progress points per mana.<br>Requires 12 Magic skill and 1 reputation.<br>Gives 3 reputation upon patient completion.<br>Gives 10 Magic exp upon action completion.
+            你沒可能把每一個人都治好，但他們會很感激你的。<br>治療由 3 個部分組成，每部分有一個對應的能力 - 診斷 (感)，醫治 (智)，教導 (魅)。<br>每 1 點魔力給予 (魔法技巧) * (1 + 主要能力 / 100) * sqrt(1 + 治療次數 / 100) * (原始魔力消耗 / 實際魔力消耗) 進度。<br>需要至少 12 級魔法技巧和 1 點聲望。<br>每治好一名患者，獲得 3 點聲望。<br>每完成一次行動，給予 10 點魔法技巧經驗。
         ]]></tooltip>
             <segment_names>
                 <name>診斷</name>
                 <name>醫治</name>
-                <name>告知患者</name>
+                <name>教導</name>
             </segment_names>
         </heal_sick>
         <fight_monsters>
@@ -1005,13 +1005,13 @@
         <buy_pickaxe>
             <label>買十字鎬</label>
             <tooltip><![CDATA[
-            Getting the pickaxe vendor to talk to you is a tricky task, but at least he'll offer it to you for 200 gold after some convincing.<br>Affects any action with the pickaxe icon.<br>Can only have 1 Buy Pickaxe action.<br>Unlocked at 90% City Explored.
+            你想方設法終於和賣十字鎬的商人聯繫上了，經過多番遊說總算能用 200 黃金的價格購買十字鎬。<br>影響任何附有 十字鎬 圖示的行動。<br>十字鎬每迴圈限買一次。<br>城市探索進度 90% 時解鎖。
         ]]></tooltip>
         </buy_pickaxe>
         <start_trek>
             <label>登山</label>
             <tooltip><![CDATA[
-            Begin your trek to the top of Mt. Olympus.<br>Unlocked at 60% City Explored.
+            開始向奧林匹斯山頂進發。<br>城市探索度 60% 時解鎖。
         ]]></tooltip>
         </start_trek>
         <!--zone 4 below-->
