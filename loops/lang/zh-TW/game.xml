@@ -449,31 +449,30 @@
     <towns>
         <town0>
             <name>新手村</name>
-            <desc>Rats in basements, aggressive solo boars, bouncing slimes, and strangers that love exposition are some
-                of the the common things you'll see around Beginnersville. Some people are missing helmets or shoes, and
-                the fanciest sword around is still made out of iron. You got lucky with decent towns to start looping at.
-                If only there weren't so many rules not letting you do dangerous things, it'd be perfect.
+            <desc>地下室的老鼠，具攻擊性的野豬，彈跳的史萊姆，還有喜歡暴露自己身體的陌生人是一些新手村很常見的東西。
+            有些人沒有頭盔或鞋子，附近能找到最好的劍也只能是鐵造的。你在這裡開始迴圈真是幸運。
+            如果這裡沒有這麼多規矩限制不能做一些危險的事，那就完美了。
             </desc>
         </town0>
         <town1>
             <name>森林小徑</name>
-            <desc>A forever green forest. You feel mana flowing around, but hiding in the dark, you sense an evil presence...</desc>
+            <desc>一大片常綠的森林。你能感受到魔力的流動，但在暗處，你感應一股邪惡的意念...</desc>
         </town1>
         <town2>
             <name>商人城</name>
-            <desc>Merchanton! A modest town bustling with activity. You can find many attractions here, such as the library, the adventuring guild, the crafting guild, and the bazaar. Oh, and did I mention there's loads of suckers to swindle?</desc>
+            <desc>商人城! 一個小小的城鎮但充滿活力。在這裡可以找到很多景點，例如圖書館，冒險者公會，匠人公會，還在市集。呀，我有提及這裡還有一大堆容易上當的傻瓜嗎?</desc>
         </town2>
         <town3>
             <name>奧林匹斯山</name>
-            <desc>You could have taken that path to the other town, but no! You just <i>had</i> to go to Mt. Olympus, didn't you. But anyways, while you're here, thanks to being neither a canine nor old, you can learn a few new tricks. And kill some innocent trolls while you're at it.</desc>
+            <desc>你明明可以沿路走到其他城市的，但不! 你 <i>一定</i> 要來奧林匹斯山, 是嘛。好吧，既然都抵達了，年輕的你總是能學到不少東西的。還可以順道屠殺一些無辜的巨魔。</desc>
         </town3>
         <town4>
             <name>英靈殿</name>
-            <desc>A sprawling and jolly city filled with all manner of nice things. Vikings, beer, angels, beer, blah blah blah, and beer! You can spend your time in the great hall, or in the outskirts of the city. Either way, you'll surely have a great time.</desc>
+            <desc>一個瀰漫著歡樂和各種好事物的城市。维京人，啤酒，天使，啤酒，諸如此類，還有啤酒! 你可以在大堂內或在郊區度過美好的時光。無論如何，你一定會玩得很開心。</desc>
         </town4>
         <town5>
             <name>老手村</name>
-            <desc>A once familiar place, now crawling with shadows and ominous feelings of wasted sick days. There stands a large pillar of gloomy purple light in the center of it all, eminating from a spire surrounded by black clouds. It's emitting 10 weak beams of purple light to various points around the town, and appears to be casting all the shadows. Maybe you should check those spots out.</desc>
+            <desc>一個很熟識的地方，但現在佈滿暗影和宿醉的日子那種不祥的感覺。在村的正中心有一條發出陰沉紫色的光柱，從一座被黑雲包圍的尖塔散發出來。還有 10 條較弱的紫光散落在村內的不同地點，所有暗影好像都是從這裡來的。可能你會想去調查一下。</desc>
         </town5>
     </towns>
     <actions>
@@ -563,7 +562,7 @@
             <label>和隱士對話</label>
             <label_done>隱士知識已學習</label_done>
             <tooltip><![CDATA[
-            這個老人對於有人肯聽他說話感到很高興，他看起來很有智慧。大概。最初他有點冷淡，直到你談及捷徑他就停不下來了。<br>每 1% 隱士知識減少 0.5% 收穫藥草，實用魔法和學習煉金術的魔力需求。<br>捷徑探索進度 20% 及魔法技巧達到 40 級時解鎖。
+            這個老人對於有人肯聽他說話感到很高興，他看起來很有智慧。大概。最初他有點冷淡，直到你談及捷徑他就停不下來了。<br>每 1% 隱士知識減少 0.5% 收穫藥草，實用魔法和學習煉金術的魔力需求。<br>捷徑探索度 20% 及魔法技巧 40 級時解鎖。
         ]]></tooltip>
         </hermit>
         <explore_city>
@@ -658,7 +657,7 @@
         <open_rift>
             <label>打開空間裂縫</label>
             <tooltip><![CDATA[
-            運用你豐富的黑魔法知識和技術，你可以打開通往影字國度的裂縫並直接抵達老手村。<br>黑魔法達到 500 級時解鎖。
+            運用你豐富的黑魔法知識和技術，你可以打開通往影字國度的裂縫並直接抵達老手村。<br>黑魔法 500 級時解鎖。
         ]]></tooltip>
         </open_rift>
         <train_soul>
@@ -670,19 +669,19 @@
         <practical_magic>
             <label>練習實用魔法</label>
             <tooltip><![CDATA[
-            這些魔法的基礎運用可以幫助你完成各種日常瑣事。真是天才的發明。要從隱士身上獲得這些知識，好像是要他命似的。<br>隱士知識學習度達到 20% 及魔法技巧達到 50 級時解鎖。
+            這些魔法的基礎運用可以幫助你完成各種日常瑣事。真是天才的發明。要從隱士身上獲得這些知識，好像是要他命似的。<br>隱士知識學習度 20% 及魔法技巧 50 級時解鎖。
         ]]></tooltip>
         </practical_magic>
         <learn_alchemy>
             <label>學習煉金術</label>
             <tooltip><![CDATA[
-            在製作治療和回復藥水的時候你能聽到他一直在碎碎念。<br>你開始覺得令你跌入這個迴圈的藥水只是使用了一種成份比較複雜的配方。<br>你提供材料; 消耗 10 份藥草。<br>獲得煉金術及魔法技巧的經驗。<br>隱士知識學習度達到 40% 及魔法技巧達到 60 級時解鎖。
+            在製作治療和回復藥水的時候你能聽到他一直在碎碎念。<br>你開始覺得令你跌入這個迴圈的藥水只是使用了一種成份比較複雜的配方。<br>你提供材料; 消耗 10 份藥草。<br>獲得煉金術及魔法技巧的經驗。<br>隱士知識學習度 40% 及魔法技巧 60 級時解鎖。
         ]]></tooltip>
         </learn_alchemy>
         <brew_potions>
             <label>釀造藥水</label>
             <tooltip><![CDATA[
-            泡泡加燒瓶。藥水加魔法。<br>需要至少 5 點聲望，否則他不會讓你碰他的裝置。<br>消耗 10 份藥草製作一支可在下個城市出售的藥水。<br>獲得煉金術及魔法技巧的經驗。<br>煉金術達到 10 級時解鎖。
+            泡泡加燒瓶。藥水加魔法。<br>需要至少 5 點聲望，否則他不會讓你碰他的裝置。<br>消耗 10 份藥草製作一支可在下個城市出售的藥水。<br>獲得煉金術及魔法技巧的經驗。<br>煉金術 10 級時解鎖。
         ]]></tooltip>
         </brew_potions>
         <train_dex>
@@ -721,20 +720,20 @@
             <label>和女巫對話</label>
             <label_done>女巫知識已學習</label_done>
             <tooltip><![CDATA[
-            和女巫對話可以學習到黑暗技藝的奧秘。<br>清除灌木叢達到 60% 及魔法技巧達到 80 級時解鎖。<br>每 1% 女巫知識額外降低黑魔法和黑暗祭禮的魔力消耗 0.5%。
+            和女巫對話可以學習到黑暗技藝的奧秘。<br>灌木叢探索度 60% 及魔法技巧 80 級時解鎖。<br>每 1% 女巫知識額外降低黑魔法和黑暗祭禮的魔力消耗 0.5%。
         ]]></tooltip>
         </witch>
         <dark_magic>
             <label>黑魔法</label>
             <tooltip><![CDATA[
-            Embrace the dark arts to more efficiently harvest mana. But at what cost?<br>Adds 1 negative reputation.<br>Requires a reputation of 0 or lower.<br>Unlocked with both 20% Witch Knowledge and 100 Magic.
+            投入黑暗技藝的懷抱來更有效率地採集魔力。但代價是甚麼? <br>增加 -1 點聲望。<br>需要聲望在 0 點或以下。<br>女巫知識學習度 20% 及魔法技巧 100 級時解鎖。
         ]]></tooltip>
         </dark_magic>
         <dark_ritual>
             <label>黑暗祭禮</label>
             <label_done>已完成</label_done>
             <tooltip><![CDATA[
-            Sacrifice an increasing amount of soulstones to the dark gods, granting a permanent speed 10% boost to all actions in Beginnersville.<br>Gives (dark magic skill) * (1 + main stat / 100) * (original mana cost / actual mana cost) progress points per mana.<br>Requires a reputation of -5 or lower.<br>Can only have 1 Dark Ritual action.<br>Unlocked with both 90% Thicket Explored and 50 Dark Magic.<br>Sacrifices (50 * (rituals completed+1)) soulstones.
+            獻祭越來越多的靈魂石給黑暗之神，令所有在新手村的行動獲得 10% 永久速度加成。<br>每 1 點魔力給予 (黑魔法等級) * (1 + 主要能力 / 100) * (原始魔力消耗 / 實際魔力消耗) 進度。<br>需要聲望在 -5 點或以下。<br>每迴圈只能進行一次黑暗祭禮。<br>城市探索進度 50% 時解鎖。灌木叢探索度 90% 及黑魔法 50 級時解鎖。<br>獻祭 (50 * (已完成黑暗祭禮數+1)) 顆靈魂石。<br>
         ]]></tooltip>
             <segment_names>
                 <name>清空附近的環境</name>
@@ -891,7 +890,7 @@
             <label>打怪</label>
             <label_done>已擊殺</label_done>
             <tooltip><![CDATA[
-            Slowly, you're figuring out their patterns.<br>Fighting rotates between 3 types of battles, each with a main stat - Quick (Spd), Defensive (Str), Aggressive (Con).<br>Gives (self combat) * (1 + main stat / 100) * sqrt(1 + times completed / 100) * (original mana cost / actual mana cost) progress points per mana.<br>Requires 10 Combat skill and 2 reputation.<br>Gives 20 gold per fight segment completion.<br>Gives 10 Combat exp upon action completion.
+            你慢慢讀懂他們的規律了。<br>戰鬥由 3 種類別循環組成，每部分有一種對應的能力 - 快速 (速)，退守 (力)，進取 (體)。<br>每 1 點魔力給予 (個人戰鬥) * (1 + 主要能力 / 100) * sqrt(1 + 擊殺總數 / 100) * (原始魔力消耗 / 實際魔力消耗) 進度。<br>需要至少 10 級戰鬥技巧和 2 點聲望。<br>每完成一段戰鬥，獲得 20 黃金。<br>每完成一次行動，給予 10 點戰鬥技巧經驗。
         ]]></tooltip>
             <segment_names>
                 <name>鹿</name>
@@ -948,10 +947,10 @@
             <label_complete>已完成</label_complete>
             <label_part>小型地下城</label_part>
             <tooltip><![CDATA[
-            There are small changes each time; it's harder to get used to. The soulstones at the end last through loops, but they're not always in the dungeon... Strange.<br>The dungeon requires different skills at different points.<br>One action can clear multiple floors if your stats are high enough.<br>Gives (magic + self combat) * (1 + main stat / 100) * sqrt(1 + times floor completed / 200) * (original mana cost / actual mana cost) progress points per mana.<br>Requires a combined skill of 35, and 2 reputation.<br>Gives 1 soulstone per completion - hover over Completed for info.<br>Gives 5 Combat and Magic exp upon action completion.
+            每次都有一些微小的變化; 追個就比較難適應了。靈魂石即使在迴圈重啟後依然會保留下來，但它們不一定在地下城出現... 奇怪。<br>地下城每段需要運用不同的能力。<br>如果你的能力足夠高，一次行動可以打通多層地下城。<br>每 1 點魔力給予 (魔法技巧 + 個人戰鬥) * (1 + 主要能力 / 100) * sqrt(1 + 已完成總層數 / 200) * (原始魔力消耗 / 實際魔力消耗) 進度。<br>需要戰鬥和魔法技能總和至少達到 35 級和 2 點聲望。<br>每完成一層，獲得 1 顆靈魂石 - 鼠標懸停在 已完成 可以看到更多資訊。<br>每完成一次行動，給予 5 點戰鬥技巧經驗和魔法技巧經驗。
         ]]></tooltip>
             <completed_tooltip><![CDATA[
-            Each soulstone improves a random stat's exp gain by (1+(soulstones)^.8/30).<br>Each floor has a soulstone that, when received, reduces the chance you'll get the next one by 2%.<br>Chance to receive a soulstone recovers per floor at .00001% per mana.<br>
+            每顆靈魂石可以提高任意能力的經驗獲得 (1+(靈魂石數量)^.8/30) 倍。<br>每層都會有 1 顆靈魂石，當成功取得時，會暫時減少下 1 顆靈魂石出現的機率 2%。<br>每 1 點魔力消耗會回復所有層數靈魂石的出現率 .00001%。<br>
         ]]></completed_tooltip>
             <chance_label>機率</chance_label>
             <last_stat_label>上次獲得能力</last_stat_label>
@@ -971,10 +970,10 @@
             <label_complete>已完成</label_complete>
             <label_part>大型地下城</label_part>
             <tooltip><![CDATA[
-            With your party, you set out to accomplish great feats of dungeoneering that you couldn't have done while alone.<br>Gives (magic + team combat) * (1 + main stat / 100) * sqrt(1 + times floor completed / 200) * (original mana cost / actual mana cost) progress points per mana.<br>Requires at least one other party member.<br>Gives 10 soulstones per completion - hover over Completed for info.<br>Gives 15 Combat and Magic exp upon action completion.
+            和你的隊員一起，你終於有機會向一個人應付不來的大規模地下城挑戰了。<br>每 1 點魔力給予 (魔法技巧 + 團隊戰鬥) * (1 + 主要能力 / 100) * sqrt(1 + 已完成總層數 / 200) * (原始魔力消耗 / 實際魔力消耗) 進度。<br>需要最少 1 名隊友。<br>每完成一層，獲得 10 顆靈魂石 - 鼠標懸停在 已完成 可以看到更多資訊。<br>每完成一次行動，給予 15 點戰鬥技巧經驗和魔法技巧經驗。
         ]]></tooltip>
             <completed_tooltip><![CDATA[
-            Each soulstone improves a random stat's exp gain by (1+(soulstones)^.8/30).<br>Each floor has 10 soulstones that, when received, reduces the chance you'll get the next one by 2%.<br>Chance to receive a soulstone recovers per floor at .00001% per mana.<br>
+            每顆靈魂石可以提高任意能力的經驗獲得 (1+(靈魂石數量)^.8/30) 倍。<br>每層都會有 10 顆靈魂石，當成功取得時，會暫時減少下 10 顆靈魂石出現的機率 2%。<br>每 1 點魔力消耗會回復所有層數靈魂石的出現率 .00001%。<br>
         ]]></completed_tooltip>
             <chance_label>機率</chance_label>
             <last_stat_label>上次獲得能力</last_stat_label>
