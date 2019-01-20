@@ -304,7 +304,7 @@
             <short_form>靈</short_form>
         </dex>
         <str>
-            <blurb>鍛練你的身體。</blurb>
+            <blurb>鍛鍊你的身體。</blurb>
             <long_form>力量</long_form>
             <short_form>力</short_form>
         </str>
@@ -437,8 +437,8 @@
         </dark_ritual>
         <imbue_mind>
             <label>激發心靈</label>
-            <desc><![CDATA[運用靈魂石的力量，可以增加訓練上限。<br>
-            每級增加 1 次每個迴圈能做的訓練次數。]]>
+            <desc><![CDATA[運用靈魂石的力量，可以增加鍛鍊上限。<br>
+            每級增加 1 次每個迴圈能做的鍛鍊次數。]]>
             </desc>
         </imbue_mind>
         <tooltip>
@@ -613,7 +613,7 @@
         ]]></tooltip>
         </buy_mana>
         <train_str>
-            <label>力量訓練</label>
+            <label>力量鍛鍊</label>
             <tooltip><![CDATA[
             鍛煉肌肉。鍛煉鍛煉又鍛煉。<br>這個行動可獲得 4x 經驗及天賦成長，每迴圈只能做 <div id='trainingLimitStr'></div> 次。<br>和村民聊天 5% 時解鎖。
         ]]></tooltip>
@@ -685,13 +685,13 @@
         ]]></tooltip>
         </brew_potions>
         <train_dex>
-            <label>靈巧訓練</label>
+            <label>靈巧鍛鍊</label>
             <tooltip><![CDATA[
             這裡有一連串石頭讓你跳來跳去。超好玩的。<br>這個行動可獲得 4x 經驗及天賦成長，每迴圈只能做 <div id='trainingLimitDex'></div> 次。<br>森林探索度 60% 時解鎖。
         ]]></tooltip>
         </train_dex>
         <train_spd>
-            <label>速度訓練</label>
+            <label>速度鍛鍊</label>
             <tooltip><![CDATA[
             森林狂奔超棒。在挑戰極限的過程你學到很多東西。<br>這個行動可獲得 4x 經驗及天賦成長，每迴圈只能做 <div id='trainingLimitSpd'></div> 次。<br>森林探索度 80% 時解鎖。
         ]]></tooltip>
