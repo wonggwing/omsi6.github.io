@@ -304,7 +304,7 @@
             <short_form>靈</short_form>
         </dex>
         <str>
-            <blurb>訓練你的身體。</blurb>
+            <blurb>鍛練你的身體。</blurb>
             <long_form>力量</long_form>
             <short_form>力</short_form>
         </str>
@@ -358,12 +358,12 @@
           獲得經驗的 1% 會轉化為天賦成長，天賦在迴圈重啟後依然保留。<br>
           天賦會為能力提供 (1+(天賦等級)^0.4/3 的經驗獲得倍率。<br>
           每項能力每 tick 的獲得經驗等於該行動的 (原始魔力消耗 / 實際魔力消耗) * (天賦加成)。<br>
-          總倍率 等於 天賦倍率乘以靈魂石倍率。<br><br>
-          例: 和村民聊天 原本需要消耗 800 魔力而且行動能力分佈為 <div class="bold">智</div> 10% <div class="bold">Cha</div> 80% <div class="bold">魂</div> 10%.<br>
+          總倍率 = 天賦倍率 * 靈魂石倍率<br><br>
+          例: 和村民聊天 原本需要消耗 800 魔力而且能力分佈為 <div class="bold">智</div> 10% <div class="bold">魅</div> 80% <div class="bold">魂</div> 10%.<br>
           這表示 80 魔力受 <div class="bold">智</div> 影響，另外 80 魔力受 <div class="bold">魂</div> 影響，剩餘 640 魔力受 <div class="bold">魅</div> 影響。<br>
           如果你在執行行動時 <div class="bold">魅</div> 是 20 級，加成等於 x1.2 所以實際魔力消耗是 640 / 1.2 = 533.33<br>
           再加上來自 <div class="bold">魂</div> 和 <div class="bold">智</div> 的 160 魔力，此行動需要消耗魔力共 694 點 (向上捨入)，所以實際只需要消耗原始魔力的 ~87%。<br>
-          這個行動會消耗 694 魔力, 而且每 1 點魔力給予 (800/694)*(1+(天賦)^0.4/3) 經驗。]]></explanation>
+          這次行動會消耗 694 魔力, 而且每 1 點魔力給予 (800/694)*(1+(天賦)^0.4/3) 經驗。]]></explanation>
             <graph_legend><![CDATA[
           點擊圖例可以顯示/隱藏該項。<br>
           剛開始的時候，等級和天賦是沒有多大變化的。<br>
@@ -403,7 +403,7 @@
         <alchemy>
             <label>煉金術</label>
             <desc>釀造藥水是很困難的! 能找到人指導真好。</desc>
-            <desc2>魔法導師敬仰煉金術士。每級 +1% 法師課程的魔法技巧經驗取得 (向下捨入)。</desc2>
+            <desc2>魔法導師十分敬仰煉金術士。每級 +1% 法師課程的魔法技巧經驗取得 (向下捨入)。</desc2>
         </alchemy>
         <dark_magic>
             <label>黑魔法</label>
@@ -412,7 +412,7 @@
         </dark_magic>
         <chronomancy>
             <label>時光魔法</label>
-            <desc>利用時光魔法幫助你, 嗯, 加速時間。</desc>
+            <desc>利用時光魔法幫助你，嗯，加速時間。</desc>
             <desc2><![CDATA[在所有區域的行動速度變快 (時光魔法 / 60) ^ 0.25 倍。<br> 目前獲得 <div id='skillBonusChronomancy'></div>x 倍速度.]]></desc2>
         </chronomancy>
         <pyromancy>
@@ -562,7 +562,7 @@
             <label>和隱士對話</label>
             <label_done>隱士知識已學習</label_done>
             <tooltip><![CDATA[
-            這個老人對於有人肯聽他說話感到很高興，他看起來很有智慧。大概。最初他有點冷淡，直到你談及捷徑他就停不下來了。<br>每 1% 隱士知識減少 0.5% 收穫藥草，實用魔法和學習煉金術的魔力需求。<br>捷徑探索度 20% 及魔法技巧 40 級時解鎖。
+            這個老人對於有人願意聽他說話感到很高興，他看起來很有智慧。大概。最初他有點冷淡，直到你談及捷徑他就停不下來了。<br>每 1% 隱士知識減少 0.5% 收穫藥草，實用魔法和學習煉金術的魔力需求。<br>捷徑探索度 20% 及魔法技巧 40 級時解鎖。
         ]]></tooltip>
         </hermit>
         <explore_city>
@@ -576,7 +576,7 @@
             <label>乾杯!</label>
             <label_done>聽到傳聞</label_done>
             <tooltip><![CDATA[
-            有時候你只是需要 1 杯酒。或者更多。<br>需要最少 -3 點聲望。<br>這行動可獲得 3x 經驗及天賦成長<br>扣除 1 點聲望。<br>城市探索進度 20% 時解鎖。
+            有時候你只是需要 1 杯酒。或者更多。<br>需要最少 -3 點聲望。<br>這個行動可獲得 3x 經驗及天賦成長<br>需要消耗 1 點聲望。<br>城市探索進度 20% 時解鎖。
         ]]></tooltip>
         </get_drunk>
         <apprentice>
@@ -615,13 +615,13 @@
         <train_str>
             <label>力量訓練</label>
             <tooltip><![CDATA[
-            鍛煉肌肉。鍛煉鍛煉又鍛煉。<br>這行動可獲得 4x 經驗及天賦成長，每迴圈只能做 <div id='trainingLimitStr'></div> 次。<br>和村民聊天 5% 時解鎖。
+            鍛煉肌肉。鍛煉鍛煉又鍛煉。<br>這個行動可獲得 4x 經驗及天賦成長，每迴圈只能做 <div id='trainingLimitStr'></div> 次。<br>和村民聊天 5% 時解鎖。
         ]]></tooltip>
         </train_str>
         <throw_party>
             <label>開派對</label>
             <tooltip><![CDATA[
-            偶爾也要出席一下社交活動。<br>這行動可在等量魔力消耗下獲得 8x 和村民聊天的效果。<br>消耗 2 點聲望。<br>調查進度 30% 時解鎖。
+            偶爾也要出席一下社交活動。<br>這個行動可在等量魔力消耗下獲得 8x 和村民聊天的效果。<br>消耗 2 點聲望。<br>調查進度 30% 時解鎖。
         ]]></tooltip>
         </throw_party>
         <warrior_lesson>
@@ -663,7 +663,7 @@
         <train_soul>
             <label>在瀑布旁邊坐下</label>
             <tooltip><![CDATA[
-            這是一個恬淡而自然的地方。嘈雜，但和平。<br>這行動可獲得 4x 經驗及天賦成長，每迴圈只能做 <div id='trainingLimitSoul'></div> 次。<br>森林探索度 70% 時解鎖。
+            這是一個恬淡而自然的地方。嘈雜，但和平。<br>這個行動可獲得 4x 經驗及天賦成長，每迴圈只能做 <div id='trainingLimitSoul'></div> 次。<br>森林探索度 70% 時解鎖。
         ]]></tooltip>
         </train_soul>
         <practical_magic>
@@ -687,13 +687,13 @@
         <train_dex>
             <label>靈巧訓練</label>
             <tooltip><![CDATA[
-            這裡有一連串石頭讓你跳來跳去。超好玩的。<br>這行動可獲得 4x 經驗及天賦成長，每迴圈只能做 <div id='trainingLimitDex'></div> 次。<br>森林探索度 60% 時解鎖。
+            這裡有一連串石頭讓你跳來跳去。超好玩的。<br>這個行動可獲得 4x 經驗及天賦成長，每迴圈只能做 <div id='trainingLimitDex'></div> 次。<br>森林探索度 60% 時解鎖。
         ]]></tooltip>
         </train_dex>
         <train_spd>
             <label>速度訓練</label>
             <tooltip><![CDATA[
-            森林狂奔超棒。在挑戰極限的過程你學到很多東西。<br>這行動可獲得 4x 經驗及天賦成長，每迴圈只能做 <div id='trainingLimitSpd'></div> 次。<br>森林探索度 80% 時解鎖。
+            森林狂奔超棒。在挑戰極限的過程你學到很多東西。<br>這個行動可獲得 4x 經驗及天賦成長，每迴圈只能做 <div id='trainingLimitSpd'></div> 次。<br>森林探索度 80% 時解鎖。
         ]]></tooltip>
         </train_spd>
         <follow_flowers>
@@ -706,7 +706,7 @@
         <bird_watching>
             <label>觀鳥</label>
             <tooltip><![CDATA[
-            在花徑的盡頭，是一個由很多不同品種的鳥類組成的生境。你又可以多添一項興趣了。<br>需要眼鏡才看到。<br>這行動可獲得 4x 經驗及天賦成長，每迴圈只能做 <div id='trainingLimitPer'></div> 次。<br>花徑探索度 80% 時解鎖。
+            在花徑的盡頭，是一個由很多不同品種的鳥類組成的生境。你又可以多添一項興趣了。<br>需要眼鏡才看到。<br>這個行動可獲得 4x 經驗及天賦成長，每迴圈只能做 <div id='trainingLimitPer'></div> 次。<br>花徑探索度 80% 時解鎖。
         ]]></tooltip>
         </bird_watching>
         <clear_thicket>
@@ -762,14 +762,14 @@
         <read_books>
             <label>看書</label>
             <tooltip><![CDATA[
-            這裡有個圖書館! 你一直很愛看書。<br>在書中發現新世界和各種體驗，從故事角色身上找到靈感，為他們的遭遇感到難過 - 感同身受的你想要變得更強。<br>需要眼鏡才看到。<br>這行動可獲得 4x 經驗及天賦成長，每迴圈只能做 <div id='trainingLimitInt'></div> 次。<br>城市探索進度 50% 時解鎖。
+            這裡有個圖書館! 你一直很愛看書。<br>在書中發現新世界和各種體驗，從故事角色身上找到靈感，為他們的遭遇感到難過 - 感同身受的你想要變得更強。<br>需要眼鏡才看到。<br>這個行動可獲得 4x 經驗及天賦成長，每迴圈只能做 <div id='trainingLimitInt'></div> 次。<br>城市探索進度 50% 時解鎖。
         ]]></tooltip>
         </read_books>
         <gather_team>
             <label>組隊</label>
             <tooltip><![CDATA[
             你不用獨自面對它們。<br>最多可以和另外 5 人組成一支隊伍。<br>消耗 <div id='teamCost'></div> 
-            黃金，隊伍中每多一人，招募下一位隊員時需要消耗額外 200 黃金。<br>每位成員增加 (冒險者公會排名) * (戰鬥技巧 / 2) 到你的團隊戰鬥技能。<br>需要先加入冒險者公會。<br>這行動可獲得 3x 經驗及天賦成長<br>城市探索進度 20% 時解鎖。
+            黃金，隊伍中每多一人，招募下一位隊員時需要消耗額外 200 黃金。<br>每位成員增加 (冒險者公會排名) * (戰鬥技巧 / 2) 到你的團隊戰鬥技能。<br>需要先加入冒險者公會。<br>這個行動可獲得 3x 經驗及天賦成長<br>城市探索進度 20% 時解鎖。
         ]]></tooltip>
         </gather_team>
         <craft_armor>
@@ -807,11 +807,11 @@
         <short_quest>
             <label>簡單任務</label>
             <label_done>簡單任務已完成</label_done>
-            <info_text1>有戰利品的任務剩餘</info_text1>
-            <info_text2>有戰利品的任務總數</info_text2>
+            <info_text1>有回報的任務剩餘</info_text1>
+            <info_text2>有回報的任務總數</info_text2>
             <info_text3>未曾完成的任務</info_text3>
             <tooltip><![CDATA[
-            成為英雄! ...如果可以獲得回報而且不需要很久的話。<br>有戰利品的簡單任務會給 
+            成為英雄! ...如果可以獲得回報而且不需要很久的話。<br>有回報的簡單任務會給 
         ]]></tooltip>
             <tooltip2><![CDATA[
             黃金作為回報。<br>每 5 個簡單任務就有一個有回報。<br>和村民聊天 5% 時解鎖。
@@ -820,11 +820,11 @@
         <long_quest>
             <label>高級任務</label>
             <label_done>高級任務已完成</label_done>
-            <info_text1>有戰利品的任務剩餘</info_text1>
-            <info_text2>有戰利品的任務總數</info_text2>
+            <info_text1>有回報的任務剩餘</info_text1>
+            <info_text2>有回報的任務總數</info_text2>
             <info_text3>未曾完成的任務</info_text3>
             <tooltip><![CDATA[
-            成為一個給人留下深刻印象的英雄! ...只要有誰看到的話。<br>有戰利品的高級任務會給 
+            成為一個給人留下深刻印象的英雄! ...只要有誰看到的話。<br>有回報的高級任務會給 
         ]]></tooltip>
             <tooltip2><![CDATA[
             黃金和 1 點聲望作為回報。<br>每 5 個高級任務就有一個有回報。<br>調查進度 10% 時解鎖。
@@ -870,7 +870,7 @@
             <info_text2>容易上當的人總數</info_text2>
             <info_text3>未知的對手</info_text3>
             <tooltip><![CDATA[
-            你的手牌總算是每個迴圈都不一樣的。<br>這行動可獲得 2x 經驗及天賦成長。<br>消耗 20 黃金和 1 點聲望。<br>需要至少 -5 點聲望。<br>每 10 個賭徒就有 1 個是容易上當的，他們都很好騙。每次賭贏獲得 60 黃金。
+            你的手牌總算是每個迴圈都不一樣的。<br>這個行動可獲得 2x 經驗及天賦成長。<br>消耗 20 黃金和 1 點聲望。<br>需要至少 -5 點聲望。<br>每 10 個賭徒就有 1 個是容易上當的，他們都很好騙。每次賭贏獲得 60 黃金。
         ]]></tooltip>
         </gamble>
         <heal_sick>
@@ -890,7 +890,7 @@
             <label>打怪</label>
             <label_done>已擊殺</label_done>
             <tooltip><![CDATA[
-            你慢慢讀懂他們的規律了。<br>戰鬥由 3 種類別循環組成，每部分有一種對應的能力 - 快速 (速)，退守 (力)，進取 (體)。<br>每 1 點魔力給予 (個人戰鬥) * (1 + 主要能力 / 100) * sqrt(1 + 擊殺總數 / 100) * (原始魔力消耗 / 實際魔力消耗) 進度。<br>需要至少 10 級戰鬥技巧和 2 點聲望。<br>每完成一段戰鬥，獲得 20 黃金。<br>每完成一次行動，給予 10 點戰鬥技巧經驗。
+            你慢慢讀懂怪物的出現規律了。<br>戰鬥由 3 種類別循環組成，每部分有一種對應的能力 - 快速 (速)，退守 (力)，進取 (體)。<br>每 1 點魔力給予 (個人戰鬥) * (1 + 主要能力 / 100) * sqrt(1 + 擊殺總數 / 100) * (原始魔力消耗 / 實際魔力消耗) 進度。<br>需要至少 10 級戰鬥技巧和 2 點聲望。<br>每完成一段戰鬥，獲得 20 黃金。<br>每完成一次行動，給予 10 點戰鬥技巧經驗。
         ]]></tooltip>
             <segment_names>
                 <name>鹿</name>
@@ -943,14 +943,14 @@
         </fight_monsters>
         <small_dungeon>
             <label>小型地下城</label>
-            <label_done>戰利品獲得</label_done>
+            <label_done>已完成總層數</label_done>
             <label_complete>已完成</label_complete>
             <label_part>小型地下城</label_part>
             <tooltip><![CDATA[
-            地下城每次都有一些微小的變化; 追個就比較難適應了。靈魂石即使在迴圈重啟後依然會保留下來，但它們不一定在地下城出現... 奇怪。<br>地下城每段需要運用不同的能力。<br>如果你的能力足夠高，一次行動可以打通多層地下城。<br>每 1 點魔力給予 (魔法技巧 + 個人戰鬥) * (1 + 主要能力 / 100) * sqrt(1 + 已完成總層數 / 200) * (原始魔力消耗 / 實際魔力消耗) 進度。<br>需要戰鬥和魔法技能總和至少達到 35 級和 2 點聲望。<br>每完成一層，獲得 1 顆靈魂石 - 鼠標懸停在 已完成 可以看到更多資訊。<br>每完成一次行動，給予 5 點戰鬥技巧經驗和魔法技巧經驗。
+            地下城每次都有一些微小的變化; 這個就比較難適應了。靈魂石即使在迴圈重啟後依然會保留下來，但它們不一定會出現... 奇怪。<br>地下城每段需要運用不同的能力。<br>如果你的能力足夠高，一次行動可以打通多層地下城。<br>每 1 點魔力給予 (魔法技巧 + 個人戰鬥) * (1 + 主要能力 / 100) * sqrt(1 + 已完成總層數 / 200) * (原始魔力消耗 / 實際魔力消耗) 進度。<br>需要戰鬥和魔法技能總和至少達到 35 級和 2 點聲望。<br>每完成一層，獲得 1 顆靈魂石 - 鼠標懸停在 已完成 可以看到更多資訊。<br>每完成一次行動，給予 5 點戰鬥技巧經驗和魔法技巧經驗。
         ]]></tooltip>
             <completed_tooltip><![CDATA[
-            每顆靈魂石可以提高任意能力的經驗獲得 (1+(靈魂石數量)^.8/30) 倍。<br>每層都會有 1 顆靈魂石，當成功取得時，會暫時減少下 1 顆靈魂石出現的機率 2%。<br>每 1 點魔力消耗會回復所有層數靈魂石的出現率 .00001%。<br>
+            每顆靈魂石可以提高任意能力的經驗獲得 (1+(靈魂石數量)^.8/30) 倍。<br>每層都會有 1 顆靈魂石，當成功取得時，會暫時減少下次靈魂石出現的機率 2%。<br>每 1 點魔力消耗會回復所有層數靈魂石的出現率 .00001%。<br>
         ]]></completed_tooltip>
             <chance_label>機率</chance_label>
             <last_stat_label>上次獲得能力</last_stat_label>
@@ -961,19 +961,19 @@
                 <name>謎語守衛</name>
                 <name>擺盪的斧頭</name>
                 <name>怪物頭目</name>
-                <name>收集戰利品</name>
+                <name>開寶箱</name>
             </segment_names>
         </small_dungeon>
         <large_dungeon>
             <label>大型地下城</label>
-            <label_done>戰利品獲得</label_done>
+            <label_done>已完成總層數</label_done>
             <label_complete>已完成</label_complete>
             <label_part>大型地下城</label_part>
             <tooltip><![CDATA[
             和你的隊員一起，你終於有機會向一個人應付不來的大規模地下城挑戰了。<br>每 1 點魔力給予 (魔法技巧 + 團隊戰鬥) * (1 + 主要能力 / 100) * sqrt(1 + 已完成總層數 / 200) * (原始魔力消耗 / 實際魔力消耗) 進度。<br>需要最少 1 名隊友。<br>每完成一層，獲得 10 顆靈魂石 - 鼠標懸停在 已完成 可以看到更多資訊。<br>每完成一次行動，給予 15 點戰鬥技巧經驗和魔法技巧經驗。
         ]]></tooltip>
             <completed_tooltip><![CDATA[
-            每顆靈魂石可以提高任意能力的經驗獲得 (1+(靈魂石數量)^.8/30) 倍。<br>每層都會有 10 顆靈魂石，當成功取得時，會暫時減少下 10 顆靈魂石出現的機率 2%。<br>每 1 點魔力消耗會回復所有層數靈魂石的出現率 .00001%。<br>
+            每顆靈魂石可以提高任意能力的經驗獲得 (1+(靈魂石數量)^.8/30) 倍。<br>每層都會有 10 顆靈魂石，當成功取得時，會暫時減少下次靈魂石出現的機率 2%。<br>每 1 點魔力消耗會回復所有層數靈魂石的出現率 .00001%。<br>
         ]]></completed_tooltip>
             <chance_label>機率</chance_label>
             <last_stat_label>上次獲得能力</last_stat_label>
@@ -981,7 +981,7 @@
                 <name>召集隊伍</name>
                 <name>啟程並前進到入口</name>
                 <name>擊敗門口的守衛</name>
-                <name>為戰利品分配爭論一番</name>
+                <name>為寶物分配爭論一番</name>
                 <name>避開弓箭</name>
                 <name>避開友軍攻擊</name>
                 <name>打倒怪物頭目</name>
