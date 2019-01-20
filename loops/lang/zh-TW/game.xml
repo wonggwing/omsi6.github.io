@@ -408,12 +408,12 @@
         <dark_magic>
             <label>黑魔法</label>
             <desc>用各種黑暗技藝幫助你獲得魔力。</desc>
-            <desc2><![CDATA[打碎陶罐和野外魔力會獲得額外 (黑魔法等級 / 60) ^ 0.25 的倍數加成 (向下捨入)。<br> 目前獲得 <div id='skillBonusDark'></div>x 額外倍率。]]></desc2>
+            <desc2><![CDATA[打碎陶罐和野外魔力會獲得額外 (黑魔法 / 60) ^ 0.25 的倍數加成 (向下捨入)。<br> 目前獲得 <div id='skillBonusDark'></div>x 額外倍率。]]></desc2>
         </dark_magic>
         <chronomancy>
             <label>時光魔法</label>
             <desc>利用時光魔法幫助你, 嗯, 加速時間。</desc>
-            <desc2><![CDATA[在所有區域的行動速度變快 (時光魔法等級 / 60) ^ 0.25 倍。<br> 目前獲得 <div id='skillBonusChronomancy'></div>x 倍速度.]]></desc2>
+            <desc2><![CDATA[在所有區域的行動速度變快 (時光魔法 / 60) ^ 0.25 倍。<br> 目前獲得 <div id='skillBonusChronomancy'></div>x 倍速度.]]></desc2>
         </chronomancy>
         <pyromancy>
             <label>控火魔法</label>
@@ -733,7 +733,7 @@
             <label>黑暗祭禮</label>
             <label_done>已完成</label_done>
             <tooltip><![CDATA[
-            獻祭越來越多的靈魂石給黑暗之神，令所有在新手村的行動獲得 10% 永久速度加成。<br>每 1 點魔力給予 (黑魔法等級) * (1 + 主要能力 / 100) * (原始魔力消耗 / 實際魔力消耗) 進度。<br>需要聲望在 -5 點或以下。<br>每迴圈只能進行一次黑暗祭禮。<br>城市探索進度 50% 時解鎖。灌木叢探索度 90% 及黑魔法 50 級時解鎖。<br>獻祭 (50 * (已完成黑暗祭禮數+1)) 顆靈魂石。<br>
+            獻祭越來越多的靈魂石給黑暗之神，令所有在新手村的行動獲得 10% 永久速度加成。<br>每 1 點魔力給予 (黑魔法) * (1 + 主要能力 / 100) * (原始魔力消耗 / 實際魔力消耗) 進度。<br>需要聲望在 -5 點或以下。<br>每迴圈只能進行一次黑暗祭禮。<br>城市探索進度 50% 時解鎖。灌木叢探索度 90% 及黑魔法 50 級時解鎖。<br>獻祭 (50 * (已完成黑暗祭禮數+1)) 顆靈魂石。<br>
         ]]></tooltip>
             <segment_names>
                 <name>清空附近的環境</name>
