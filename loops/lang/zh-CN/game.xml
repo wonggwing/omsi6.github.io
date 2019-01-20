@@ -304,7 +304,7 @@
             <short_form>灵</short_form>
         </dex>
         <str>
-            <blurb>锻练你的身体。</blurb>
+            <blurb>锻炼你的身体。</blurb>
             <long_form>力量</long_form>
             <short_form>力</short_form>
         </str>
@@ -437,8 +437,8 @@
         </dark_ritual>
         <imbue_mind>
             <label>激发心灵</label>
-            <desc><![CDATA[运用灵魂石的力量，可以增加训练上限。<br>
-            每级增加 1 次每个回圈能做的训练次数。]]>
+            <desc><![CDATA[运用灵魂石的力量，可以增加锻炼上限。<br>
+            每级增加 1 次每个回圈能做的锻炼次数。]]>
             </desc>
         </imbue_mind>
         <tooltip>
@@ -613,7 +613,7 @@
         ]]></tooltip>
         </buy_mana>
         <train_str>
-            <label>力量训练</label>
+            <label>力量锻炼</label>
             <tooltip><![CDATA[
             锻炼肌肉。锻炼锻炼又锻炼。<br>这个行动可获得 4x 经验及天赋成长，每回圈只能做 <div id='trainingLimitStr'></div> 次。<br>和村民聊天 5% 时解锁。
         ]]></tooltip>
@@ -685,13 +685,13 @@
         ]]></tooltip>
         </brew_potions>
         <train_dex>
-            <label>灵巧训练</label>
+            <label>灵巧锻炼</label>
             <tooltip><![CDATA[
             这里有一连串石头让你跳来跳去。超好玩的。<br>这个行动可获得 4x 经验及天赋成长，每回圈只能做 <div id='trainingLimitDex'></div> 次。<br>森林探索度 60% 时解锁。
         ]]></tooltip>
         </train_dex>
         <train_spd>
-            <label>速度训练</label>
+            <label>速度锻炼</label>
             <tooltip><![CDATA[
             森林狂奔超棒。在挑战极限的过程你学到很多东西。<br>这个行动可获得 4x 经验及天赋成长，每回圈只能做 <div id='trainingLimitSpd'></div> 次。<br>森林探索度 80% 时解锁。
         ]]></tooltip>
