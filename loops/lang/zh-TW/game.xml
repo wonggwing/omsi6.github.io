@@ -576,7 +576,7 @@
             <label>乾杯!</label>
             <label_done>聽到傳聞</label_done>
             <tooltip><![CDATA[
-            有時候你只是想喝杯酒。<br>需要最少 -3 點聲望。<br>這行動可獲得 3x 經驗及天賦成長<br>扣除 1 點聲望。<br>城市探索進度 20% 時解鎖。
+            有時候你只是需要 1 杯酒。或者更多。<br>需要最少 -3 點聲望。<br>這行動可獲得 3x 經驗及天賦成長<br>扣除 1 點聲望。<br>城市探索進度 20% 時解鎖。
         ]]></tooltip>
         </get_drunk>
         <apprentice>
