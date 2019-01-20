@@ -397,8 +397,8 @@
             <desc>理術之手，魔法技倆，探知魔法，及各種有用的小技巧。</desc>
             <desc2><![CDATA[每級可減少打碎陶罐和野外魔力的魔力消耗 (向上捨入)。<br>
       等級1-200，開鎖可每級額外獲得 1% 黃金 (向下捨入)。<br>
-      等級101-300，短任務可每級額外獲得 1% 黃金 (向下捨入)。<br>
-      等級201-400，長任務可每級額外獲得 1% 黃金 (向下捨入)。]]></desc2>
+      等級101-300，簡單任務可每級額外獲得 1% 黃金 (向下捨入)。<br>
+      等級201-400，高級任務可每級額外獲得 1% 黃金 (向下捨入)。]]></desc2>
         </practical_magic>
         <alchemy>
             <label>煉金術</label>
@@ -584,7 +584,7 @@
             <label>學徒</label>
             <label_done>學徒期</label_done>
             <tooltip><![CDATA[
-            You decided that knowing more about construction would help. You use your Crafting Guild license to hit the books.<br>Goes faster with a higher rank bonus.<br>Gives 10-20 exp to Crafting for 0-100%<br>Requires Crafting Guild.<br>Unlocked at 40% Rumors heard.
+            你覺得知道更多有關建築的知識會有幫忙的。你用你得到的匠人公會牌照鑽研書籍。<br>隨公會排名提升會獲得越高的額外速度。<br>進度 0-100%，Gives 10-20 exp to Crafting for 0-100%<br>Requires Crafting Guild.<br>Unlocked at 40% Rumors heard.
         ]]></tooltip>
         </apprentice>
         <mason>
@@ -806,29 +806,29 @@
         ]]></tooltip2>
         </locks>
         <short_quest>
-            <label>短任務</label>
-            <label_done>短任務已完成</label_done>
+            <label>簡單任務</label>
+            <label_done>簡單任務已完成</label_done>
             <info_text1>有戰利品的任務剩餘</info_text1>
             <info_text2>有戰利品的任務總數</info_text2>
             <info_text3>未曾完成的任務</info_text3>
             <tooltip><![CDATA[
-            成為英雄! ...如果可以獲得回報而且不需要很久的話。<br>有戰利品的短任務會給 
+            成為英雄! ...如果可以獲得回報而且不需要很久的話。<br>有戰利品的簡單任務會給 
         ]]></tooltip>
             <tooltip2><![CDATA[
-            黃金作為回報。<br>每 5 個短任務就有一個有回報。<br>和其他人見面 5% 時解鎖。
+            黃金作為回報。<br>每 5 個簡單任務就有一個有回報。<br>和其他人見面 5% 時解鎖。
         ]]></tooltip2>
         </short_quest>
         <long_quest>
-            <label>長任務</label>
-            <label_done>長任務已完成</label_done>
+            <label>高級任務</label>
+            <label_done>高級任務已完成</label_done>
             <info_text1>有戰利品的任務剩餘</info_text1>
             <info_text2>有戰利品的任務總數</info_text2>
             <info_text3>未曾完成的任務</info_text3>
             <tooltip><![CDATA[
-            成為一個給人留下深刻印象的英雄! ...只要有誰看到的話。<br>有戰利品的長任務會給 
+            成為一個給人留下深刻印象的英雄! ...只要有誰看到的話。<br>有戰利品的高級任務會給 
         ]]></tooltip>
             <tooltip2><![CDATA[
-            黃金和 1 點聲望作為回報。<br>每 5 個長任務就有一個有回報。<br>調查進度 10% 時解鎖。
+            黃金和 1 點聲望作為回報。<br>每 5 個高級任務就有一個有回報。<br>調查進度 10% 時解鎖。
         ]]></tooltip2>
         </long_quest>
         <wild_mana>
@@ -875,7 +875,7 @@
         ]]></tooltip>
         </gamble>
         <heal_sick>
-            <label>為有需要的人治病</label>
+            <label>醫治病人</label>
             <label_done>已治好</label_done>
             <label_part>病人</label_part>
             <tooltip><![CDATA[
