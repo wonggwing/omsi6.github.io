@@ -354,20 +354,20 @@
             <total_multiplier>總倍率:</total_multiplier>
             <bonus_xp>額外經驗:</bonus_xp>
             <explanation><![CDATA[
-          Each stat level reduces the relevant part of an action's mana cost by 1%.<br>
-          Talent gets 1% of all level progress, and persists through loops.<br>
-          Talent multiplies xp gain by (1+(talentLevel)^0.4/3).<br>
-          XP gain towards a stat per action is (original mana / actual mana) * (talent bonus) per tick.<br>
-          Total Mult is a combination of your talent and soulstone bonuses.<br><br>
-          e.g. Meet People costs 800 mana and has a breakdown of <div class="bold">Int</div> 10% <div class="bold">Cha</div> 80% <div class="bold">Soul</div> 10%.<br>
-          This effectively means 80 of the mana is controlled by <div class="bold">Int</div>, another 80 by <div class="bold">Soul</div>, and the remaining 640 by <div class="bold">Cha</div>.<br>
-          If your <div class="bold">Cha</div> is level 20 when the action is started, the bonus would be x1.2 so it'd be 640 / 1.2 = 533.33<br>
-          Adding back the 160 from <div class="bold">Soul</div> and <div class="bold">Int</div>, the total mana the action takes (rounded up) is now 694, so ~87% of the original mana cost.<br>
-          The action would give (800/694)*(1+(talent)^0.4/3) level exp per mana for the 694 mana.]]></explanation>
+          能力每級可減少行動相應部分的魔力消耗 1%。<br>
+          獲得經驗的 1% 會轉化為天賦成長，天賦在迴圈重啟後依然保留。<br>
+          天賦會為能力提供 (1+(天賦等級)^0.4/3 的經驗獲得倍率。<br>
+          每項能力每 tick 的獲得經驗等於該行動的 (原始魔力消耗 / 實際魔力消耗) * (天賦加成)。<br>
+          總倍率 等於 天賦倍率乘以靈魂石倍率。<br><br>
+          例: 和村民聊天 原本需要消耗 800 魔力而且行動能力分佈為 <div class="bold">Int</div> 10% <div class="bold">Cha</div> 80% <div class="bold">Soul</div> 10%.<br>
+          這表示 80 魔力受 <div class="bold">Int</div> 影響，另外 80 魔力受 <div class="bold">Soul</div> 影響，剩餘 640 魔力受 <div class="bold">Cha</div> 影響。<br>
+          如果你在執行行動時 <div class="bold">Cha</div> 是 20 級，加成等於 x1.2 所以實際魔力消耗是 640 / 1.2 = 533.33<br>
+          再加上來自 <div class="bold">Soul</div> 和 <div class="bold">Int</div> 的 160 魔力，此行動需要消耗魔力共 694 點 (向上捨入)，所以實際只需要消耗原始魔力的 ~87%。<br>
+          這個行動會消耗 694 魔力, 而且每 1 點魔力給予 (800/694)*(1+(天賦)^0.4/3) 經驗。]]></explanation>
             <graph_legend><![CDATA[
-          Click the legend to show/hide each.<br>
-          Upon freshly starting, Levels and Talent won't change much.<br>
-          Hover Stats for more info.]]></graph_legend>
+          點擊圖例可以顯示/隱藏該項。<br>
+          剛開始的時候，等級和天賦是沒有多大變化的。<br>
+          鼠標懸停在能力上以獲得更多資訊。]]></graph_legend>
         </tooltip>
         <view>
             <regular>基本視圖</regular>
@@ -519,8 +519,8 @@
       沒有行動可做時自動重新開始下一個迴圈。]]></list_explanation>
         </tooltip>
         <current_action>
-            <mana_original>原始魔力量</mana_original>
-            <mana_used>魔力用量</mana_used>
+            <mana_original>原始魔力消耗</mana_original>
+            <mana_used>實際魔力消耗</mana_used>
             <mana_remaining>魔力餘量</mana_remaining>
             <gold_remaining>黃金餘量</gold_remaining>
             <failed_attempts>失敗次數</failed_attempts>
@@ -616,86 +616,85 @@
         <train_str>
             <label>力量訓練</label>
             <tooltip><![CDATA[
-            訓練肌肉。訓練訓練又訓練。<br>這行動可獲得 4x 天賦經驗，每迴圈只能做 <div id='trainingLimitStr'></div> 次。<br>和村民聊天 5% 時解鎖。
+            鍛煉肌肉。鍛煉鍛煉又鍛煉。<br>這行動可獲得 4x 天賦經驗，每迴圈只能做 <div id='trainingLimitStr'></div> 次。<br>和村民聊天 5% 時解鎖。
         ]]></tooltip>
         </train_str>
         <throw_party>
             <label>開派對</label>
             <tooltip><![CDATA[
-            爾應酬
-            Take a break and socialize.<br>8x people met % over Meet People for equivalent mana cost.<br>Costs 2 reputation.<br>Unlocked at 30% Investigated.
+            偶爾也要出席一下社交活動。<br>這行動可在等量魔力消耗下獲得 8x 和村民聊天的效果。<br>消耗 2 點聲望。<br>調查進度 30% 時解鎖。
         ]]></tooltip>
         </throw_party>
         <warrior_lesson>
             <label>戰士課程</label>
             <tooltip><![CDATA[
-            學習戰鬥應該是很重要的; 你還有很長一段路要走。<br>需要至少 2 點聲望。<br>調查進度 20% 時解鎖。
+            學習戰鬥應該是很重要的; 你前面還有漫長的旅程。<br>需要至少 2 點聲望。<br>調查進度 20% 時解鎖。
         ]]></tooltip>
         </warrior_lesson>
         <mage_lesson>
             <label>法師課程</label>
             <tooltip><![CDATA[
-            The mystic got you into this mess, maybe it can help you get out of it.<br>Requires 2 reputation.<br>Unlocked at 20% Investigated.
+            既然是某種秘法困住你的，解鈴還須繫鈴人。<br>需要至少 2 點聲望。<br>調查進度 20% 時解鎖。
         ]]></tooltip>
         </mage_lesson>
         <buy_supplies>
             <label>買補給物資</label>
             <tooltip><![CDATA[
-            Prepare to move on.<br>Costs <div id='suppliesCost'></div> gold.<br>You only need one set of supplies.<br>Unlocks at a combined skill of 35.
+            為繼續向前做好準備。<br>消費 <div id='suppliesCost'></div> 黃金。<br>你只需要準備一人份量的補給物資。<br>戰鬥和魔法技能總和至少達到 35 級時解鎖。
         ]]></tooltip>
         </buy_supplies>
         <haggle>
             <label>討價還價</label>
             <tooltip><![CDATA[
-            They won't like you as much, but hey - you're leaving.<br>Costs 1 reputation to reduce the price of supplies by 20. <br>Unlocks at a combined skill of 35.
+            他們不喜歡你討價還價，但 - 好吧，你不會再來了。<br>消耗 1 點聲望把補給物資的購買價減少 20 黃金。<br>戰鬥和魔法技能總和至少達到 35 級時解鎖。
         ]]></tooltip>
         </haggle>
         <start_journey>
             <label>開始你的旅程</label>
             <tooltip><![CDATA[
-            Follow the trail to end up at the next town. You need to keep moving until you can learn how to shut these loops off.<br>Costs 1 supplies. Finish once to unlock Forest Path's actions, then finish this in order to use Forest Path's actions.<br>Unlocks at a combined skill of 35.
+            沿著這條路你會到達下一個城鎮。你要繼續前進直至找到打斷這個無限迴圈的辦法。<br>消耗 1 份補給物資。完成一次以解鎖森林小徑的行動項目，再完成一次即可開始執行森林小徑的行動。<br>戰鬥和魔法技能總和至少達到 35 級時解鎖。
         ]]></tooltip>
         </start_journey>
         <open_rift>
             <label>打開空間裂縫</label>
             <tooltip><![CDATA[
-            Using your vast knowledge of the dark arts, you can open a rift into the shadow realm to send you straight to Adeptsville.<br>Unlocks at 500 Dark Magic.
+            運用你豐富的黑魔法知識和技術，你可以打開通往影字國度的裂縫並直接抵達老手村。<br>黑魔法達到 500 級時解鎖。
         ]]></tooltip>
         </open_rift>
         <train_soul>
             <label>在瀑布旁邊坐下</label>
             <tooltip><![CDATA[
-            It's peaceful here. Loud, but peaceful.<br>Has 4x exp/talent gain, and can only be done <div id='trainingLimitSoul'></div> times per reset.<br>Unlocked at 70% Forest Explored.
+            這是一個恬淡而自然的地方。嘈雜，但和平。<br>這行動可獲得 4x 天賦經驗，每迴圈只能做 <div id='trainingLimitSoul'></div> 次。<br>森林探索度 70% 時解鎖。
         ]]></tooltip>
         </train_soul>
         <practical_magic>
             <label>練習實用魔法</label>
             <tooltip><![CDATA[
-            Such simple uses to help out with everyday tasks. Genius, really. It's like pulling teeth getting this knowledge from the Hermit though.<br>Unlocked with both 20% Hermit Knowledge and 50 Magic.
+            這些魔法的基礎運用可以幫助你完成各種日常瑣事。真是天才的發明。要從隱士身上獲得這些知識，好像是要他命似的。<br>隱士知識學習度達到 20% 及魔法技巧達到 50 級時解鎖。
         ]]></tooltip>
         </practical_magic>
         <learn_alchemy>
             <label>學習煉金術</label>
             <tooltip><![CDATA[
-            You can listen to him yammer while making light healing and remedy potions.<br>You're starting to think the potion that caused you to loop time was a complex one.<br>You provide the ingredients; costs 10 herbs.<br>Gives alchemy and magic skill.<br>Unlocked with both 40% Hermit Knowledge and 60 Magic.
+            在製作治療和回復藥水的時候你能聽到他一直在碎碎念。<br>你開始覺得令你跌入這個迴圈的藥水只是使用了一種成份比較複雜的配方。<br>你提供材料; 消耗 10 份藥草。<br>獲得煉金術及魔法技巧的經驗。<br>隱士知識學習度達到 40% 及魔法技巧達到 60 級時解鎖。
         ]]></tooltip>
         </learn_alchemy>
         <brew_potions>
             <label>釀造藥水</label>
             <tooltip><![CDATA[
-            Bubbles and Flasks. Potions and Magic.<br>Requires 5 reputation or he won't let you near his stuff.<br>Creates a potion from 10 herbs to sell at the next town.<br>Gives alchemy and magic skill.<br>Unlocked with 10 Alchemy.
+            泡泡加燒瓶。藥水加魔法。<br>需要至少 5 點聲望，否則他不會讓你碰他的裝置。<br>消耗 10 份藥草製作一支可在下個城鎮出售的藥水。<br>獲得煉金術及魔法技巧的經驗。<br>煉金術達到 10 級時解鎖。
         ]]></tooltip>
         </brew_potions>
         <train_dex>
             <label>靈巧訓練</label>
             <tooltip><![CDATA[
-            There's a nice array of rocks to hop between. It's a lot of fun.<br>Has 4x exp/talent gain, and can only be done <div id='trainingLimitDex'></div> times per reset.<br>Unlocked at 60% Forest Explored.
+            這裡有一連串石頭讓你跳來跳去。超好玩的。<br>這行動可獲得 4x 天賦經驗，每迴圈只能做 <div id='trainingLimitDex'></div> 次。<br>森林探索度 60% 時解鎖。
         ]]></tooltip>
         </train_dex>
         <train_spd>
             <label>速度訓練</label>
             <tooltip><![CDATA[
-            A forest run is fantastic. You feel like you're learning a lot as you push your limits.<br>Has 4x exp/talent gain, and can only be done <div id='trainingLimitSpd'></div> times per reset.<br>Unlocked at 80% Forest Explored.
+            森林狂奔超棒。在挑戰極限的過程你學到很多東西。<br>這行動可獲得 4x 天賦經驗，每迴圈只能做 <div id='trainingLimitSpd'></div> 次。<br>森林探索度 80% 時解鎖。
         ]]></tooltip>
         </train_spd>
         <follow_flowers>
@@ -752,7 +751,7 @@
         <purchase_mana>
             <label>買魔力</label>
             <tooltip><![CDATA[
-            1 gold = 50 mana. Buys all the mana you can.
+            1 黃金 = 50 魔力。能買多少就買多少。
         ]]></tooltip>
         </purchase_mana>
         <sell_potions>
@@ -839,10 +838,10 @@
             <info_text2>富含魔力的野外魔力源總數</info_text2>
             <info_text3>未開發的野外魔力源</info_text3>
             <tooltip><![CDATA[
-            They're out of sight of most travellers, but you have time to find and harvest them.<br>Every good mana spot has 
+            大部分冒險者都難以發現這些天然的魔力源，但你有的是時間。<br>每個富含魔力的野外魔力源可提供 
         ]]></tooltip>
             <tooltip2><![CDATA[
-            mana.<br>Every 10 mana spots have good mana.
+            魔力。<br>每 10 個野外魔力源就有一個充滿魔力。
         ]]></tooltip2>
         </wild_mana>
         <gather_herbs>
@@ -852,7 +851,7 @@
             <info_text2>有用的植物總數</info_text2>
             <info_text3>未檢查用途的植物</info_text3>
             <tooltip><![CDATA[
-            Might as well dig up anything useful you find.<br>Every 10 funny plants are herbs.<br>Unlocked at 10% Forest Explored.
+            可以派上用場的就都挖一下吧。<br>每 10 棵有趣的植物就有一棵可用作藥草。<br>森林探索度 10% 時解鎖。
         ]]></tooltip>
         </gather_herbs>
         <hunt>
@@ -862,7 +861,7 @@
             <info_text2>可獲取獸皮的動物總數</info_text2>
             <info_text3>未嘗試獲取獸皮的動物總數</info_text3>
             <tooltip><![CDATA[
-            The forest provides.<br>Every 10 animals have good hides.<br>Unlocked at 40% Forest Explored.
+            森林的天然資源。<br>每 10 隻動物就有一隻可獲取獸皮。<br>森林探索度 40% 時解鎖。
         ]]></tooltip>
         </hunt>
         <gamble>
@@ -899,40 +898,40 @@
                 <name>巨龜</name>
                 <name>哥布林</name>
                 <name>惡魔兔</name>
-                <name>巨型蜜蜂</name>
+                <name>巨型蜜獾</name>
                 <name>毒蛇</name>
                 <name>憤怒的猴子</name>
                 <name>巨魔</name>
                 <name>食人魔</name>
                 <name>小妖精</name>
                 <name>樹人</name>
-                <name>史萊姆</name>
-                <name>仙女</name>
+                <name>立方體膠質怪</name>
+                <name>羽妖精</name>
                 <name>獸人</name>
-                <name>Beholders</name>
-                <name>Spectres</name>
-                <name>Mimics</name>
-                <name>Shambling Mound</name>
-                <name>Corrupted Mushroomfolk</name>
-                <name>Giant Owls</name>
-                <name>Blood Trolls</name>
-                <name>Small Wyrms</name>
-                <name>Displacer Beasts</name>
-                <name>Gibbering Mouthers</name>
-                <name>Mind Flayers</name>
-                <name>Aboleths</name>
-                <name>Ancient Dragons</name>
-                <name>Liches</name>
-                <name>Tarrasques</name>
-                <name>Demiliches</name>
-                <name>Demigods</name>
-                <name>Gods</name>
-                <name>Deer but they're jerks</name>
-                <name>Deer but they're jerks and slightly larger than before</name>
-                <name>Deer but they're jerks and moderately larger than before</name>
-                <name>Deer but they're jerks and substantially larger than before</name>
-                <name>Deer but they're jerks and massively larger than before</name>
-                <name>Deer but they're jerks and absurdly larger than before</name>
+                <name>眼魔</name>
+                <name>幽靈</name>
+                <name>擬形怪</name>
+                <name>蔓生怪</name>
+                <name>腐化磨菇怪</name>
+                <name>巨型貓頭鷹</name>
+                <name>鮮血巨魔</name>
+                <name>小型飛龍</name>
+                <name>位移獸</name>
+                <name>懼噬體</name>
+                <name>靈吸怪</name>
+                <name>底棲魔魚</name>
+                <name>古龍</name>
+                <name>巫妖</name>
+                <name>泰拉斯奎巨獸</name>
+                <name>半巫妖</name>
+                <name>半神</name>
+                <name>真神</name>
+                <name>混蛋鹿</name>
+                <name>混蛋鹿而且比以前大隻了</name>
+                <name>混蛋鹿而且比以前更大隻了</name>
+                <name>混蛋鹿而且比以前又更大隻了</name>
+                <name>混蛋鹿而且比以前再更巨大了</name>
+                <name>混蛋鹿而且這也太荒謬地大隻了</name>
             </segment_names>
             <segment_alt_names>
                 <name>速度見長的怪物</name>
