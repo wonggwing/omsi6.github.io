@@ -255,31 +255,30 @@
         <story_title>故事</story_title>
         <stories>
             <story num="0">
-                You're a simple courier, on a long trip to deliver a high priority package. Just as you entered town,
-                you tripped - breaking your glasses - and the package burst open, spilling a strange liquid on you.
-                Immediately, your meager amount of mana started draining rapidly. Right as your mana became empty, you
-                found yourself back in the moment the liquid was absorbed into your skin, with your tiny reserves
-                filled... yet draining just as before. This happened again and again, the world resetting with you,
-                until you decided you had to figure out a way to prolong how long these 'loops' were. Mana crystals are
-                often stored in pottery around town, perhaps you'll start there ...
+                你是一個普通快遞員，長途跋涉運送一件急件。你到達這條村的時候，
+                腳下一滑 - 眼睛壞了 - 包裹也破開了一個口子，一些奇怪的液體濺滿你全身。
+                就在這時，你那微不足道的魔力開始快速流失。就在你的魔力歸零的那一瞬間，
+                你發現你回到皮膚開始吸收包裹內奇怪的液體的那一刻，那些失去的魔力也都回來了...
+                只是又開始快速流失。這個動作重複又重複，世界和你一樣回到最開始那時，
+                直至你決定要找辦法打破這個困局 - 延長每個迴圈的時間。
+                魔力水晶常藏在村內的陶罐內，就由這裡開始吧...
             </story>
             <story num="1">
-                You reach the end of the dungeon, where a softly glowing orb floats on a pedastal. You've found the
-                dungeon core - for the first level of the dungeon, at least. As you grasp it, the essence dives into
-                you, infusing your very being with the power it holds. It is a small amount of power, but this is a
-                small dungeon. You'll be back to take this power again, knowing with the foreign knowledge implanted
-                that it will stay with you no matter when you are.
+                你成功抵達地下城的盡頭，一個光球在臺座上散發著柔和的光芒。
+                你找到地下城核心了 - 第一層地下城的核心。你把手放在上面，光球內的精華奔湧而至，
+                它蘊含的力量和你融合為一。它只有很少的力量，但這是一個小型地下城。
+                你可以再來一次，打通這層地下城，再吸收它的力量，
+                吸收它的時候你同時獲得一些信息，你現在知道這些力量是永久的，不會重置。
             </story>
             <story num="2">
-                You reach the end of the dungeon again, but for the first time the core isn't glowing. It's always been
-                thought that dungeon cores build based on the mana spent around them, but you're beginning to think the
-                essence of it's previous incarnations drains it somehow. It doesn't always happen, but you'll need to
-                put more mana into the world to take the core's benefits out of it. You shrug, accepting yet another
-                oddity of the loops.
+                你再次打通地下城，但這次臺座上的光球顯得有點暗淡。
+                你以為地下城核心是吸收附近消耗的魔力凝聚而成的，但你開始認為經過上次的吸收之後
+                它沒回過氣來。它需要更多魔力回復，你可以盡力揮霍魔力使它再次充滿。你搖搖頭，
+                只能接受這些奇怪的迴圈規則。
             </story>
             <story num="3">
-                You've done it! You've won the tournament and obtained the cure. You can stop looping at any moment.
-                But, there's still a little more you want to do ... (GAME COMPLETE, keep playing if you want).
+                你成功了! 你贏了這個迴圈競賽而且獲得解脫。你可以在任何時候解除迴圈的束縛。
+                但，你還有一些事情想要完成... (遊戲結束，當然你也可以繼續玩)。
             </story>
         </stories>
         <bonus_seconds>
