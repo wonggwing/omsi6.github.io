@@ -1014,62 +1014,62 @@
         </start_trek>
         <!--zone 4 below-->
         <climb_mountain>
-            <label>Climb Mountain</label>
-            <label_done>Mountain Explored</label_done>
+            <label>爬山</label>
+            <label_done>山脈已探索</label_done>
             <tooltip><![CDATA[
-            Traversing the mountain will be difficult, but you can use your pickaxe as a makeshift climbing pick of sorts to help you get around.<br>2x progress with pickaxe.
+            在山上查探可不容易，但你可以用十字鎬充當某種攀山用鎬令你身手更靈活。<br>身上有十字鎬可獲得 2x 效率。
         ]]></tooltip>
         </climb_mountain>
         <mana_geyser>
-            <label>Mana Geyser</label>
-            <label_done>Weak Spots Checked</label_done>
-            <info_text1>Spots with geysers left</info_text1>
-            <info_text2>Spots with geysers total</info_text2>
-            <info_text3>Spots to check for geysers</info_text3>
+            <label>魔力噴泉</label>
+            <label_done>可能的泉眼已查探</label_done>
+            <info_text1>魔力噴泉剩餘</info_text1>
+            <info_text2>魔力噴泉總數</info_text2>
+            <info_text3>未查探的脆弱地表</info_text3>
             <tooltip><![CDATA[
-            Search the ground for weak points in the hopes of revealing massive mana geysers.<br>Spots with geysers have 5000 mana.<br>Every 100 weak points has a mana geyser.<br>Requires pickaxe.
+            為找到巨型魔力噴泉在地表上尋找脆弱的地表。<br>打開一個魔力噴泉有 5000 魔力。<br>每 100 個脆弱的地表就有 1 個魔力噴泉。<br>需要十字鎬。
         ]]></tooltip>
         </mana_geyser>
         <decipher_runes>
-            <label>Decipher Runes</label>
-            <label_done>Runic Symbols Deciphered</label_done>
+            <label>破譯符文</label>
+            <label_done>符文已破譯</label_done>
             <tooltip><![CDATA[
-            There are many different runic markings on weathered headstones around the mountain, perhaps you can glean some sort of knowledge from them.<br>Reduces mana cost of Chronomancy and Pyromancy by 0.5% per 1% of Glyphs Deciphered.<br>2x progress with glasses.<br>Unlocked at 20% Mountain Explored.
+            山上風化的墓碑刻有很多不同的符文標誌，你可以嘗試蒐集它們的某種知識。<br>每 1% 符文破譯減少時光魔法和控火魔法的魔力消耗 0.5%。<br>戴上眼鏡可獲得 2x 效率。<br>山脈探索進度 20% 時解鎖。
         ]]></tooltip>
         </decipher_runes>
         <chronomancy>
-            <label>Chronomancy</label>
+            <label>時光魔法</label>
             <tooltip><![CDATA[
-            Controlling time seems like it would be a great idea, and thankfully for you, the runes around here contain lots of information on the art of Chronomancy.<br>Unlocked with both 30% Runic Symbols Deciphered and 150 Magic.
+            控制時間流動看來是一個不錯的主意，而且幸運的是附近有很多符文告訴你時光魔法的奧秘。<br>符文破譯進度 30% 及魔法技巧 150 級時解鎖。
         ]]></tooltip>
         </chronomancy>
         <looping_potion>
-            <label>Looping Potion</label>
+            <label>迴圈藥水</label>
             <tooltip><![CDATA[
-            Using your aptness of alchemy and your talent for time, you've managed to recreate the very potion that got you into this whole mess! It can't cure you, but maybe you can find another use for it. (this does nothing right now)<br>Requires 200 herbs.<br>Unlocked with both 60 Alchemy and 100 Chronomancy.<br>Gives 100 Alchemy exp upon action completion.
+            用你的煉金才能和對時光魔法的天賦，你終於成功調配出令你跌入這個迴圈的藥水了! 它不能治好你，但你可能會找到它的其他用途。(遊戲目前沒用)<br>消耗 200 藥草。<br>煉金術達到 60 級及時光魔法 100 級時解鎖。<br>每完成一次行動，給予 100 點煉金術經驗。
         ]]></tooltip>
         </looping_potion>
         <pyromancy>
-            <label>Pyromancy</label>
+            <label>控火魔法</label>
             <tooltip><![CDATA[
-            Conjure the power of feverishly forceful and furiously firey flickering flames to aid you in combat. And yeah, the runes contain some stuff about this too. <br>Unlocked with both 60% Runic Symbols Deciphered and 200 Magic.
+            凝聚狂熱和憤怒的火炎幫助你更有效地戰鬥。對了，山上的符文藏有不少對這個技能的知識。<br>>符文破譯進度 60% 及魔法技巧 200 級時解鎖。
         ]]></tooltip>
         </pyromancy>
         <explore_cavern>
-            <label>Explore Cavern</label>
-            <label_done>Cavern Explored</label_done>
+            <label>探索山洞</label>
+            <label_done>山洞已探索</label_done>
             <tooltip><![CDATA[
-            Explore the expansive and twisting cavern beneath the mountain, who knows what wonders (or terrors) you'll find down there.<br>Unlocked at 40% Mountain Explored.
+            探索山內超大型而扭曲的洞窟，天知道裏面會找到甚麼奇觀 (或可怕的存在)。<br>山脈探索進度 40% 時解鎖。
         ]]></tooltip>
         </explore_cavern>
         <mine_soulstones>
-            <label>Mine Soulstones</label>
-            <label_done>Shiny Spots Checked</label_done>
-            <info_text1>Spots with soulstones left</info_text1>
-            <info_text2>Spots with soulstones total</info_text2>
-            <info_text3>Spots to check for soulstones</info_text3>
+            <label>挖掘靈魂石</label>
+            <label_done>光亮的表面已查探</label_done>
+            <info_text1>有靈魂石的地點</info_text1>
+            <info_text2>有靈魂石的地點總數</info_text2>
+            <info_text3>未探勘靈魂石的地點</info_text3>
             <tooltip><![CDATA[
-            Extract soulstones lodged in the walls of the tunnels in the massive underground cavern.<br>Every 10 shiny spots has a soulstone.<br>Requires pickaxe.<br>Unlocked with 20% Cavern Explored.
+            在超大型地下洞窟的隧道牆上挖掘靈魂石。<br>每 10 個光亮的表面就有一顆靈魂石。<br>需要十字鎬。<br>山洞探索進度 20% 時解鎖。
         ]]></tooltip>
         </mine_soulstones>
         <hunt_trolls>
