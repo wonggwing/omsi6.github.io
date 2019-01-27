@@ -255,31 +255,30 @@
         <story_title>故事</story_title>
         <stories>
             <story num="0">
-                You're a simple courier, on a long trip to deliver a high priority package. Just as you entered town,
-                you tripped - breaking your glasses - and the package burst open, spilling a strange liquid on you.
-                Immediately, your meager amount of mana started draining rapidly. Right as your mana became empty, you
-                found yourself back in the moment the liquid was absorbed into your skin, with your tiny reserves
-                filled... yet draining just as before. This happened again and again, the world resetting with you,
-                until you decided you had to figure out a way to prolong how long these 'loops' were. Mana crystals are
-                often stored in pottery around town, perhaps you'll start there ...
+                你是一个普通快递员，长途跋涉运送一件急件。你到达这条村的时候，
+                脚下一滑 - 眼睛坏了 - 包裹也破开了一个口子，一些奇怪的液体溅满你全身。
+                就在这时，你那微不足道的魔力开始快速流失。就在你的魔力归零的那一瞬间，
+                你发现你回到皮肤开始吸收包裹内奇怪的液体的那一刻，那些失去的魔力也都回来了...
+                只是又开始快速流失。这个动作重复又重复，世界和你一样回到最开始那时，
+                直至你决定要找办法打破这个困局 - 延长每个回圈的时间。
+                魔力水晶常藏在村内的陶罐内，就由这里开始吧...
             </story>
             <story num="1">
-                You reach the end of the dungeon, where a softly glowing orb floats on a pedastal. You've found the
-                dungeon core - for the first level of the dungeon, at least. As you grasp it, the essence dives into
-                you, infusing your very being with the power it holds. It is a small amount of power, but this is a
-                small dungeon. You'll be back to take this power again, knowing with the foreign knowledge implanted
-                that it will stay with you no matter when you are.
+                你成功抵达地下城的尽头，一个光球在台座上散发着柔和的光芒。
+                你找到地下城核心了 - 第一层地下城的核心。你把手放在上面，光球内的精华奔涌而至，
+                它蕴含的力量和你融合为一。它只有很少的力量，但这是一个小型地下城。
+                你可以再来一次，打通这层地下城，再吸收它的力量，
+                吸收它的时候你同时获得一些信息，你现在知道这些力量是永久的，不会重置。
             </story>
             <story num="2">
-                You reach the end of the dungeon again, but for the first time the core isn't glowing. It's always been
-                thought that dungeon cores build based on the mana spent around them, but you're beginning to think the
-                essence of it's previous incarnations drains it somehow. It doesn't always happen, but you'll need to
-                put more mana into the world to take the core's benefits out of it. You shrug, accepting yet another
-                oddity of the loops.
+                你再次打通地下城，但这次台座上的光球显得有点暗淡。
+                你以为地下城核心是吸收附近消耗的魔力凝聚而成的，但你开始认为经过上次的吸收之後
+                它没回过气来。它需要更多魔力回复，你可以尽力挥霍魔力使它再次充满。你摇摇头，
+                只能接受这些奇怪的回圈规则。
             </story>
             <story num="3">
-                You've done it! You've won the tournament and obtained the cure. You can stop looping at any moment.
-                But, there's still a little more you want to do ... (GAME COMPLETE, keep playing if you want).
+                你成功了! 你赢了这个回圈竞赛而且获得解脱。你可以在任何时候解除回圈的束缚。
+                但，你还有一些事情想要完成... (游戏结束，当然你也可以继续玩)。
             </story>
         </stories>
         <bonus_seconds>
@@ -1015,130 +1014,130 @@
         </start_trek>
         <!--zone 4 below-->
         <climb_mountain>
-            <label>Climb Mountain</label>
-            <label_done>Mountain Explored</label_done>
+            <label>爬山</label>
+            <label_done>山脉已探索</label_done>
             <tooltip><![CDATA[
-            Traversing the mountain will be difficult, but you can use your pickaxe as a makeshift climbing pick of sorts to help you get around.<br>2x progress with pickaxe.
+            在山上查探可不容易，但你可以用十字镐充当某种攀山用镐令你身手更灵活。<br>身上有十字镐可获得 2x 效率。
         ]]></tooltip>
         </climb_mountain>
         <mana_geyser>
-            <label>Mana Geyser</label>
-            <label_done>Weak Spots Checked</label_done>
-            <info_text1>Spots with geysers left</info_text1>
-            <info_text2>Spots with geysers total</info_text2>
-            <info_text3>Spots to check for geysers</info_text3>
+            <label>魔力喷泉</label>
+            <label_done>可能的泉眼已查探</label_done>
+            <info_text1>魔力喷泉剩馀</info_text1>
+            <info_text2>魔力喷泉总数</info_text2>
+            <info_text3>未查探的脆弱地表</info_text3>
             <tooltip><![CDATA[
-            Search the ground for weak points in the hopes of revealing massive mana geysers.<br>Spots with geysers have 5000 mana.<br>Every 100 weak points has a mana geyser.<br>Requires pickaxe.
+            为找到巨型魔力喷泉在地表上寻找脆弱的地表。<br>打开一个魔力喷泉有 5000 魔力。<br>每 100 个脆弱的地表就有 1 个魔力喷泉。<br>需要十字镐。
         ]]></tooltip>
         </mana_geyser>
         <decipher_runes>
-            <label>Decipher Runes</label>
-            <label_done>Runic Symbols Deciphered</label_done>
+            <label>破译符文</label>
+            <label_done>符文已破译</label_done>
             <tooltip><![CDATA[
-            There are many different runic markings on weathered headstones around the mountain, perhaps you can glean some sort of knowledge from them.<br>Reduces mana cost of Chronomancy and Pyromancy by 0.5% per 1% of Glyphs Deciphered.<br>2x progress with glasses.<br>Unlocked at 20% Mountain Explored.
+            山上风化的墓碑刻有很多不同的符文标志，你可以尝试搜集它们的某种知识。<br>每 1% 符文破译减少时光魔法和控火魔法的魔力消耗 0.5%。<br>戴上眼镜可获得 2x 效率。<br>山脉探索进度 20% 时解锁。
         ]]></tooltip>
         </decipher_runes>
         <chronomancy>
-            <label>Chronomancy</label>
+            <label>时光魔法</label>
             <tooltip><![CDATA[
-            Controlling time seems like it would be a great idea, and thankfully for you, the runes around here contain lots of information on the art of Chronomancy.<br>Unlocked with both 30% Runic Symbols Deciphered and 150 Magic.
+            控制时间流动看来是一个不错的主意，而且幸运的是附近有很多符文告诉你时光魔法的奥秘。<br>符文破译进度 30% 及魔法技巧 150 级时解锁。
         ]]></tooltip>
         </chronomancy>
         <looping_potion>
-            <label>Looping Potion</label>
+            <label>回圈药水</label>
             <tooltip><![CDATA[
-            Using your aptness of alchemy and your talent for time, you've managed to recreate the very potion that got you into this whole mess! It can't cure you, but maybe you can find another use for it. (this does nothing right now)<br>Requires 200 herbs.<br>Unlocked with both 60 Alchemy and 100 Chronomancy.<br>Gives 100 Alchemy exp upon action completion.
+            用你的炼金才能和对时光魔法的天赋，你终於成功调配出令你跌入这个回圈的药水了! 它不能治好你，但你可能会找到它的其他用途。(游戏目前没用)<br>消耗 200 药草。<br>炼金术达到 60 级及时光魔法 100 级时解锁。<br>每完成一次行动，给予 100 点炼金术经验。
         ]]></tooltip>
         </looping_potion>
         <pyromancy>
-            <label>Pyromancy</label>
+            <label>控火魔法</label>
             <tooltip><![CDATA[
-            Conjure the power of feverishly forceful and furiously firey flickering flames to aid you in combat. And yeah, the runes contain some stuff about this too. <br>Unlocked with both 60% Runic Symbols Deciphered and 200 Magic.
+            凝聚狂热和愤怒的火炎帮助你更有效地战斗。对了，山上的符文藏有不少对这个技能的知识。<br>>符文破译进度 60% 及魔法技巧 200 级时解锁。
         ]]></tooltip>
         </pyromancy>
         <explore_cavern>
-            <label>Explore Cavern</label>
-            <label_done>Cavern Explored</label_done>
+            <label>探索洞穴</label>
+            <label_done>洞穴已探索</label_done>
             <tooltip><![CDATA[
-            Explore the expansive and twisting cavern beneath the mountain, who knows what wonders (or terrors) you'll find down there.<br>Unlocked at 40% Mountain Explored.
+            探索山内超大型而扭曲的洞窟，天知道里面会找到甚麽奇观 (或可怕的存在)。<br>山脉探索进度 40% 时解锁。
         ]]></tooltip>
         </explore_cavern>
         <mine_soulstones>
-            <label>Mine Soulstones</label>
-            <label_done>Shiny Spots Checked</label_done>
-            <info_text1>Spots with soulstones left</info_text1>
-            <info_text2>Spots with soulstones total</info_text2>
-            <info_text3>Spots to check for soulstones</info_text3>
+            <label>挖掘灵魂石</label>
+            <label_done>光亮的表面已查探</label_done>
+            <info_text1>有灵魂石的地点</info_text1>
+            <info_text2>有灵魂石的地点总数</info_text2>
+            <info_text3>未探勘灵魂石的地点</info_text3>
             <tooltip><![CDATA[
-            Extract soulstones lodged in the walls of the tunnels in the massive underground cavern.<br>Every 10 shiny spots has a soulstone.<br>Requires pickaxe.<br>Unlocked with 20% Cavern Explored.
+            在超大型地下洞窟的隧道墙上挖掘灵魂石。<br>每 10 个光亮的表面就有 1 颗灵魂石。<br>需要十字镐。<br>洞穴探索进度 20% 时解锁。
         ]]></tooltip>
         </mine_soulstones>
         <hunt_trolls>
-            <label>Hunt Trolls</label>
-            <label_done>Slain</label_done>
+            <label>狩猎巨魔</label>
+            <label_done>已斩杀</label_done>
             <tooltip><![CDATA[
-            The cavern is teeming with trolls, but thankfully they appear to by friendly from the encounters you've had with them. However, you could do with some troll's blood.<br>Gives (self combat) * (1 + main stat / 100) * sqrt(1 + times completed / 100) * (original mana cost / actual mana cost) progress points per mana.<br>Unlocked with 50% Cavern Explored.<br>Gives 1,000 Combat exp per troll kill.
+            这个山洞挤满了巨魔，但它们都表现得很友善。噢，你可以用巨魔的血做点甚麽。<br>每 1 魔力给予 (个人战斗) * (1 + 主要能力 / 100) * sqrt(1 + 斩杀总数 / 100) * (原始魔力消耗 / 实际魔力消耗) 进度。<br>洞穴探索进度 50% 时解锁。<br>每斩杀 1 只巨魔，给予 1,000 点战斗技巧经验。
         ]]></tooltip>
-            <chance_label>Chance</chance_label>
-            <last_stat_label>Last Stat</last_stat_label>
+            <chance_label>机会</chance_label>
+            <last_stat_label>上次获得能力</last_stat_label>
             <segment_names>
-                <name>Find a Hiding Spot</name>
-                <name>Scream Very Loudly to Lure Out the Troll</name>
-                <name>Pounce on the Troll</name>
-                <name>Fight the Troll</name>
-                <name>Drain the Troll's Blood</name>
+                <name>寻找隐蔽处</name>
+                <name>惊声尖叫诱导巨魔出来</name>
+                <name>扑倒巨魔</name>
+                <name>和巨魔战斗</name>
+                <name>放乾巨魔的血液</name>
             </segment_names>
         </hunt_trolls>
         <check_walls>
-            <label>Check Walls</label>
-            <label_done>Illusory Walls Discovered</label_done>
+            <label>查看墙壁</label>
+            <label_done>虚幻的墙壁已发现</label_done>
             <tooltip><![CDATA[
-            Now that you know the ins and outs of the cavern, you start to notice certain spots of the walls that are illusory! There seems to be all manner of goodies hidden behind them.<br>Unlocked with 80% Cavern Explored.
+            现在你已经把这个山洞摸通了，你发现有一些墙壁原来只是虚影! 虚幻的墙壁背後似乎藏着各种好东西。<br>洞穴探索进度 80% 时解锁。
         ]]></tooltip>
         </check_walls>
         <take_artifacts>
-            <label>Take Artifacts</label>
-            <label_done>Artifacts Taken</label_done>
-            <info_text1>Alcoves with artifacts left</info_text1>
-            <info_text2>Alcoves with artifacts total</info_text2>
-            <info_text3>Alcoves to check for artifacts</info_text3>
+            <label>拿走古物</label>
+            <label_done>古物已获得</label_done>
+            <info_text1>藏有古物的凹室剩馀</info_text1>
+            <info_text2>藏有古物的凹室总数</info_text2>
+            <info_text3>未查探的凹室</info_text3>
             <tooltip><![CDATA[
-            Behind some of the illusory walls, there are various sorts of artifacts that seems to belong to some sort of ancient civilization. Or at least that's what you'll say if anybody comes looking for them. (these do nothing right now)<br>Every 25 alcoves has an artifact.<br>Unlocked with 5% Illusory Walls Discovered.
+            在一些虚幻的墙壁背後，堆放着某个古文明留下来的各种手工制品。如果你被发现时也会这样为自己开脱。(游戏内暂时没用)<br>每 25 个凹室就有 1 个藏有古物。<br>虚幻的墙壁探索进度 5% 时解锁。
         ]]></tooltip>
         </take_artifacts>
         <imbue_mind>
-            <label>Imbue Mind</label>
-            <label_done>Completed</label_done>
+            <label>激发心灵</label>
+            <label_done>已完成</label_done>
             <tooltip><![CDATA[
-            Deep behind one of the many illusory walls, you've found a small glowing lake full of some sort of liquid. Your soulstones seem to glow when they get close to it. You appear to be able to use them as a link to your mind, but the process requires a very large amount of mana and will destroy them once it's complete. Each imbuement will increase the training limit by 1.<br>Gives (magic skill) * (1 + main stat / 100) * (original mana cost / actual mana cost) progress points per mana.<br>Can only have 1 Imbue Mind action.<br>Unlocked with both 70% Illusory Walls Discovered and 300 Magic.<br>Sacrifices (20 * (imbuements+1)) soulstones.
+            在很多面虚幻的墙壁背後，你找到一个注满发光液体的湖泊。你越接近这个湖泊，身上的灵魂石越来越亮了。你看来可以透过这个湖泊把灵魂石进一步融合，建立心灵连结，但这个过程需要大量魔力而且完成时会消耗灵魂石。每次成功融合永久增加 1 次回圈训练上限。<br>每 1 魔力给予 (魔法技巧) * (1 + 主要能力 / 100) * (原始魔力消耗 / 实际魔力消耗) 进度。<br>激发心灵每回圈限做一次。<br>虚幻的墙壁探索进度 70% 及魔法技巧 300 级时解锁。<br>祭献 (20 * (融合次数+1)) 颗灵魂石。
         ]]></tooltip>
             <segment_names>
-                <name>Submerge the Soulstones</name>
-                <name>Arrange the Soulstones</name>
-                <name>Absorb Knowledge</name>
+                <name>把灵魂石浸入</name>
+                <name>把灵魂石排序</name>
+                <name>吸收知识</name>
             </segment_names>
         </imbue_mind>
         <face_judgement>
-            <label>Face Judgement</label>
+            <label>面对审判</label>
             <tooltip><![CDATA[
-            Face the judgement of the gods. If your reputation is 50 or higher, you'll be accepted into their good graces and granted passage to Valhalla. If your reputation is -50 or lower, you'll be cast into the shadow realm and thrown back to the beginning of your journey. (this does nothing right now)
+            直面神明的审判。声望在 50 点或以上，你会获得神恩并获得进入英灵殿的道路。声望在 -50 点或以下，你会被流放到暗影界并回到这趟旅程的起点。(游戏内暂时没用)
         ]]></tooltip>
         </face_judgement>
         <!--zone 5 below-->
         <mercantilism>
-            <label>Mercantilism</label>
+            <label>商业理论</label>
             <tooltip><![CDATA[
-            Practice your merchandising skills, which are sorely lacking considering how poor of a deal you're getting from those mana merchants.
+            训练你的商业技能，你极其缺乏这方面的知识，从你一直以来和魔力商人达成的交易就可以看出来。
         ]]></tooltip>
         </mercantilism>
         <fall_from_grace>
-            <label>Fall From Grace</label>
+            <label>失去神的恩宠</label>
             <tooltip><![CDATA[
-            Looks like the only way out of this place is to make them dislike you enough to kick you out. Some moderate vandalism will probably do the job. You'll be cast into the shadow realm and thrown back to the beginning of your journey, but at least you'll go out with a bang!
+            看来从这里出去的办法只有一个，就是令他们不高兴然後主动把你踼出去。稍稍破坏公物应该就可以了。你会被流放到暗影界并回到这趟旅程的起点，但至少这个够劲!
         ]]></tooltip>
         </fall_from_grace>
     </actions>
     <spells>
-        <title>Spells</title>
+        <title>咒术</title>
     </spells>
 </body>

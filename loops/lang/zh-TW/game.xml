@@ -1056,8 +1056,8 @@
         ]]></tooltip>
         </pyromancy>
         <explore_cavern>
-            <label>探索山洞</label>
-            <label_done>山洞已探索</label_done>
+            <label>探索洞穴</label>
+            <label_done>洞穴已探索</label_done>
             <tooltip><![CDATA[
             探索山內超大型而扭曲的洞窟，天知道裏面會找到甚麼奇觀 (或可怕的存在)。<br>山脈探索進度 40% 時解鎖。
         ]]></tooltip>
@@ -1069,75 +1069,75 @@
             <info_text2>有靈魂石的地點總數</info_text2>
             <info_text3>未探勘靈魂石的地點</info_text3>
             <tooltip><![CDATA[
-            在超大型地下洞窟的隧道牆上挖掘靈魂石。<br>每 10 個光亮的表面就有一顆靈魂石。<br>需要十字鎬。<br>山洞探索進度 20% 時解鎖。
+            在超大型地下洞窟的隧道牆上挖掘靈魂石。<br>每 10 個光亮的表面就有 1 顆靈魂石。<br>需要十字鎬。<br>洞穴探索進度 20% 時解鎖。
         ]]></tooltip>
         </mine_soulstones>
         <hunt_trolls>
-            <label>Hunt Trolls</label>
-            <label_done>Slain</label_done>
+            <label>狩獵巨魔</label>
+            <label_done>已斬殺</label_done>
             <tooltip><![CDATA[
-            The cavern is teeming with trolls, but thankfully they appear to by friendly from the encounters you've had with them. However, you could do with some troll's blood.<br>Gives (self combat) * (1 + main stat / 100) * sqrt(1 + times completed / 100) * (original mana cost / actual mana cost) progress points per mana.<br>Unlocked with 50% Cavern Explored.<br>Gives 1,000 Combat exp per troll kill.
+            這個山洞擠滿了巨魔，但它們都表現得很友善。噢，你可以用巨魔的血做點甚麼。<br>每 1 魔力給予 (個人戰鬥) * (1 + 主要能力 / 100) * sqrt(1 + 斬殺總數 / 100) * (原始魔力消耗 / 實際魔力消耗) 進度。<br>洞穴探索進度 50% 時解鎖。<br>每斬殺 1 隻巨魔，給予 1,000 點戰鬥技巧經驗。
         ]]></tooltip>
-            <chance_label>Chance</chance_label>
-            <last_stat_label>Last Stat</last_stat_label>
+            <chance_label>機會</chance_label>
+            <last_stat_label>上次獲得能力</last_stat_label>
             <segment_names>
-                <name>Find a Hiding Spot</name>
-                <name>Scream Very Loudly to Lure Out the Troll</name>
-                <name>Pounce on the Troll</name>
-                <name>Fight the Troll</name>
-                <name>Drain the Troll's Blood</name>
+                <name>尋找隱蔽處</name>
+                <name>驚聲尖叫誘導巨魔出來</name>
+                <name>撲倒巨魔</name>
+                <name>和巨魔戰鬥</name>
+                <name>放乾巨魔的血液</name>
             </segment_names>
         </hunt_trolls>
         <check_walls>
-            <label>Check Walls</label>
-            <label_done>Illusory Walls Discovered</label_done>
+            <label>查看牆壁</label>
+            <label_done>虛幻的牆壁已發現</label_done>
             <tooltip><![CDATA[
-            Now that you know the ins and outs of the cavern, you start to notice certain spots of the walls that are illusory! There seems to be all manner of goodies hidden behind them.<br>Unlocked with 80% Cavern Explored.
+            現在你已經把這個山洞摸通了，你發現有一些牆壁原來只是虛影! 虛幻的牆壁背後似乎藏著各種好東西。<br>洞穴探索進度 80% 時解鎖。
         ]]></tooltip>
         </check_walls>
         <take_artifacts>
-            <label>Take Artifacts</label>
-            <label_done>Artifacts Taken</label_done>
-            <info_text1>Alcoves with artifacts left</info_text1>
-            <info_text2>Alcoves with artifacts total</info_text2>
-            <info_text3>Alcoves to check for artifacts</info_text3>
+            <label>拿走古物</label>
+            <label_done>古物已獲得</label_done>
+            <info_text1>藏有古物的凹室剩餘</info_text1>
+            <info_text2>藏有古物的凹室總數</info_text2>
+            <info_text3>未查探的凹室</info_text3>
             <tooltip><![CDATA[
-            Behind some of the illusory walls, there are various sorts of artifacts that seems to belong to some sort of ancient civilization. Or at least that's what you'll say if anybody comes looking for them. (these do nothing right now)<br>Every 25 alcoves has an artifact.<br>Unlocked with 5% Illusory Walls Discovered.
+            在一些虛幻的牆壁背後，堆放著某個古文明留下來的各種手工製品。如果你被發現時也會這樣為自己開脫。(遊戲內暫時沒用)<br>每 25 個凹室就有 1 個藏有古物。<br>虛幻的牆壁探索進度 5% 時解鎖。
         ]]></tooltip>
         </take_artifacts>
         <imbue_mind>
-            <label>Imbue Mind</label>
-            <label_done>Completed</label_done>
+            <label>激發心靈</label>
+            <label_done>已完成</label_done>
             <tooltip><![CDATA[
-            Deep behind one of the many illusory walls, you've found a small glowing lake full of some sort of liquid. Your soulstones seem to glow when they get close to it. You appear to be able to use them as a link to your mind, but the process requires a very large amount of mana and will destroy them once it's complete. Each imbuement will increase the training limit by 1.<br>Gives (magic skill) * (1 + main stat / 100) * (original mana cost / actual mana cost) progress points per mana.<br>Can only have 1 Imbue Mind action.<br>Unlocked with both 70% Illusory Walls Discovered and 300 Magic.<br>Sacrifices (20 * (imbuements+1)) soulstones.
+            在很多面虛幻的牆壁背後，你找到一個注滿發光液體的湖泊。你越接近這個湖泊，身上的靈魂石越來越亮了。你看來可以透過這個湖泊把靈魂石進一步融合，建立心靈連結，但這個過程需要大量魔力而且完成時會消耗靈魂石。每次成功融合永久增加 1 次迴圈訓練上限。<br>每 1 魔力給予 (魔法技巧) * (1 + 主要能力 / 100) * (原始魔力消耗 / 實際魔力消耗) 進度。<br>激發心靈每迴圈限做一次。<br>虛幻的牆壁探索進度 70% 及魔法技巧 300 級時解鎖。<br>祭獻 (20 * (融合次數+1)) 顆靈魂石。
         ]]></tooltip>
             <segment_names>
-                <name>Submerge the Soulstones</name>
-                <name>Arrange the Soulstones</name>
-                <name>Absorb Knowledge</name>
+                <name>把靈魂石浸入</name>
+                <name>把靈魂石排序</name>
+                <name>吸收知識</name>
             </segment_names>
         </imbue_mind>
         <face_judgement>
-            <label>Face Judgement</label>
+            <label>面對審判</label>
             <tooltip><![CDATA[
-            Face the judgement of the gods. If your reputation is 50 or higher, you'll be accepted into their good graces and granted passage to Valhalla. If your reputation is -50 or lower, you'll be cast into the shadow realm and thrown back to the beginning of your journey. (this does nothing right now)
+            直面神明的審判。聲望在 50 點或以上，你會獲得神恩並獲得進入英靈殿的道路。聲望在 -50 點或以下，你會被流放到暗影界並回到這趟旅程的起點。(遊戲內暫時沒用)
         ]]></tooltip>
         </face_judgement>
         <!--zone 5 below-->
         <mercantilism>
-            <label>Mercantilism</label>
+            <label>商業理論</label>
             <tooltip><![CDATA[
-            Practice your merchandising skills, which are sorely lacking considering how poor of a deal you're getting from those mana merchants.
+            訓練你的商業技能，你極其缺乏這方面的知識，從你一直以來和魔力商人達成的交易就可以看出來。
         ]]></tooltip>
         </mercantilism>
         <fall_from_grace>
-            <label>Fall From Grace</label>
+            <label>失去神的恩寵</label>
             <tooltip><![CDATA[
-            Looks like the only way out of this place is to make them dislike you enough to kick you out. Some moderate vandalism will probably do the job. You'll be cast into the shadow realm and thrown back to the beginning of your journey, but at least you'll go out with a bang!
+            看來從這裡出去的辦法只有一個，就是令他們不高興然後主動把你踼出去。稍稍破壞公物應該就可以了。你會被流放到暗影界並回到這趟旅程的起點，但至少這個夠勁!
         ]]></tooltip>
         </fall_from_grace>
     </actions>
     <spells>
-        <title>Spells</title>
+        <title>咒術</title>
     </spells>
 </body>
